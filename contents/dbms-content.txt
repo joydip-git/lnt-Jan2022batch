@@ -3,14 +3,16 @@ o Introduction to Databases
 o Database Models
 
 • Relational Model
-o Data Design and Normalization
-o Structured Query Language and its categories
+	o Data Design and Normalization
+	o Structured Query Language and its categories
+
 • DDL – DML – DQL – DCL – TCL
-o SELECT statement varieties with clauses
+	o SELECT statement varieties with clauses
 • WHERE clause
 • GROUP BY clause
 • HAVING clause
 • ORDER BY clause
+
 o Using SQL Server built in Functions
 o Joining the tables – Join variants
 • Equi and Non-Equi Joins

@@ -32,6 +32,11 @@ data in XML format:
 	<products>
 		<product id=100>
 			<name>sony headphone</name>
+			<price>1000</price>
+		</product>
+                <product id=101>
+			<name>iphone6</name>
+			<price>2000</price>
 		</product>
 	</products>
 
@@ -51,18 +56,37 @@ Internal (storage) level
   product_id TYPE=BYTE (4) OFFSET=0
   product_price TYPE=BYTE (7) OFFSET=4
 
-data model:
-relational data model:
-organize data in rows/records/tuples and attributes/columns/fields as part of the table
+data modelling:
+it is the modelling or the way of describing your data, semantics and consusistency constraints
+1. relational
+2. semistructured
+3. entity-relationship (ER)
+4. object-based data model
 
+ER data model: logical representation of data as objects and relationships between them
+object: entity (===record)
+relationship between the entities: association
+characterestics of any entity: attribute (columns)
+set of entities: entity set (records===table)
+set of relations: relationship set
+ER model diagrams:
+
+relational data model:
+tables: relations in relational model
+organize data in rows/records/tuples and attributes/columns/fields as part of the table
 
 table: products
 columns: product_id, product_name, product_price, product_rating
 primary key column: product_id 
+foreign key column: category_id 
 
 table: categories
 columns: category_id, category_name
 primary key column: category_id 
+
+relation:
+product_category_fk
+
 
 types of database:
 1. centralized database
@@ -78,3 +102,71 @@ Users of database management system:
 administrators
 designers
 end users
+
+
+relational model details:
+relational data model:
+tables: relations in relational model
+organize data in rows/records/tuples and attributes/columns/fields as part of the table
+
+relational schema:
+table: products
+columns: product_id, product_name, product_price, product_rating, category_id
+primary key column: product_id 
+foreign key column: category_id 
+
+table: categories
+columns: category_id, category_name
+primary key column: category_id 
+
+relationship:
+product_category_fk
+
+domain: a set of values that an attribute/field/column can have
+relational instance: table with a collection/set of records/tuples
+
+Ai---> dom(Ai)
+
+relational key: a column or a collection of columns together, which can uniquely identify a tuple/record 
+
+t1=<100, 1000, sony headphone, 4.5, 1>
+
+
+relation, relational schema, relational instance
+attribute/field/column
+record/row/tuple
+relational key
+domain
+
+relational operations:
+select: 
+projection
+union
+set
+cartesian product
+rename
+
+integrity constraints:
+a. domain constraint
+b. entity integrity constraint
+c. referential integrity constraint
+d. key constraint
+
+Redundancy:
+	integrity constraints (functional dependency)
+	decomposition
+
+Incosistency
+Uncertainty
+Redundancy
+
+normalization:
+it is a step by step process of decomposing a complex table/relation into simple and stable data structure
+
+different stages: normal forms
+achieve normalization: through functional dependency
+ - Full
+ - partial
+ - transitive
+
+
