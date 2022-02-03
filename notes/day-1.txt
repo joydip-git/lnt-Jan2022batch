@@ -1,0 +1,10 @@
+full stack:
+combination of front-end and backend (no db as backend)
+
+DBMS
+C# and .net
+HTML, CSS, JS, TS, Angular
+Unit Testing, Git, Jenkins
+ASP.NET MVC Core, web api
+
+Project
