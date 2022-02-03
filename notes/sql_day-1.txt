@@ -1,0 +1,52 @@
+data: information=> data is a collection of facts and figures, that can be processed to produce information
+database: collection of related records (data)
+
+what is dbms?
+it is s/w or technology that maintains and manages (storing and retrieving) the data
+
+advantages:
+easy to access, manipulate
+provides security
+provides easy recovery and back up
+faster data access
+
+helps you to store metadata (data about data)
+QL helps you to manipulate data easily
+ACID properties: atomicity, consistency, isolation and durability
+multi-user and concurent access
+
+	real time entity (sony headphone)
+
+attributes    		values
+-------------------------------
+product id: (ISBN) 	100
+price: 			1000
+name: 			sony headphone
+realsed on: 		nov, 2021
+make: 			sony
+description: 		
+material:		fiber/plastic
+
+data in XML format:
+<?xml version="1.0">
+	<products>
+		<product id=100>
+			<name>sony headphone</name>
+		</product>
+	</products>
+
+
+types of database:
+1. centralized database
+2. distributed database
+3. NoSQL database
+4. Cloud database
+5. Relational database (tables, data are related)
+6. Network database
+7. Object-oriented database (objects)
+8. hierarchical database
+
+Users of database management system:
+administrators
+designers
+end users

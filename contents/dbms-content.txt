@@ -1,6 +1,7 @@
 DBMS Concepts and MS SQL Server
 o Introduction to Databases
 o Database Models
+
 • Relational Model
 o Data Design and Normalization
 o Structured Query Language and its categories
