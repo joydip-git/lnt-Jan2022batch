@@ -1,0 +1,13 @@
+1. data
+2. database, advantages and different types of database
+3. DBMS
+4. view of data: external, conecptual, internal
+5. data models
+6. ER modelling
+7. relational model
+8. data design
+9. normalization
+10. functional dependencies: ful, partial and transitive
+11. Normal forms
+12. 1NF, 2NF and 3NF, BCNF
+13. SQL: DDL – DML – DQL – DCL – TCL

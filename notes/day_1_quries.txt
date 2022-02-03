@@ -1,0 +1,36 @@
+--create database lntdb
+--use lntdb
+
+/*
+create table products(
+product_id int primary key not null,
+product_name varchar(50),
+product_price decimal(18,2) default(0) not null,
+product_description varchar(500),
+)
+*/
+create table products(
+product_id int identity(100,1) not null,
+product_name varchar(50),
+product_price decimal(18,2) default(0) not null,
+product_description varchar(500),
+primary key (product_id)
+)
+
+create table categories(
+category_id int primary key identity(1,1) not null,
+category_name varchar(20) not null
+)
+
+create table people(
+id int,
+name varchar(20) not null,
+city varchar(20),
+constraint PK_People primary key (id)
+)
+
+--drop table products
+--drop table categories
+
+
+

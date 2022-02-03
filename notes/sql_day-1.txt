@@ -194,3 +194,10 @@ b. single column PK that does not functionally dependent on any subset of candid
 3NF:
 a. be in 2NF
 b. should not have any transitive functional dependency
+
+SQL: structured query language
+DDL: Data Definition Language: create table, alter table, drop table, truncate table, create and drop databases
+DML: Data Manipulation Language: insert, update, delete records
+DQL: Data Query Language: select, join etc.
+DCL: Data Control Language: grant, revoke etc.
+TCL: Transaction Control Language: commit, rollback, savepoint, set
