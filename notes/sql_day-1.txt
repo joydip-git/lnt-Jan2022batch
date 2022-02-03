@@ -35,6 +35,34 @@ data in XML format:
 		</product>
 	</products>
 
+View of data:
+------------------------
+External/view level
+   product_id: 100
+   product_price: 1000
+   product_name: sony headphone
+
+Conceptual (schema) level
+  product_id	NUMBER
+  product_price NUMBER (4)
+  product_name  VARCHAR(MAX)
+
+Internal (storage) level
+  product_id TYPE=BYTE (4) OFFSET=0
+  product_price TYPE=BYTE (7) OFFSET=4
+
+data model:
+relational data model:
+organize data in rows/records/tuples and attributes/columns/fields as part of the table
+
+
+table: products
+columns: product_id, product_name, product_price, product_rating
+primary key column: product_id 
+
+table: categories
+columns: category_id, category_name
+primary key column: category_id 
 
 types of database:
 1. centralized database
