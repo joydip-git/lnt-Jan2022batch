@@ -1,0 +1,31 @@
+DBMS Concepts and MS SQL Server
+o Introduction to Databases
+o Database Models
+• Relational Model
+o Data Design and Normalization
+o Structured Query Language and its categories
+• DDL – DML – DQL – DCL – TCL
+o SELECT statement varieties with clauses
+• WHERE clause
+• GROUP BY clause
+• HAVING clause
+• ORDER BY clause
+o Using SQL Server built in Functions
+o Joining the tables – Join variants
+• Equi and Non-Equi Joins
+• Self-Join
+• Cartesian Product
+• Outer Join
+o Subqueries
+o Implementing Views
+o Implementing Data Integrity by using Constraints
+• Data Integrity Overview
+• Creating Constraints
+• Implementing Constraints
+• Not Null
+• Unique Key
+• Primary key
+• Check Constraints
+• Default
+• Foreign Key
+o Implementing Stored Procedures and Functions
