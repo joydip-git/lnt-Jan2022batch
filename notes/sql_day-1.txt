@@ -169,4 +169,28 @@ achieve normalization: through functional dependency
  - partial
  - transitive
 
+Norma Forms:
+1NF, 2NF, 3NF, BCNF (Boyce-Codd normal form), 4, 5, 6
 
+1NF: 
+a. each table cell must have single value and 
+b. each row must be unique
+
+key:
+primary key:
+a. can't be NULL
+b. should be unique
+c. value should not change, and if changes that should be rare
+d. primary key must be given value when a new record/tuple is added into the table/relation
+
+composite key:
+it's a primary key, but composed of multiple columns, used to uniquely identify records
+
+
+2NF: 
+a. be in 1NF
+b. single column PK that does not functionally dependent on any subset of candidate key relation`
+
+3NF:
+a. be in 2NF
+b. should not have any transitive functional dependency
