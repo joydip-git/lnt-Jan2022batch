@@ -1,12 +1,10 @@
---create database lntdb
 /*
 create database lntdb
+drop database lntdb
 */
---drop database lntdb
 
+--DEPARTMENT TABLE
 /*
-DEPARTMENT TABLE
-
 create table DEPARTMENTS(
 department_id int identity(1,1) not null,
 department_name varchar(20) not null,
@@ -14,27 +12,32 @@ employee_count int default(0),
 constraint PK_DEPARTMENTS primary key (department_id)
 )
 */
+
 --DDL
 /*
 setting the primary key constraint at the column level
 */
+
 create table DEPARTMENTS(
 department_id int primary key not null,
 department_name varchar(20) not null,
 employee_count int default(0)
 )
+--drop table DEPARTMENTS
 
---DML
+--DML (Inserting values in Departments)
 INSERT INTO DEPARTMENTS(department_name,department_id) VALUES ('HR',1)
 INSERT INTO DEPARTMENTS(department_id, department_name) VALUES (2,'TRAINING')
 
 --DQL
 --SELECT department_name, department_id, employee_count FROM DEPARTMENTS
 select * from DEPARTMENTS
+--where clause
 select * from DEPARTMENTS where department_id=1
 
-
---drop table DEPARTMENTS
+/*
+EMPLOYEES table
+*/
 
 create table EMPLOYEES(
 employee_id int identity(100,1) not null,
@@ -43,10 +46,39 @@ employee_salary decimal(10,2),
 constraint PK_Employees primary key (employee_id)
 )
 
+--insert values in EMPLOYEES table
 insert into EMPLOYEES values('joydip',10000)
 insert into EMPLOYEES (employee_salary,employee_name) values(20000,'Vinod')
 insert into EMPLOYEES (employee_name) values('Ramnath')
 
+--display values from EMPLOYEES
 select * from EMPLOYEES
+
+--where clause (for filtration)
+--in case of NULL valu column
 select * from EMPLOYEES where employee_salary is null
+
+--less than/greater than operator in SQL
 select * from EMPLOYEES where employee_salary<15000
+
+--DML (Update table query)
+update EMPLOYEES set employee_salary=15000 where employee_id=102
+update EMPLOYEES set employee_salary=15000
+update EMPLOYEES set employee_name='Banu Prakash', employee_salary=20000 where employee_id=100
+
+alter table employees 
+add department_id int
+
+/*
+possible when table is empty
+
+alter table employees
+add col1 int not null
+*/
+
+alter table Employees
+add constraint  FK_Departments_Employees_department_id foreign key (department_id) references departments (department_id)
+
+update EMPLOYEES set department_id=1 where employee_id=100
+update EMPLOYEES set department_id=2 where employee_id=101
+update EMPLOYEES set department_id=2 where employee_id=102
