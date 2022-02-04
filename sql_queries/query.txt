@@ -82,3 +82,5 @@ add constraint  FK_Departments_Employees_department_id foreign key (department_i
 update EMPLOYEES set department_id=1 where employee_id=100
 update EMPLOYEES set department_id=2 where employee_id=101
 update EMPLOYEES set department_id=2 where employee_id=102
+
+update EMPLOYEES set department_id=NULL
