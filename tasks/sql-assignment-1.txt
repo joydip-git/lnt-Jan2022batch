@@ -3,6 +3,7 @@
 3. break down the table at the top in Normalization.docx
 
 4. create the following tables:
+
 products: code, name, price, description, rating, released on,  image path
 customers: name, mobile, email, order address,  delivery address
 categories: id, name, count
