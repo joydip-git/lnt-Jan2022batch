@@ -5,5 +5,13 @@
 4. create the following tables:
 
 products: code, name, price, description, rating, released on,  image path
-customers: name, mobile, email, order address,  delivery address
+ - insert 3 records
+ - filter and display the products with price more than 1000
 categories: id, name, count
+
+customers: name, mobile, email, order address,  delivery address
+
+create relationship between categories and products [a product belongs to a category (1->1), wheread a category can have many products (1->M)]
+
+create relationship between customers and products [same product can be ordered by many customer (1->M), whereas a customer can place order for many (different) products (1->M): Many to Many relationship]
+

@@ -52,3 +52,11 @@ g. Other/Special data types:
 	XML:
 	uniqueidentifier: 16 byte GUID
 	table
+
+
+error:
+ALTER TABLE only allows columns to be added that can contain nulls, or have a DEFAULT definition specified, or the column being added is an identity or timestamp column, or alternatively if none of the previous conditions are satisfied the table must be empty to allow addition of this column. Column 'col1' cannot be added to non-empty table 'employees' because it does not satisfy these conditions.
+
+
+The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Departments_Employees_department_id". The conflict occurred in database "lntdb", table "dbo.DEPARTMENTS", column 'department_id'.
+The statement has been terminated.
