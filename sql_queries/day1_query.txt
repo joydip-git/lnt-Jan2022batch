@@ -84,6 +84,3 @@ update EMPLOYEES set department_id=2 where employee_id=101
 update EMPLOYEES set department_id=2 where employee_id=102
 
 update EMPLOYEES set department_id=NULL
-
-drop table employees
-drop table DEPARTMENTS
