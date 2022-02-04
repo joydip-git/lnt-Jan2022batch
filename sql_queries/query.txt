@@ -1,0 +1,4 @@
+--create database lntdb
+/*
+create database lntdb
+*/

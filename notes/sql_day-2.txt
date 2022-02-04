@@ -1,0 +1,54 @@
+SQL Server: RDBMS s/w from Microsoft
+SQL Server Management Studio: Graphical User Interface
+
+Data Types:
+advantages:
+a. in advance you are mentioning what type of data will be stored in column(s)
+b. helps you to prevent entering incorrect value for that column
+c. helps you utilize memory space while interacting with data
+
+Categories:
+a. Exact number/numeric:
+	bit (0,1,NULL-1 byte), 
+	smallint  (-32768->32767 - 2 bytes), 
+	int (4 bytes), 
+	bigint (8 bytes), 
+	decimal(p,s) [5->17 bytes]=> p (18, 1->38), s (0, 0->p), 
+	Numeric (5->17 bytes), 
+	smallmoney (currency values - 4 bytes)
+	money (8 bytes)
+
+price decimal(18,2)
+
+b. Approximate Numeric: floating point and real values (scientific purpose)
+	float(n)=> 4 or 8 bytes (depends on value of n), precision 7 digits
+	real	   4 bytes precision 15 digits
+
+c. Data and Time
+	date: YYYY-MM-DD ( 3 bytes)
+	datetime: 2022-02-04 10:24:00 (8 bytes)
+	datetime2: 2022-02-04 10:24:34.9999999 (6->8 bytes)
+	smalldatetime: 2022-02-04 10:24:35 (4 bytes)
+	time: 10:24:35.9999999 (3->5 bytes)
+
+d. Character strings:
+	char(n): store fixed-length non-unicode character data [max: 8000 characters]
+	varchar(n): store variable-length non-unicode character data [max: 8000 characters]
+	varchar(max): store variable-length non-unicode character data
+	text: variable length character string
+
+e. Unicode character strings: all the unicode characters in UTF-16 character set
+	nchar
+	nvarchar
+	ntext
+
+f. Binary strings
+	binary: fixed-length binray string
+	varbinary: variable-length binray string
+	image:
+
+g. Other/Special data types:
+	cursor:
+	XML:
+	uniqueidentifier: 16 byte GUID
+	table
