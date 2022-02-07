@@ -1,0 +1,9 @@
+create procedure GetEmployeeCount
+as
+begin
+
+declare @empcount int
+set @empcount = (select COUNT(employee_name) from EMPLOYEES)
+return @empcount
+
+end

@@ -1,0 +1,6 @@
+create procedure ViewAllRecords
+@sal decimal(10,2)
+as
+begin
+select employee_id, employee_name, employee_salary, dept_id from EMPLOYEES where employee_salary > @sal
+end

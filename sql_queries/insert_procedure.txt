@@ -1,0 +1,15 @@
+/*
+@name, @salary and @deptid are known as parameters
+*/
+create procedure AddEmployeeRecord
+
+@name varchar(50),
+@salary decimal(10,2),
+@deptid int
+
+as
+begin
+
+insert into EMPLOYEES (employee_name, employee_salary, dept_id) values (@name,@salary,@deptid)
+
+end

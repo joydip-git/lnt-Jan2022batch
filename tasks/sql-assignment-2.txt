@@ -1,0 +1,3 @@
+create a procedure to display products whose price is ore than given value (20/30/40 etc.) [use input parameter to pass the value to stored procedure]
+
+create procedure to display number of products whose UnitsOnOrder is more than a specified/given value (30/40 etc.) (use input parameter to carry the value and output parameter to get the result back from the procedure)

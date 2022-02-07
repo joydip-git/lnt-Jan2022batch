@@ -1,0 +1,21 @@
+1. select
+2. where
+3. order by
+4. group by
+5. having
+6. distinct
+7. grouping sets
+
+operators
+
+stored procedures
+views
+functions
+built-in functions
+
+stored procedures: 
+	- pre-compiled/prepared sql statements (queries)
+	- saved in database
+	- can be created once and executed many times
+	- if value needs to be passed to the stored procedure we can declare parameters
+	- while executing stored procedure you can pass values for those parameters

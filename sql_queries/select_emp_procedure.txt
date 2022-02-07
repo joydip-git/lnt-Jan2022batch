@@ -1,0 +1,4 @@
+create procedure SelectEmployees
+as
+select * from EMPLOYEES
+go
