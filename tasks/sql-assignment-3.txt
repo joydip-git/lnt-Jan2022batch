@@ -1,0 +1,50 @@
+A. Working with simple SQL SELECT statements
+
+1. Create a query to display the product-name, quantity-per-unit and the unit-price for all products that priced above $50.
+2. Modify the above query to display the product-name, quantity-per-unit and the unit-price for all products whose unit-price is not in the range of $20 and $50.
+3. Create a query to display the company-name, contact-name and city for the supplier with id 22.
+4. Display the first-name, last-name, title and the date-of-join of employees hired between April 1, 1992 and August 31, 1992. Order the query in ascending order by start date.
+5. Display the product name, unit price and supplier number for all products supplied by suppliers with id 12 and 22.
+6. Display the product name and the price of all products priced between $20 and $50 and are supplied by suppliers 13 or 17. Label the columns as "Product Name" and "Product Price" respectively.
+7. Display the last name and hire date of every employee who was hired in 1992.
+8. Display the first name, last name and title of all employees who do not have a manager.
+9. Display the product name, quantity per unit, unit price and category id for all products that are not in stock. Sort the data in descending order of category id and unit price.
+10. Display the product name of all products where the third letter of the name is an "a".
+11. Display the last name of all employees who have an "a" and an "e" in their last name.
+12. Display the company name, contact name, title and city for all customers whose city is 'London' or 'Cowes' or 'Kirkland' and whose title is 'Sales Representative' or 'Sales Associate'.
+13. Display the product id, unit price of those products that are sold with a discount of 3%.
+
+B. Working with JOIN operations
+1. Write a query to display the product name and the supplier name for all products.
+2. Display the product name of all discontinued products. Include the category description in the output.
+3. Write a query to display the product name, supplier name, contact name of the supplier, and city of all products which are not in stock.
+4. Display the territories in the 'Northern' region.
+5. Write a query to display names of the products supplied by a supplier from 'Melbourne'
+6. Display the employee last name and employee number along with their manager's last name and manager number. Label the columns "Employee", "Emp#", "Manager" and "Manager#" respectively.
+7. Modify the above to display the same columns for all employees (including "Fuller", who has no manager). Order the result by the employee number.
+8. Create a query that displays the name, unit price and category_id for all the products that belong to the same category of the product with id 12. Label the columns as 'Product Name', 'Unit Price' and 'Category ID' respectively. Try the same with another product id of your choice to verify your result. Ensure that the 'Category ID' has the same value for all rows.
+9. Display the 10 costliest products. The output should contain product name, unit price, category name and supplier name. Label the output appropriately.
+10. Create a query to display the name and hire date of any employee hired after employee 'Peacock'
+11. Display the first name, last name and territory description of all employees who cover 'Northern' region.
+12. Display the first name and last name of all employees who have ever processed orders from the customer with company name 'Around the Horn'. Avoid the repetition of data.
+13. Display a unique list of names of the shipping companies that have ever supplied shipments to a customer 'Franchi S.p.A.'
+
+C. Working with "Aggregate data using Group functions".
+1. Display the highest, lowest, sum and average price of all products. Label the columns "Maximum", "Minimum", "Sum", and "Average" respectively.
+2. Modify the above query to display the same data for each category. Include the category name in the output.
+3. Write a query to display the category names along with the number of products in each category.
+4. Determine the number of managers without listing them. Label the column "Number of Managers". [Hint: use the REPORTS_TO column to determine the number of managers]
+5. Write a query that displays the price difference between the highest and the lowest priced products. Label the column as "Difference".
+6. Display all category names and price of the costliest product in that category. Exclude those categories where the costliest product is priced below $60. Sort the output in descending order of price. Label the columns as 'Category Name' and 'Price' respectively.
+7. Write a query to display each category's name, description, number of products, and the average price for all products in that category. Label the columns "Category Name", "Description", "No.of products", and "Avg.Price" respectively. Round the average price to two decimal places.
+8. Display the order id, order date, required date, customer's company name and the total order amount. Sort the output based on the order id. Restrict the output to only 10 rows. Label the columns as 'Order ID', 'Order Date', 'Required Date', 'Company Name' and 'Total Order Amount' respectively.
+
+D. Working with sub queries
+Write a query to display the product name, unit price and quantity per unit of all products that belong to the same category as that of "Chai". Exclude "Chai" in the result.
+2. Create a query to display product id, product name, unit price of all products that are costlier than the average price. Sort the result in ascending order of unit price.
+3. Write a query that displays the customer id, company name, contact name and city of all customers who live in the same city as the customer whose company name contains the word 'para'.
+4. Display the order id, order date, required date, employee name (first/last combination) of a customer whose contact person is 'Antonio Moreno'.
+5. Display the first name, last name and city of all employees who report to "Fuller".
+6. Display information about the suppliers who supplied 'Beverages'. Include company name, contact name and city in the output.
+7. Display the costliest product in each category. Include category name, product name, unit price in the output. Sort the list in ascending order of unit price.
+

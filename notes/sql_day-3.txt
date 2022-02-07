@@ -19,3 +19,18 @@ stored procedures:
 	- can be created once and executed many times
 	- if value needs to be passed to the stored procedure we can declare parameters
 	- while executing stored procedure you can pass values for those parameters
+
+create procedure [procedure_name]
+[@parameter1 data-type]
+as
+begin
+sql-query using parameter inside
+end
+
+create procedure [procedure_name]
+[@parameter1 data-type]
+as
+
+sql-query using parameter inside
+
+go
