@@ -43,3 +43,9 @@ select, where, group by, order by, having
 
 aggregate function:
 sum, count, avg, max, min etc.
+
+joins:
+inner join
+outer join
+self join 
+cross join
