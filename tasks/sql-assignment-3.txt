@@ -14,7 +14,17 @@ A. Working with simple SQL SELECT statements
 12. Display the company name, contact name, title and city for all customers whose city is 'London' or 'Cowes' or 'Kirkland' and whose title is 'Sales Representative' or 'Sales Associate'.
 13. Display the product id, unit price of those products that are sold with a discount of 3%.
 
-B. Working with JOIN operations
+B. Working with "Aggregate data using Group functions".
+1. Display the highest, lowest, sum and average price of all products. Label the columns "Maximum", "Minimum", "Sum", and "Average" respectively.
+2. Modify the above query to display the same data for each category. Include the category name in the output.
+3. Write a query to display the category names along with the number of products in each category.
+4. Determine the number of managers without listing them. Label the column "Number of Managers". [Hint: use the REPORTS_TO column to determine the number of managers]
+5. Write a query that displays the price difference between the highest and the lowest priced products. Label the column as "Difference".
+6. Display all category names and price of the costliest product in that category. Exclude those categories where the costliest product is priced below $60. Sort the output in descending order of price. Label the columns as 'Category Name' and 'Price' respectively.
+7. Write a query to display each category's name, description, number of products, and the average price for all products in that category. Label the columns "Category Name", "Description", "No.of products", and "Avg.Price" respectively. Round the average price to two decimal places.
+8. Display the order id, order date, required date, customer's company name and the total order amount. Sort the output based on the order id. Restrict the output to only 10 rows. Label the columns as 'Order ID', 'Order Date', 'Required Date', 'Company Name' and 'Total Order Amount' respectively.
+
+C. Working with JOIN operations
 1. Write a query to display the product name and the supplier name for all products.
 2. Display the product name of all discontinued products. Include the category description in the output.
 3. Write a query to display the product name, supplier name, contact name of the supplier, and city of all products which are not in stock.
@@ -28,16 +38,6 @@ B. Working with JOIN operations
 11. Display the first name, last name and territory description of all employees who cover 'Northern' region.
 12. Display the first name and last name of all employees who have ever processed orders from the customer with company name 'Around the Horn'. Avoid the repetition of data.
 13. Display a unique list of names of the shipping companies that have ever supplied shipments to a customer 'Franchi S.p.A.'
-
-C. Working with "Aggregate data using Group functions".
-1. Display the highest, lowest, sum and average price of all products. Label the columns "Maximum", "Minimum", "Sum", and "Average" respectively.
-2. Modify the above query to display the same data for each category. Include the category name in the output.
-3. Write a query to display the category names along with the number of products in each category.
-4. Determine the number of managers without listing them. Label the column "Number of Managers". [Hint: use the REPORTS_TO column to determine the number of managers]
-5. Write a query that displays the price difference between the highest and the lowest priced products. Label the column as "Difference".
-6. Display all category names and price of the costliest product in that category. Exclude those categories where the costliest product is priced below $60. Sort the output in descending order of price. Label the columns as 'Category Name' and 'Price' respectively.
-7. Write a query to display each category's name, description, number of products, and the average price for all products in that category. Label the columns "Category Name", "Description", "No.of products", and "Avg.Price" respectively. Round the average price to two decimal places.
-8. Display the order id, order date, required date, customer's company name and the total order amount. Sort the output based on the order id. Restrict the output to only 10 rows. Label the columns as 'Order ID', 'Order Date', 'Required Date', 'Company Name' and 'Total Order Amount' respectively.
 
 D. Working with sub queries
 Write a query to display the product name, unit price and quantity per unit of all products that belong to the same category as that of "Chai". Exclude "Chai" in the result.

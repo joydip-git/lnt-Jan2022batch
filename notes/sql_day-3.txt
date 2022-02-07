@@ -34,3 +34,12 @@ as
 sql-query using parameter inside
 
 go
+
+opeartors:
+IN, NOT, BETWEEN, IS NULL, IS NOT NULL, LIKE, EXIST
+
+clauses:
+select, where, group by, order by, having
+
+aggregate function:
+sum, count, avg, max, min etc.
