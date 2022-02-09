@@ -12,3 +12,12 @@ functions:
 Types of UDF:
 	1. scalar functions: returns a single value
 	2. table valued functions
+
+UDF					vs 		stored procedures
+-------------------------------------------------------------------------------------------------
+UDF allows only select statements		allows select + DML statements
+must have a return value			not necessary to return value
+there is no output parameter			you can use output parameter too
+can be used with where/having/select		can't be used with where/having/select
+try..catch block can't be used in UDF		try..catch can be used in here
+UDF can be called from stored procedure		procedures can't be called from UDF	
