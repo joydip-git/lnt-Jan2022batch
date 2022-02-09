@@ -36,3 +36,80 @@ algorithm for subtract:
 2. accept second number from user and convert it to number format
 3. subract those two numbers from each other
 4. print the result of addition on the screen
+
+
+framework: runtime s/w, compiler s/w, many other tools etc. 
+development environment
+write code using a programming language
+compile the code
+run/execute the code
+deploy
+
+Microsoft:
+2002: .NET Framework (1.0, 1.1, 2.0, 3.0, 3.5, 4.0, 4.5, 4.6, 4.7 and 4.8)
+2016: .NET Core framework (1.0...,6.0) => .NET5, .NET6, .NET7, .NETX
+Core Compiler/ Roslyn compiler
+
+C#: 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 
+Core C#: 8.0, 9.0, 10.0
+
+.NET/.NET Core: 
+Cross-platform, Open source, tool (dotnet)
+
+
+basics of C#
+data types in C#
+control flow statements in C#
+operators in C#
+how to write functions/methods in C#
+array in C#
+OOP in C#
+collections in C#
+execption hanlding
+delegates in C#
+new features in C# (3.0-8.0)
+
+using dotnet tool to create a new console application
+>dotnet new console --name my-first-app --framework netcoreapp2.1/2.2/3.0/3.1/net5.0/net6.0
+
+--move inside the project directory
+>cd my-first-app
+
+--compile your code
+>dotnet build
+
+--run your code
+>dotnet run
+
+
+you can open this application in either VS code or just Visual Studio 2019/2022
+
+A. In VS Code:
+open the project folder here (File menu >Open Folder submenu)
+open the integrated terminal (by clicking Terminal option from menubar)
+
+edit the source code:
+in the Explorer window, click/select the source code file
+
+build/compile app:
+>dotnet build
+
+run/execute:
+>dotnet run
+
+
+In Visual Studio 2019/2022:
+File>Open Project/solution (move inside the app directory and select *.csproj file and click Open button)
+
+to edit source code: View>Solution Explorer
+from solution explorer window, double clik on Program.cs file
+
+to compile: Build>Build Solution/Build <project-name>
+to run: Debug>Start without debugging
+
+
+default folder for Visual Studio to save applications:
+C:\Users\<user-name>\source\repos
+
+
+
