@@ -11,3 +11,28 @@ check which .NET Core Framework is installed in your system:
 .net core versions: LTS (Long term support), EOL (end of life)
 
 Tool: Visual Studio 2019
+
+a set of instruction to check whether userid and password are correct
+
+programming language:
+C#, Java, C, C++, Python, JavaScript,
+
+
+C# source code [Program.cs] --> (csc) --> Intermediate Language code [Program.exe]
+>Program.exe
+
+IL Code [Program.exe] --> (Just-in-Time) --> Binary/machine level language code (010101000010101011111......)
+
+algorithm for add:
+---------------------------------
+1. accept first number from user and convert it to number format
+2. accept second number from user and convert it to number format
+3. add those two numbers
+4. print the result of addition on the screen
+
+algorithm for subtract:
+---------------------------------
+1. accept first number from user and convert it to number format
+2. accept second number from user and convert it to number format
+3. subract those two numbers from each other
+4. print the result of addition on the screen
