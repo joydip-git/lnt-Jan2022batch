@@ -1,0 +1,13 @@
+framework: 
+.NET framework: 2002, last version - 4.8
+
+.NET Core framework: (.NET), 2016 - 3.1 , 5.0 (nov, 2020), 6.0 (nov 2021)
+.NET 5.0 support will end in May 2021 (that is, 6 months after 6.0, the successor to 5.0 ships)
+
+check which .NET Core Framework is installed in your system:
+> dotnet --list-sdks ( list of s/w development kits)
+
+
+.net core versions: LTS (Long term support), EOL (end of life)
+
+Tool: Visual Studio 2019

@@ -1,0 +1,14 @@
+SQL Server (database s/w): database engine
+SQL Server Management Studio (tool) : UI
+
+functions
+views
+join-self and cross
+
+functions:
+	built-in functions: isnull(), sum(), avg() etc.
+	user-defined functions (UDF): user created functions
+
+Types of UDF:
+	1. scalar functions: returns a single value
+	2. table valued functions
