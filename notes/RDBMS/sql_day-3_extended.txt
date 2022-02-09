@@ -20,4 +20,14 @@ must have a return value			not necessary to return value
 there is no output parameter			you can use output parameter too
 can be used with where/having/select		can't be used with where/having/select
 try..catch block can't be used in UDF		try..catch can be used in here
-UDF can be called from stored procedure		procedures can't be called from UDF	
+UDF can be called from stored procedure		procedures can't be called from UDF
+
+
+Views:
+---------------------
+a view is alogical collection of tables in SQL Server which is stored in SQL Server database.
+practically view is virtual table, i.e. this table does not exist in reality, but created as a result of joining the tables
+
+
+
+
