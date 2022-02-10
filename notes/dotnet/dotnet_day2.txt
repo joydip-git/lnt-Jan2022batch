@@ -1,0 +1,51 @@
+1. frameworks:
+	a. .NET Framework (legacy - 4.8)
+		i. library: Base Class Library/ Framework class library
+		ii. runtime: CLR ( common language runtime)
+		iii. web tech.: asp.net (active server pages)
+		iv. data access technology: ado.net (activex data objet), EF (entity framework)
+		v. compilers: C# (CSC), VB (VBC), VC++ (VCC),....
+	b. .NET Core Framework (2016 - 6.0)
+
+2. .NET Core framework:
+	a. library (pre-defined functionalities): Core Library
+	b. runtime: Core Runtime (.net desktop runtime, asp.net core runtime)
+	c. data access technology: EF Core, ADO.NET
+	d. web technology: asp.net core
+	e. compiler (C#, VB): Roslyn
+
+two types app:
+   a. executable app (*.exe) [standalone app]
+   b. dynamic link library app (*.dll) [resuable app]
+
+.net core application execution cycle:
+
+step-1: (compiling)
+source code (C#, F#, VB.NET, VC++ etc.) => compiler => intermediate language (IL Code) 
+the file containing IL code is known as assembly
+assembly is of two extensions: .exe and .dll
+
+step-2: (running)
+IL code (in assembly file) => runtime compiler (Just-in-Time or JIT) => binary/machine-level language code => execute
+
+
+IL/MSIL/CIL (Intermediate Language/ Microsoft Intermediate Language/ Common Intermediate Language)
+if you want to view the IL code in assembly, use the tool: ILDASM (Intermediate Language Dis-assembler)
+C:\Program Files(x86)\Microsoft SDKs\windows\v10.0A\bin\.NETFX4.8 Tools\ildasm.exe
+
+
+C#			VB
+------------------------------------------------------
+int x = 10		Dim x as Integer 
+			x = 10
+
+   compiler (Roslyn)
+
+IL code			IL Code			
+----------------------------------------------
+int32 x=10		int32 x= 10
+
+
+data type system of IL code is known as CTS (Common Type System)
+all languages in .Net core framework/.net framework follows similary guideline: Common Language Specification (CLS)
+
