@@ -1,4 +1,25 @@
 1. create an application to simply find out the whether a number is an even or not
 	a. create a separate function in Program class (apart from Main method), which will do this job
 
-int num = 5;
+
+2. create an application which will be used to add, subtract, multiply and divide two numbers using 4 different methods/functions alongside Main method
+	a. print a menu in front of the user:
+		1. Add
+		2. Subtract
+		3. Multiply
+		4. Divide
+
+	b. ask user to enter choice
+		Enter a choice[1/2/3/4]: _1__
+
+	c. based on the choice call the corresponding method
+		Calling Add
+		Enter 1st value: _12_
+		Enter 2nd value: _13_
+		Addition of 12 and 13 is 25
+
+	d. ask user whether to continue or not
+		Like to continue[Y/y/N/n]: _Y_
+
+	e. if user decides to continue, repeat from a -> d
+	   id user decides to discontinue, end the program

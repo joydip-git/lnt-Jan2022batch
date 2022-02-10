@@ -8,7 +8,7 @@ namespace EvenOddFinderApp
         {
             //Program.IsEven();
             //WriteLine: prints something in the console and then adds a newline character (\n)
-            //WriteLine: prints something in the console and does not add a newline character (\n)
+            //Write: prints something in the console and does not add a newline character (\n)
 
             Console.Write("enter a number: ");
 
