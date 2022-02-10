@@ -1,0 +1,4 @@
+1. create an application to simply find out the whether a number is an even or not
+	a. create a separate function in Program class (apart from Main method), which will do this job
+
+int num = 5;

@@ -1,16 +1,20 @@
-﻿using System;
-
-namespace SampleApp
+﻿class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            int a = 10; //4 bytes
-            int b = 20;//010101100
-            int result = a + b;
-            Console.WriteLine(result);
-            Console.ReadLine();
-        }
+        System.Console.WriteLine("welcome to C#");
+        int a = 10;
+        int b = 20;
+        int res = Add(a, b);
+        System.Console.WriteLine(res);
+        string message = Messenger.SendMessage();
+        System.Console.WriteLine(message);
+    }
+    //one function must do one job
+    static int Add(int a, int b)
+    {
+        int addRes = 0;
+        addRes = a + b;
+        return addRes;
     }
 }

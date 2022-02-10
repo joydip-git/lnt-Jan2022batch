@@ -49,3 +49,120 @@ int32 x=10		int32 x= 10
 data type system of IL code is known as CTS (Common Type System)
 all languages in .Net core framework/.net framework follows similary guideline: Common Language Specification (CLS)
 
+IL Code: 
+a. machine-neutral
+b. interoperable
+
+application development using C#:
+-------------------------------------------------------
+
+value types:
+//the memory block direcrly stores the value 
+//byte--> data type, a--> variable/identifier, = --> assignemnt operator, 2 --> value
+byte a = 2 (1 byte)
+short a = 10 (2 bytes)
+ushort
+int a = 10 (4 bytes)
+uint
+long a = 10 (8 bytes)
+ulong 
+decimal (8 bytes): decimal val = 12.34M;
+float (16 bytes):  float f = 12.34F;
+double (32 bytes)  double d = 12.34D/12.34
+char c = 'a'
+bool b = false/true
+DateTime dt = new DateTime(2022,2,10)
+
+reference types:
+//the memory block stores the address/refernce to the location where the actual value is stored
+string name = "joydip"
+
+
+				data types
+--------------------------------------------------------------------------------------------------------
+		Value types					Reference Types
+--------------------------------------------------------------------------------------------------------
+Built-in		User-defined			Built-in		User-defined
+-------------------------------------------------------------------------------------------------------
+byte			struct				string			class
+short			enum				object			interface
+ushort							array			delegate
+int										event
+uint
+long
+ulong
+
+decimal
+float
+double
+
+char
+bool
+
+DateTime
+
+operators:
+a. arithmatic operators: +, -, *, /, % etc.
+b. assignemnt: =, +=, -= etc.
+c. logical operators: &&, ||, !
+d. comparison: >, <, >=, <=,  ==, !=
+
+
+C# program structure:
+--------------------------------------
+a. must have at least one source code file. there could be more than one file
+b. one of source code file, out of all, must have a class with a method, named, Main
+note: Main method should be only one per application
+class MyCls
+{
+    static void Main()
+    {
+
+    }
+}
+
+function:
+a set of instruction, represents an unit of work
+
+create function Add(@m int, @n int)
+returns int
+as
+begin
+declare @addres int
+set @addres=@m+@n
+return @addres
+end
+
+declare @res int
+set @res=dbo.Add(10,20)
+print @res
+
+int Add(int m, int n)
+{
+	int addRes = 0;
+	addRes = m+n;	
+	return addRes;
+}
+
+
+int res = Add(10,20)
+Console.WriteLine(res);
+
+
+void Subtract()
+{
+	int x = 10;
+	int y = 5;
+	int subRes=x-y;
+	Console.WriteLine(subRes);
+}
+
+Subtract()
+
+
+
+
+
+
+
+
