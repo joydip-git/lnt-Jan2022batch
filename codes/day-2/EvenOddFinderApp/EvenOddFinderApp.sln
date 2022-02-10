@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOddFinderApp", "EvenOddFinderApp.csproj", "{2856F956-E3B1-4FFC-A9DF-955951654A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionDemoApp", "..\ConversionDemoApp\ConversionDemoApp.csproj", "{42738FA7-10A0-4DE4-A57A-A7310BE8EBC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2856F956-E3B1-4FFC-A9DF-955951654A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2856F956-E3B1-4FFC-A9DF-955951654A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2856F956-E3B1-4FFC-A9DF-955951654A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2856F956-E3B1-4FFC-A9DF-955951654A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42738FA7-10A0-4DE4-A57A-A7310BE8EBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42738FA7-10A0-4DE4-A57A-A7310BE8EBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42738FA7-10A0-4DE4-A57A-A7310BE8EBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42738FA7-10A0-4DE4-A57A-A7310BE8EBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDCA7B3E-50AE-4ECC-B1BD-E36C294C2485}
+	EndGlobalSection
+EndGlobal

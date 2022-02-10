@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\bin\Debug\netcoreapp3.1\EvenOddFinderApp.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\bin\Debug\netcoreapp3.1\EvenOddFinderApp.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\bin\Debug\netcoreapp3.1\EvenOddFinderApp.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\bin\Debug\netcoreapp3.1\EvenOddFinderApp.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\bin\Debug\netcoreapp3.1\EvenOddFinderApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\bin\Debug\netcoreapp3.1\EvenOddFinderApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\obj\Debug\netcoreapp3.1\EvenOddFinderApp.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\obj\Debug\netcoreapp3.1\EvenOddFinderApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\obj\Debug\netcoreapp3.1\EvenOddFinderApp.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\obj\Debug\netcoreapp3.1\EvenOddFinderApp.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\obj\Debug\netcoreapp3.1\EvenOddFinderApp.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\obj\Debug\netcoreapp3.1\EvenOddFinderApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\obj\Debug\netcoreapp3.1\EvenOddFinderApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\EvenOddFinderApp\obj\Debug\netcoreapp3.1\EvenOddFinderApp.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\bin\Debug\netcoreapp3.1\ConversionDemoApp.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\bin\Debug\netcoreapp3.1\ConversionDemoApp.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\bin\Debug\netcoreapp3.1\ConversionDemoApp.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\bin\Debug\netcoreapp3.1\ConversionDemoApp.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\bin\Debug\netcoreapp3.1\ConversionDemoApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\bin\Debug\netcoreapp3.1\ConversionDemoApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\obj\Debug\netcoreapp3.1\ConversionDemoApp.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\obj\Debug\netcoreapp3.1\ConversionDemoApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\obj\Debug\netcoreapp3.1\ConversionDemoApp.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\obj\Debug\netcoreapp3.1\ConversionDemoApp.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\obj\Debug\netcoreapp3.1\ConversionDemoApp.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\obj\Debug\netcoreapp3.1\ConversionDemoApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\obj\Debug\netcoreapp3.1\ConversionDemoApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-2\ConversionDemoApp\obj\Debug\netcoreapp3.1\ConversionDemoApp.genruntimeconfig.cache

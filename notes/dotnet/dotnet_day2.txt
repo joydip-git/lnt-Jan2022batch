@@ -159,6 +159,19 @@ void Subtract()
 
 Subtract()
 
+conversion: 
+lower -> higher (implicit conversion)
+------------------------------
+int (4) --> long (8)
+int x = 10;
+long l = x;
+
+higher -> lower (explicit conversion)
+------------------
+
+long l = 103456788990;
+int x = l;
+
 
 
 
