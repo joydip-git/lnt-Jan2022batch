@@ -32,4 +32,11 @@ foreach
 array
 
 Object Oriented Programming:
-	
+PIE: Polymorphism, Inheritance, Encapsulation
+abstraction:
+	a. data abstraction: hiding the data inside the class object using private access specifier is data abstraction
+	b. functional implementation abstraction: the function with public access specifier is exposed, but the code (implementation) inside that function is hidden from the outside user.
+
+constructor:
+if you do not write ANY constructor (default and parameterized), then ONLY default constructor will be supplied by the compiler when the code is converted to IL code
+But, if you write any constructor (either default or parameterized), then that default constructor will NOT be supplied by the compiler when the code is converted to IL code

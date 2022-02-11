@@ -24,19 +24,24 @@ namespace Classes_Objects
 
             //now by 'new Product()' you creating an object in the heap with 4 memory blocks (productId, productName, price, description) with default values (0,NULL,0,NULL)
             //by ''
-            productObject = new Product();
+            //productObject = new Product();
+            //productObject.productId = id;
+            //productObject.productName = name;
+            //productObject.price = price;
+            //productObject.description = description;
 
-            productObject.productId = id;
-            productObject.productName = name;
-            productObject.price = price;
-            productObject.description = description;
-
+            productObject = new Product(name, id, price, description);            
             return productObject;
         }
         static void Main()
         {
-           Product productObjRef = AcceptProductValues();
-            Console.WriteLine($"Name:{productObjRef.productName}, Id:{productObjRef.productId}, Price:{productObjRef.price}, Description:{productObjRef.description}");
+            Product dellProductObjRef = AcceptProductValues();
+            string dellProductInfo = dellProductObjRef.PrintInfo();
+            Console.WriteLine(dellProductInfo);
+
+            Product oneplusProductObjRef = AcceptProductValues();
+            string oneplusProductInfo = oneplusProductObjRef.PrintInfo();
+            Console.WriteLine(oneplusProductInfo);
         }
     }
 }
