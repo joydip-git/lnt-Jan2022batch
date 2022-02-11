@@ -20,7 +20,7 @@ namespace Classes_Objects
 
             //productObject is a local variable here, which will store the initial address of the object's memory blok in the heap
             //since the variable is storing the address of an object of type Product class, then the data type should be Product (class name)
-            Product productObject = null;
+            Product productObjectReference = null;
 
             //now by 'new Product()' you creating an object in the heap with 4 memory blocks (productId, productName, price, description) with default values (0,NULL,0,NULL)
             //by ''
@@ -30,8 +30,8 @@ namespace Classes_Objects
             //productObject.price = price;
             //productObject.description = description;
 
-            productObject = new Product(name, id, price, description);            
-            return productObject;
+            productObjectReference = new Product(name, id, price, description);            
+            return productObjectReference;
         }
         static void Main()
         {
