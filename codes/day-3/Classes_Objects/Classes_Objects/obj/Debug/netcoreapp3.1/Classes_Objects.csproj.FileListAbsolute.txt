@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\bin\Debug\netcoreapp3.1\Classes_Objects.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\bin\Debug\netcoreapp3.1\Classes_Objects.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\bin\Debug\netcoreapp3.1\Classes_Objects.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\bin\Debug\netcoreapp3.1\Classes_Objects.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\bin\Debug\netcoreapp3.1\Classes_Objects.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\bin\Debug\netcoreapp3.1\Classes_Objects.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\obj\Debug\netcoreapp3.1\Classes_Objects.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\obj\Debug\netcoreapp3.1\Classes_Objects.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\obj\Debug\netcoreapp3.1\Classes_Objects.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\obj\Debug\netcoreapp3.1\Classes_Objects.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\obj\Debug\netcoreapp3.1\Classes_Objects.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\obj\Debug\netcoreapp3.1\Classes_Objects.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\obj\Debug\netcoreapp3.1\Classes_Objects.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\Classes_Objects\Classes_Objects\obj\Debug\netcoreapp3.1\Classes_Objects.genruntimeconfig.cache

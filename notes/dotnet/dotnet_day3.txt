@@ -26,4 +26,10 @@ B. if the lower case value is entered, then convert the same to uppercase
 	d. call the proper calculation function based on choice
 	e. ask user whether to continue or not		
 	f. decide to continue the loop or exit
+
+for
+foreach
+array
+
+Object Oriented Programming:
 	
