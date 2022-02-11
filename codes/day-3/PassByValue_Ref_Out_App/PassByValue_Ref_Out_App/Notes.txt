@@ -1,0 +1,2 @@
+﻿no matter, pass by value or pass by reference, the variables must be assigned to a value, before passing them as arguments/parameters to other function
+every local variable to a function, must be given a value.

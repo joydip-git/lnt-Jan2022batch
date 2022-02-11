@@ -9,12 +9,20 @@ namespace CalculatorClient
             Console.WriteLine("--------MENU---------");
             Console.WriteLine("1. Add \n2. Subtract \n3. Multiply \n4. Divide");
         }
+        /*
         static int AskUserForChoice()
         {
             Console.Write("\nEnter Choice[1/2/3/4]: ");
             string strChoice = Console.ReadLine();
             int choice = int.Parse(strChoice);
             return choice;
+        }
+        */
+        static void AskUserForChoice(out int choice)
+        {
+            Console.Write("\nEnter Choice[1/2/3/4]: ");
+            string strChoice = Console.ReadLine();
+            int.TryParse(strChoice, out choice);
         }
         static void Calculate(int userChoice, int firstNumber, int secondNumber)
         {
@@ -49,6 +57,8 @@ namespace CalculatorClient
                     break;
             }
         }
+        /*
+         *older version
         static char AskUserWhetherToContinueOrNot()
         {
             Console.Write("\nLike to continue?[Y/y/N/n]: ");
@@ -56,6 +66,15 @@ namespace CalculatorClient
             char decision = char.Parse(strDecision);
             return decision;
         }
+        */
+
+        static void AskUserWhetherToContinueOrNot(ref char decision)
+        { 
+            Console.Write("\nLike to continue?[Y/y/N/n]: ");
+            string strDecision = Console.ReadLine();
+            decision = char.Parse(strDecision);            
+        }
+        /*
         static int EnterNumber()
         {
             Console.Write("\nEnter Number: ");
@@ -63,21 +82,42 @@ namespace CalculatorClient
             int number = int.Parse(strValue);
             return number;
         }
+        */
+        static void EnterNumber(out int first, out int second)
+        {
+            //first = 0;
+            //second = 0;
 
+            Console.Write("\nEnter 1st Number: ");
+            string strFirstValue = Console.ReadLine();
+            //first = int.Parse(strFirstValue);
+            int.TryParse(strFirstValue, out first);
+
+            Console.Write("\nEnter 2nd Number: ");
+            string strSecondValue = Console.ReadLine();
+            //second = int.Parse(strSecondValue);
+            int.TryParse(strSecondValue, out second);
+        }
         static void Main()
         {            
             char decision = 'n';
             do
             {
                 PrintMenu();
-                int userChoice = AskUserForChoice();
+                int userChoice;
+                AskUserForChoice(out userChoice);
+                Console.WriteLine($"choice:{userChoice}");
 
-                int firstNumber = EnterNumber();
-                int secondNumber = EnterNumber();
+                //int firstNumber = EnterNumber();
+                //int secondNumber = EnterNumber();
+                int firstNumber;
+                int secondNumber;
+                EnterNumber(out firstNumber, out secondNumber);
 
                 Calculate(userChoice, firstNumber, secondNumber);
 
-                decision = AskUserWhetherToContinueOrNot();
+                //decision = AskUserWhetherToContinueOrNot();
+                AskUserWhetherToContinueOrNot(ref decision);
                 decision = Converter.ConvertUpperCaseDecisionToLower(decision);                
 
             } while (decision != 'n');

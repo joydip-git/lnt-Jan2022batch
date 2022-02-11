@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\bin\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\bin\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\bin\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\bin\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\bin\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\bin\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\obj\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\obj\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\obj\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\obj\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\obj\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\obj\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\obj\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\PassByValue_Ref_Out_App\PassByValue_Ref_Out_App\obj\Debug\netcoreapp3.1\PassByValue_Ref_Out_App.genruntimeconfig.cache
