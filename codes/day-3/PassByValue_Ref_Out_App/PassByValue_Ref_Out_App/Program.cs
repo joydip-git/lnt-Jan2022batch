@@ -33,6 +33,7 @@ namespace PassByValue_Ref_Out_App
             int a = 10;
             int b = 20;
             int c;
+            //c = a + b;
             Console.WriteLine($"Before swapping, a:{a}, b:{b}");
             //pass by value: passing copy of values stored in a and b memory blocks (variables) to x and y parameters of Swap
             //Swap(a, b);
@@ -55,6 +56,7 @@ namespace PassByValue_Ref_Out_App
             string strDob = Console.ReadLine();
 
             DateTime dob;
+            
             bool possible = DateTime.TryParse(strDob, out dob);
             if (possible)
                 Console.WriteLine(dob);
