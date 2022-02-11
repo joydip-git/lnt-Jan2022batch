@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\bin\Debug\netcoreapp3.1\CalculatorClient.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\bin\Debug\netcoreapp3.1\CalculatorClient.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\bin\Debug\netcoreapp3.1\CalculatorClient.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\bin\Debug\netcoreapp3.1\CalculatorClient.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\bin\Debug\netcoreapp3.1\CalculatorClient.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\bin\Debug\netcoreapp3.1\CalculatorClient.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\obj\Debug\netcoreapp3.1\CalculatorClient.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\obj\Debug\netcoreapp3.1\CalculatorClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\obj\Debug\netcoreapp3.1\CalculatorClient.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\obj\Debug\netcoreapp3.1\CalculatorClient.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\obj\Debug\netcoreapp3.1\CalculatorClient.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\obj\Debug\netcoreapp3.1\CalculatorClient.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\obj\Debug\netcoreapp3.1\CalculatorClient.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-3\CalculatorApp\CalculatorClient\obj\Debug\netcoreapp3.1\CalculatorClient.genruntimeconfig.cache

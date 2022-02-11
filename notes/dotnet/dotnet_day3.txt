@@ -1,0 +1,29 @@
+applocation logic:
+	a. input/output or user interface logic
+	b. business logic
+	c. data access logic
+
+application requirements:
+
+1. business logic requirement:
+A. need to create separate functions for calculation
+			A. the functions must be created in separate class for just business logic
+			B. every function must take two values (of type int)
+			c. must do the calculation
+			D. must return the calculated  result
+
+B. if the lower case value is entered, then convert the same to uppercase
+	i. create a class with function to convert upper case character to lower case character
+	ii. functions must take a char type value
+	iii. check the value is in upper case or not
+	iv. if the character in uppercase convert the same to lower case
+	v. return the lowercase character
+
+2. UI logic requirement:
+	a. need to print menu
+	b. ask user for choice
+	c. ask user for values
+	d. call the proper calculation function based on choice
+	e. ask user whether to continue or not		
+	f. decide to continue the loop or exit
+	
