@@ -10,7 +10,7 @@ namespace ArrayDemo
             //1,2,3,4,5,6
             //array is a collection of similar type of values
             //you create an object of Array class
-            //Array arr = new Array();<--do not create the object in this way
+            //Array arr = new Array(int,5);<--do not create the object in this way
             //create the array in the following way
 
             //<data-type-of-values>[] <arr-var-name> = new <data-type-of-values>[<size>];
@@ -32,9 +32,17 @@ namespace ArrayDemo
                 arr[i] = number;
             }
 
-            for (int i = 0; i < arr.Length; i++)
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.WriteLine($"value at arr[{i}]:{arr[i]}");
+            //}
+            
+            //used to iterate and display all elements from a collection (such as: array), without any condition (like readonly loop)
+            //it can't be used to enter values into the collection
+            //during the iteration do not add or delete any value from the collection, just you can update value at an index
+            foreach (int x in arr)
             {
-                Console.WriteLine($"value at arr[{i}]:{arr[i]}");
+                Console.WriteLine(x);
             }
 
             Product dellProduct = new Product(1, "dell xps", 100000);
@@ -49,10 +57,15 @@ namespace ArrayDemo
             products[2] = hpLaptopProduct;
 
             Console.WriteLine("\n\n");
-            for (int i = 0; i < products.Length; i++)
+            //for (int i = 0; i < products.Length; i++)
+            //{
+            //    Product productRef = products[i];
+            //    Console.WriteLine($"Name:{productRef.ProductName}");
+            //}
+
+            foreach (Product p in products)
             {
-                Product productRef = products[i];
-                Console.WriteLine($"Name:{productRef.ProductName}");
+                Console.WriteLine($"Name:{p.ProductName}");
             }
 
             Console.WriteLine("\n\n");
