@@ -6,6 +6,8 @@ namespace Static_NonStatic
     {
         static void Main()
         {
+            int x = 0;
+            x = 10;
             //static method can be called with the class name directly
             //static method is never called with object reference
             string result = Sample.Call();
@@ -22,7 +24,8 @@ namespace Static_NonStatic
 
             sampleObjectReference.firstData = 20;
 
-            Employee joydipEmpObjectRef = new Employee("joydip", 1, 10000);
+            Employee joydipEmpObjectRef = null;
+            joydipEmpObjectRef = new Employee("joydip", 1, 10000);
             Employee anilEmpObjectRef = new Employee("Anil", 2, 20000);
             Employee sunilEmpObjectRef = new Employee("Sunil", 2, 30000);
 
