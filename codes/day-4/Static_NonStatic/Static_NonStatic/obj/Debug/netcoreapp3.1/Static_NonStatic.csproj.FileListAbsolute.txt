@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\bin\Debug\netcoreapp3.1\Static_NonStatic.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\bin\Debug\netcoreapp3.1\Static_NonStatic.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\bin\Debug\netcoreapp3.1\Static_NonStatic.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\bin\Debug\netcoreapp3.1\Static_NonStatic.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\bin\Debug\netcoreapp3.1\Static_NonStatic.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\bin\Debug\netcoreapp3.1\Static_NonStatic.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\obj\Debug\netcoreapp3.1\Static_NonStatic.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\obj\Debug\netcoreapp3.1\Static_NonStatic.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\obj\Debug\netcoreapp3.1\Static_NonStatic.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\obj\Debug\netcoreapp3.1\Static_NonStatic.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\obj\Debug\netcoreapp3.1\Static_NonStatic.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\obj\Debug\netcoreapp3.1\Static_NonStatic.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\obj\Debug\netcoreapp3.1\Static_NonStatic.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\Static_NonStatic\Static_NonStatic\obj\Debug\netcoreapp3.1\Static_NonStatic.genruntimeconfig.cache
