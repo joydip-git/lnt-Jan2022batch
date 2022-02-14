@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-4\PropertyDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.genruntimeconfig.cache

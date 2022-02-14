@@ -1,0 +1,145 @@
+﻿property:
+	with only set accessor: write-only property, used to only set the value to the data member
+
+	class A
+	{
+		string data;
+		public string Data
+		{
+			set { this.data = value; }
+		}
+	}
+
+	with only get accessor: read-only property, used to only return the data member value
+	class A
+	{
+		string data;
+		public string Data
+		{
+			get { return this.data; }
+		}
+	}
+
+	with both set and get accessor:
+	class A
+	{
+		string data;
+		public string Data
+		{
+			get { return this.data; }
+			set { this.data = value; }
+		}
+	}
+
+	New style of writing properties:
+	class A
+	{
+		string data;
+		public string Data
+		{
+			get => this.data; 
+			set => this.data = value; 
+
+		}
+	}
+
+	New style of writing properties with just get accessor:
+	old style:
+	class A
+	{
+		string data;
+		public string Data
+		{
+			get { return this.data; }
+		}
+	}
+	new style:
+	class A
+	{
+		string data;
+		public string Data
+		{
+			get => this.data; 
+		}
+	}
+	newest style:
+	class A
+	{
+		string data;
+		public string Data => this.data;
+	}
+
+complete example:
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PropertyDemo
+{
+    class Product
+    {
+        private int productId;
+        private string productName;
+        private decimal price;
+        private string description;
+
+        public Product() { }
+
+        public Product(int id, string name, decimal price, string description)
+        {
+            this.productId = id;
+            this.productName = name;
+            this.price = price;
+            this.description = description;
+        }
+
+        //property/property function: a collection of two methods, one for returning the value of a data member and another is for setting the value of that data member.
+        //the first method is called get accessor
+        //the second method is called set accessor
+        //value is a local variable of set accessor (auto-declared variable)
+        //a property actually encapsulates the data member (hides the data member inside)
+        public decimal Price
+        {
+            set
+            {
+                this.price = value;
+            }
+            /**
+            *  public void SetPrice(decimal newPrice)
+               {
+                   this.price = newPrice;
+               }
+            */
+            get
+            {
+                return this.price;
+            }
+            /*
+            *  public decimal GePrice()
+               {
+                   return this.price;
+               }
+            */
+        }
+
+        public string ProductName
+        {
+            //public void SetName(string newName)
+            set
+            {
+                //this.productName = newName;
+                this.productName = value;
+            }
+            //public string GetName()
+            get
+            {
+                return productName;
+            }           
+        }
+
+        public string GetInfo()
+        {
+            return $"Name:{productName}, Price:{price}, Id: {productId}, description:{description}";
+        }
+    }
+}
