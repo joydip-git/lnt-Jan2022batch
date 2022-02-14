@@ -2,5 +2,6 @@
    information: name, id, salary, location, project name 
    functionality: function to return information (name, salary, project name) about an object
 
-also create 1 default and 1 parameterized constructor
+create properties for all data members, where "id" and "name" should be read-only properties
+also create 1 default and 2 parameterized constructors
 the parameterized constructor will accept all the values for an employee object
