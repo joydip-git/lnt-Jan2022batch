@@ -1,0 +1,54 @@
+1. class, object, constructor, functions
+2. data abstraction and function implementation abstraction
+3. how to use access specifiers: public and private
+4. encapsulation
+
+Naming conventions:
+// pascal casing: first letter of every word should be in uppercase. is used for class, method, constructor name etc.
+// such as: class name=> EmployeeInfo, NOT employeeinfo or employeeInfo
+// such as: method name=> GetData() NOT getData() or getdata()
+// Note: in case of single word, first only first letter in uppercase
+// such as Product, NOT product, Call()  NOT call()
+
+// camel casing: first letter of the first word in lowercase, then first letter of the remaining words in uppercase. used for data members, local variables in the function
+// such as: additionResult NOT AdditionResult or additionresult
+// Note: in case of single word, complete lowercase should be used
+// such as: result, NOT Result
+
+//class names, data member names and local variable to the function names, should be Noun (class Product, NOT class GetProduct, int additionResult NOT int add)
+//method names should be Verb (GetData() NOT Data())
+
+//do not use numbers, like int num1value, class Product1, static void Get1()
+//do not use underscore(_), like: static void Get_Info(), class Product_Info, or int add_result
+
+class Product
+{
+	private int productId;
+
+	//parameterless constructor or default constructor
+	public Product(){}
+
+	//paranetrized constructor
+	public Product(int pid)
+	{
+		this.productId = pid;
+	}
+
+	public void Call(){}
+}
+
+class Program
+{
+  static void Main()
+  {
+	Product p = new Product(10);
+	p.productId; --> not possible
+	p.Call();--> possible
+  }
+}
+
+methods in class: static and non-static
+property in C#
+
+Object-oriented concepts:
+inheritance, polymorphism
