@@ -1,0 +1,4 @@
+1. create an array to store some names (such as, anil, sunil, ramesh etc.)
+   a. take the values from user and save in the array
+   b. display the values from the array
+	
