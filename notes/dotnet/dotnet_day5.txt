@@ -17,3 +17,28 @@ Student
 	- department
 	- marks
 
+polymorphism: same name, different form
+
+A. compile time polymorphism: during compilation, compiler connects the caller line with the appropriate function to call (which function will be called is decided during compilation time)
+
+example: function overloading, constructor overloading, operator overloading
+
+i. function (also constructor) overloading: function (including constructor) with same name but diffence in the arguments
+	- No of parameters/arguments
+	- arguments with different data types
+	- order of the arguments
+
+ii. operator overloading: same operator working on different operands and do different kind of jobs (adding ,concatenting etc.)
+example: 
+int a = 10;
+int b = 20;
+int res = a + b; //+ operator is adding two integers
+
+string firstName = "Sunil";
+string lastName = "Kumar";
+string fullName = firstName+lastName; //+ operator is concatenating two strings
+
+
+	
+
+
