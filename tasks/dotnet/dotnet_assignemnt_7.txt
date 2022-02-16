@@ -1,0 +1,22 @@
+calulate the area of different shapes: circle and triangle
+
+Circle:
+	data members: radius
+	property: Radius
+	ctor: default and parameterized
+	methods: double CalculateArea()
+
+Triangle:
+	data members: tBase, tHeight
+	properties: TBase, THeight
+	ctor: default and parameterized
+	methods: double CalculateArea()
+
+create shapes in a library
+create a console application which refers the library
+create object of shapes based on user choice  (one each of every shape)
+ask user to enter value for data members of the shape
+store the references of all the shapes in an array 
+
+iterate through the array 
+calculate the area and display the same
