@@ -1,0 +1,17 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\obj\Debug\netcoreapp3.1\CalculationClient.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\obj\Debug\netcoreapp3.1\CalculationClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\obj\Debug\netcoreapp3.1\CalculationClient.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\obj\Debug\netcoreapp3.1\CalculationClient.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\obj\Debug\netcoreapp3.1\CalculationClient.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\bin\Debug\netcoreapp3.1\CalculationClient.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\bin\Debug\netcoreapp3.1\CalculationClient.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\bin\Debug\netcoreapp3.1\CalculationClient.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\bin\Debug\netcoreapp3.1\CalculationClient.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\bin\Debug\netcoreapp3.1\CalculationClient.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\bin\Debug\netcoreapp3.1\CalculationClient.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\bin\Debug\netcoreapp3.1\CalculationLibrary.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\bin\Debug\netcoreapp3.1\CalculationLibrary.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\obj\Debug\netcoreapp3.1\CalculationClient.csproj.CopyComplete
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\obj\Debug\netcoreapp3.1\CalculationClient.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\obj\Debug\netcoreapp3.1\CalculationClient.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationClient\obj\Debug\netcoreapp3.1\CalculationClient.genruntimeconfig.cache

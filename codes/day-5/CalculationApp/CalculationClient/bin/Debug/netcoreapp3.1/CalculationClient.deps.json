@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CalculationClient/1.0.0": {
+        "dependencies": {
+          "CalculationLibrary": "1.0.0"
+        },
+        "runtime": {
+          "CalculationClient.dll": {}
+        }
+      },
+      "CalculationLibrary/1.0.0": {
+        "runtime": {
+          "CalculationLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculationClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculationLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\bin\Debug\netcoreapp3.1\EmployeeUserInterface.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\bin\Debug\netcoreapp3.1\EmployeeUserInterface.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\bin\Debug\netcoreapp3.1\EmployeeUserInterface.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\bin\Debug\netcoreapp3.1\EmployeeUserInterface.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\bin\Debug\netcoreapp3.1\EmployeeUserInterface.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\bin\Debug\netcoreapp3.1\EmployeeUserInterface.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\bin\Debug\netcoreapp3.1\EmployeeLibrary.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\bin\Debug\netcoreapp3.1\EmployeeLibrary.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\obj\Debug\netcoreapp3.1\EmployeeUserInterface.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\obj\Debug\netcoreapp3.1\EmployeeUserInterface.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\obj\Debug\netcoreapp3.1\EmployeeUserInterface.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\obj\Debug\netcoreapp3.1\EmployeeUserInterface.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\obj\Debug\netcoreapp3.1\EmployeeUserInterface.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\obj\Debug\netcoreapp3.1\EmployeeUserInterface.csproj.CopyComplete
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\obj\Debug\netcoreapp3.1\EmployeeUserInterface.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\obj\Debug\netcoreapp3.1\EmployeeUserInterface.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeUserInterface\obj\Debug\netcoreapp3.1\EmployeeUserInterface.genruntimeconfig.cache

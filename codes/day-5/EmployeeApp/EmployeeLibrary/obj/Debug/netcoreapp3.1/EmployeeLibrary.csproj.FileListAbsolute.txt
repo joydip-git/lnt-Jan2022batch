@@ -1,0 +1,9 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeLibrary\bin\Debug\netcoreapp3.1\EmployeeLibrary.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeLibrary\bin\Debug\netcoreapp3.1\EmployeeLibrary.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeLibrary\bin\Debug\netcoreapp3.1\EmployeeLibrary.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeLibrary\obj\Debug\netcoreapp3.1\EmployeeLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeLibrary\obj\Debug\netcoreapp3.1\EmployeeLibrary.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeLibrary\obj\Debug\netcoreapp3.1\EmployeeLibrary.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeLibrary\obj\Debug\netcoreapp3.1\EmployeeLibrary.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeLibrary\obj\Debug\netcoreapp3.1\EmployeeLibrary.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\EmployeeApp\EmployeeLibrary\obj\Debug\netcoreapp3.1\EmployeeLibrary.pdb

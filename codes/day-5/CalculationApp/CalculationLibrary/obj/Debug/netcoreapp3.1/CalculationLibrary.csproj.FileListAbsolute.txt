@@ -1,0 +1,9 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationLibrary\bin\Debug\netcoreapp3.1\CalculationLibrary.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationLibrary\bin\Debug\netcoreapp3.1\CalculationLibrary.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationLibrary\bin\Debug\netcoreapp3.1\CalculationLibrary.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationLibrary\obj\Debug\netcoreapp3.1\CalculationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationLibrary\obj\Debug\netcoreapp3.1\CalculationLibrary.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationLibrary\obj\Debug\netcoreapp3.1\CalculationLibrary.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationLibrary\obj\Debug\netcoreapp3.1\CalculationLibrary.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationLibrary\obj\Debug\netcoreapp3.1\CalculationLibrary.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CalculationApp\CalculationLibrary\obj\Debug\netcoreapp3.1\CalculationLibrary.pdb
