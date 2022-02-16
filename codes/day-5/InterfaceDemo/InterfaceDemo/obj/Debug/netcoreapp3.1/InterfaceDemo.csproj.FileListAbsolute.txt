@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\obj\Debug\netcoreapp3.1\InterfaceDemo.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\obj\Debug\netcoreapp3.1\InterfaceDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\obj\Debug\netcoreapp3.1\InterfaceDemo.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\obj\Debug\netcoreapp3.1\InterfaceDemo.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\obj\Debug\netcoreapp3.1\InterfaceDemo.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\bin\Debug\netcoreapp3.1\InterfaceDemo.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\bin\Debug\netcoreapp3.1\InterfaceDemo.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\bin\Debug\netcoreapp3.1\InterfaceDemo.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\bin\Debug\netcoreapp3.1\InterfaceDemo.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\bin\Debug\netcoreapp3.1\InterfaceDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\bin\Debug\netcoreapp3.1\InterfaceDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\obj\Debug\netcoreapp3.1\InterfaceDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\obj\Debug\netcoreapp3.1\InterfaceDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\InterfaceDemo\InterfaceDemo\obj\Debug\netcoreapp3.1\InterfaceDemo.genruntimeconfig.cache

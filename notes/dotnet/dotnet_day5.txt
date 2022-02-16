@@ -116,6 +116,26 @@ You can't create object of abstarct class
 class can have other non-abstract members (constructors, data members, other methods, other properties)
 when you inherit from abstract clas, the child class MUST implement all the abstract members of the base class. otherwise the child class will become abstract class (you have to declare the child class with abstract keyword)
 
+interface: 
+a. pure abstract class
+b. everything is abstract: method and/or property
+c. to declare interface: use interface keyword followed by interface name, starting with uppercase I
+d. to declare interface members
+rules:
+do not use any access specifier: by default any member is public
+do not use abstract keyword: by default any member is abstract
+do not declare any static member inside interface
+do not declare any data member inside interface
+do not write any constructor inside interface
+e. object of interface can not be created
+
+implement the interface in a class:
+rules:
+implement all members of the interface
+do not use override keyword
+if you do not imlement all the members, the class becomes abstract (declare the class with abstract). please write the method inside the class with abstract keyword
+
+
 
 
 
