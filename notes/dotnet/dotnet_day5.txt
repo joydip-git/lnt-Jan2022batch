@@ -17,9 +17,14 @@ Student
 	- department
 	- marks
 
+class Animal{ public void MakeNoise(){}}
+class Bird{ public void MakeNoise(){//code}}
+class Dog{public void MakeNoise(){}}
+class Cat{}
+
 polymorphism: same name, different form
 
-A. compile time polymorphism: during compilation, compiler connects the caller line with the appropriate function to call (which function will be called is decided during compilation time)
+A. compile time polymorphism: during compilation, compiler connects the caller line with the appropriate function to call (which function will be called is decided during compilation time). Only one class is invloved, means, in single class, multiple methods or constructors with the same name will exist
 
 example: function overloading, constructor overloading, operator overloading
 
@@ -37,6 +42,15 @@ int res = a + b; //+ operator is adding two integers
 string firstName = "Sunil";
 string lastName = "Kumar";
 string fullName = firstName+lastName; //+ operator is concatenating two strings
+
+B. Runtime/Dynamic Polymorphism (Note: this involves inheritance, means minimum two classes are involved, one base and another child): which function will be called is decided during runt time, when the code is executed
+
+Function overriding:
+	base class method is overriden in the child class (not changing the signature of the inherited base class method, rather changing the code inside)
+	- declare the base class method with 'virtual' keyword
+	- declare the same method in the child class with 'override' keyword
+Now, always the child class method will be invoked, with the object of the child class
+you can call base class method, using 'base' keyword from the child class method
 
 
 	

@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\bin\Debug\netcoreapp3.1\FunctionOverriiding.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\bin\Debug\netcoreapp3.1\FunctionOverriiding.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\bin\Debug\netcoreapp3.1\FunctionOverriiding.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\bin\Debug\netcoreapp3.1\FunctionOverriiding.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\bin\Debug\netcoreapp3.1\FunctionOverriiding.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\bin\Debug\netcoreapp3.1\FunctionOverriiding.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\obj\Debug\netcoreapp3.1\FunctionOverriiding.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\obj\Debug\netcoreapp3.1\FunctionOverriiding.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\obj\Debug\netcoreapp3.1\FunctionOverriiding.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\obj\Debug\netcoreapp3.1\FunctionOverriiding.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\obj\Debug\netcoreapp3.1\FunctionOverriiding.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\obj\Debug\netcoreapp3.1\FunctionOverriiding.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\obj\Debug\netcoreapp3.1\FunctionOverriiding.genruntimeconfig.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\PolymorphismApp\FunctionOverriiding\obj\Debug\netcoreapp3.1\FunctionOverriiding.csproj.AssemblyReference.cache
