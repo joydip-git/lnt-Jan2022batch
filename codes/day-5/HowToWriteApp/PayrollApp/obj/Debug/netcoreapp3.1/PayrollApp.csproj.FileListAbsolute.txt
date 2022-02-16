@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\bin\Debug\netcoreapp3.1\PayrollApp.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\bin\Debug\netcoreapp3.1\PayrollApp.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\bin\Debug\netcoreapp3.1\PayrollApp.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\bin\Debug\netcoreapp3.1\PayrollApp.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\bin\Debug\netcoreapp3.1\PayrollApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\bin\Debug\netcoreapp3.1\PayrollApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\obj\Debug\netcoreapp3.1\PayrollApp.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\obj\Debug\netcoreapp3.1\PayrollApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\obj\Debug\netcoreapp3.1\PayrollApp.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\obj\Debug\netcoreapp3.1\PayrollApp.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\obj\Debug\netcoreapp3.1\PayrollApp.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\obj\Debug\netcoreapp3.1\PayrollApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\obj\Debug\netcoreapp3.1\PayrollApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\PayrollApp\obj\Debug\netcoreapp3.1\PayrollApp.genruntimeconfig.cache

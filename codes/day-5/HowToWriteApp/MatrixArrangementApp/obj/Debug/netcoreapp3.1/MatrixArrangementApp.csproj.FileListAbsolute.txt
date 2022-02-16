@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\bin\Debug\netcoreapp3.1\MatrixArrangementApp.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\bin\Debug\netcoreapp3.1\MatrixArrangementApp.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\bin\Debug\netcoreapp3.1\MatrixArrangementApp.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\bin\Debug\netcoreapp3.1\MatrixArrangementApp.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\bin\Debug\netcoreapp3.1\MatrixArrangementApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\bin\Debug\netcoreapp3.1\MatrixArrangementApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\obj\Debug\netcoreapp3.1\MatrixArrangementApp.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\obj\Debug\netcoreapp3.1\MatrixArrangementApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\obj\Debug\netcoreapp3.1\MatrixArrangementApp.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\obj\Debug\netcoreapp3.1\MatrixArrangementApp.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\obj\Debug\netcoreapp3.1\MatrixArrangementApp.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\obj\Debug\netcoreapp3.1\MatrixArrangementApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\obj\Debug\netcoreapp3.1\MatrixArrangementApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\MatrixArrangementApp\obj\Debug\netcoreapp3.1\MatrixArrangementApp.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\bin\Debug\netcoreapp3.1\HowToWriteApp.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\bin\Debug\netcoreapp3.1\HowToWriteApp.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\bin\Debug\netcoreapp3.1\HowToWriteApp.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\bin\Debug\netcoreapp3.1\HowToWriteApp.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\bin\Debug\netcoreapp3.1\HowToWriteApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\bin\Debug\netcoreapp3.1\HowToWriteApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\obj\Debug\netcoreapp3.1\HowToWriteApp.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\obj\Debug\netcoreapp3.1\HowToWriteApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\obj\Debug\netcoreapp3.1\HowToWriteApp.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\obj\Debug\netcoreapp3.1\HowToWriteApp.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\obj\Debug\netcoreapp3.1\HowToWriteApp.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\obj\Debug\netcoreapp3.1\HowToWriteApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\obj\Debug\netcoreapp3.1\HowToWriteApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\HowToWriteApp\HowToWriteApp\obj\Debug\netcoreapp3.1\HowToWriteApp.genruntimeconfig.cache
