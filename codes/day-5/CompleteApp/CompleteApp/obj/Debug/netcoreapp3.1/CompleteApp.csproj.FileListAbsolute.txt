@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\obj\Debug\netcoreapp3.1\CompleteApp.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\obj\Debug\netcoreapp3.1\CompleteApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\obj\Debug\netcoreapp3.1\CompleteApp.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\obj\Debug\netcoreapp3.1\CompleteApp.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\obj\Debug\netcoreapp3.1\CompleteApp.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\bin\Debug\netcoreapp3.1\CompleteApp.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\bin\Debug\netcoreapp3.1\CompleteApp.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\bin\Debug\netcoreapp3.1\CompleteApp.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\bin\Debug\netcoreapp3.1\CompleteApp.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\bin\Debug\netcoreapp3.1\CompleteApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\bin\Debug\netcoreapp3.1\CompleteApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\obj\Debug\netcoreapp3.1\CompleteApp.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\obj\Debug\netcoreapp3.1\CompleteApp.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-5\CompleteApp\CompleteApp\obj\Debug\netcoreapp3.1\CompleteApp.genruntimeconfig.cache
