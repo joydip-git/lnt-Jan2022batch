@@ -53,6 +53,72 @@ Now, always the child class method will be invoked, with the object of the child
 you can call base class method, using 'base' keyword from the child class method
 
 
+Situation:
+many child classes are there inheriting from base class and overriding method with complete different code. so, what to write in the base class virtual method?
+
+abstract DataAccess //abstract class: class having at least one abstract member (property and/or function)
+	abstract void GetData(); //abstract function: function without any code/implementation
+	abstract string Path { set; get; }//abstract property: property without any code/implementation fo set and get
+
+FileDataAccess inherits from DataAccess //the child class MUST implement the abstract members (property and/or function)
+	string filePath;
+	override void GetData() { //code to fetch data from Text file}
+	override string Path { set=>filePath = value; get=> filePath;}
+
+DatabaseDataAccess inherits from DataAccess
+	string dbConnection;
+	override void GetData() { //code to fetch data from SQL Server database}
+	override string Path { set=>dbConnection = value; get=> dbConnection;}
+
+XmlDataAccess inherits from DataAccess
+	string xmlFileLocation;
+	override void GetData() { //code to fetch data from XML file}
+	override string Path { set=>xmlFileLocation = value; get=> xmlFileLocation;}
+
+1, anil, 1000
+2, sunil, 2000
+
+lntdb
+	employees: id, name, salary
+
+select * from employees
+
+App name: OutstandingPersonApp
+
+
+Person
+	- name
+	- bool IsOutstanding(){//code ??????}
+
+Professor ( has published more than 5 books)
+	- string name
+	- int bookspublished
+
+	- override bool IsOutstanding()
+	  { 
+		if(bookspublished>5) return true; else false;
+	  }
+
+Student ( has got more than 85 marks)
+	- string name
+	- double marks
+
+	- override bool IsOutstanding(){ if(marks>85) return true; else false;}
+
+override and overwrite are different
+
+int x = 10;
+x = 20;
+
+abstract class: 
+class having at least one abstract member (property and/or function)
+You can't create object of abstarct class
+class can have other non-abstract members (constructors, data members, other methods, other properties)
+when you inherit from abstract clas, the child class MUST implement all the abstract members of the base class. otherwise the child class will become abstract class (you have to declare the child class with abstract keyword)
+
+
+
+
 	
 
 

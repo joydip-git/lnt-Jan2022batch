@@ -37,7 +37,13 @@ namespace FunctionOverriiding
             set => this.experience = value;
             get => this.experience;
         }
-
+        /**
+         *  public string PrintInfo()
+        {
+            string info = base.PrintInfo();
+            return $"{info}, {experience}, {subject}, {booksPublished}";
+        }
+         */
         public override string PrintInfo()
         {
             string info = base.PrintInfo();
