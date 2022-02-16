@@ -1,0 +1,19 @@
+a. Inheritance
+	- single-level
+	- multi-level
+	- multiple (not supprted in C#)
+b. polymorphism
+
+
+Professor	
+	- name
+	- subject
+	- department
+	- experience
+	- books published
+Student
+	- name
+	- subjects
+	- department
+	- marks
+
