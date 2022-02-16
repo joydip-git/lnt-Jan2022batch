@@ -1,7 +1,9 @@
 1. create a class (do it in separate class file) for employee, where
-   information: name, id, salary, location, project name 
+   data: name, id, basic salary, project name and location
+	Note: id and name should be assigned only through constructor
    functionality: function to return information (name, salary, project name) about an object
 
-create properties for all data members, where "id" and "name" should be read-only properties
-also create 1 default and 2 parameterized constructors
+2. create properties for all data members, where "id" and "name" should be read-only properties
+3. also create 1 default constructor
+4. also create 2 parameterized constructors: one which will accept id and name values (for id and name data member) and another which will accept all value ( for all data members)
 the parameterized constructor will accept all the values for an employee object
