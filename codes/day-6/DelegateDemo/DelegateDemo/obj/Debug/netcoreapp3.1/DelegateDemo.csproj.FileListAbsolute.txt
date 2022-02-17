@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.genruntimeconfig.cache
