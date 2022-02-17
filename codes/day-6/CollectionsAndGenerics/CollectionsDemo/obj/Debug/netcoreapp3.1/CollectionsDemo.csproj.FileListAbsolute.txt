@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\bin\Debug\netcoreapp3.1\CollectionsDemo.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\bin\Debug\netcoreapp3.1\CollectionsDemo.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\bin\Debug\netcoreapp3.1\CollectionsDemo.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\bin\Debug\netcoreapp3.1\CollectionsDemo.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\bin\Debug\netcoreapp3.1\CollectionsDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\bin\Debug\netcoreapp3.1\CollectionsDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\obj\Debug\netcoreapp3.1\CollectionsDemo.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\obj\Debug\netcoreapp3.1\CollectionsDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\obj\Debug\netcoreapp3.1\CollectionsDemo.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\obj\Debug\netcoreapp3.1\CollectionsDemo.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\obj\Debug\netcoreapp3.1\CollectionsDemo.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\obj\Debug\netcoreapp3.1\CollectionsDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\obj\Debug\netcoreapp3.1\CollectionsDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\CollectionsDemo\obj\Debug\netcoreapp3.1\CollectionsDemo.genruntimeconfig.cache

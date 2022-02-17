@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\bin\Debug\netcoreapp3.1\OtherGenericClasses.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\bin\Debug\netcoreapp3.1\OtherGenericClasses.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\bin\Debug\netcoreapp3.1\OtherGenericClasses.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\bin\Debug\netcoreapp3.1\OtherGenericClasses.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\bin\Debug\netcoreapp3.1\OtherGenericClasses.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\bin\Debug\netcoreapp3.1\OtherGenericClasses.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\obj\Debug\netcoreapp3.1\OtherGenericClasses.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\obj\Debug\netcoreapp3.1\OtherGenericClasses.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\obj\Debug\netcoreapp3.1\OtherGenericClasses.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\obj\Debug\netcoreapp3.1\OtherGenericClasses.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\obj\Debug\netcoreapp3.1\OtherGenericClasses.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\obj\Debug\netcoreapp3.1\OtherGenericClasses.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\obj\Debug\netcoreapp3.1\OtherGenericClasses.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\OtherGenericClasses\obj\Debug\netcoreapp3.1\OtherGenericClasses.genruntimeconfig.cache
