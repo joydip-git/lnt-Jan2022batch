@@ -1,0 +1,10 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.Entities\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.Entities\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.Entities\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.Entities\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.Entities\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.Entities\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.Entities\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.Entities\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.Entities\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.Entities\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.pdb

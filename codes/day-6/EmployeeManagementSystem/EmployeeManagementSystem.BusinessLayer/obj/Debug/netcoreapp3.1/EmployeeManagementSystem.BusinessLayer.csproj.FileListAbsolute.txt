@@ -1,0 +1,15 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.csproj.CopyComplete
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.BusinessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.BusinessLayer.pdb

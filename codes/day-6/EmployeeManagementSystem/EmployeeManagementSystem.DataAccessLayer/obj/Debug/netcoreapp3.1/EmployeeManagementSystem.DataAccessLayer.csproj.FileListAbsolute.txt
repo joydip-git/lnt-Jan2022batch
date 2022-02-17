@@ -1,0 +1,13 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.Entities.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.csproj.CopyComplete
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\EmployeeManagementSystem\EmployeeManagementSystem.DataAccessLayer\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.DataAccessLayer.pdb

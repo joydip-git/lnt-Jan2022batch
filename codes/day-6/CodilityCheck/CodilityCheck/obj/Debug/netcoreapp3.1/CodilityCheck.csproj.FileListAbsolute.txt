@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\bin\Debug\netcoreapp3.1\CodilityCheck.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\bin\Debug\netcoreapp3.1\CodilityCheck.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\bin\Debug\netcoreapp3.1\CodilityCheck.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\bin\Debug\netcoreapp3.1\CodilityCheck.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\bin\Debug\netcoreapp3.1\CodilityCheck.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\bin\Debug\netcoreapp3.1\CodilityCheck.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\obj\Debug\netcoreapp3.1\CodilityCheck.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\obj\Debug\netcoreapp3.1\CodilityCheck.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\obj\Debug\netcoreapp3.1\CodilityCheck.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\obj\Debug\netcoreapp3.1\CodilityCheck.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\obj\Debug\netcoreapp3.1\CodilityCheck.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\obj\Debug\netcoreapp3.1\CodilityCheck.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\obj\Debug\netcoreapp3.1\CodilityCheck.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CodilityCheck\CodilityCheck\obj\Debug\netcoreapp3.1\CodilityCheck.genruntimeconfig.cache
