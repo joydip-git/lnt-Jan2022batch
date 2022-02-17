@@ -1,0 +1,29 @@
+1. exception handling
+2. collections and generics
+3. new features in C#
+4. ADO.NET
+
+Exception handling:
+
+Errors:
+a. compilation error
+b. runtime error
+	you have written such a code, that system/runtime can't execute
+	runtime stops execution of your code
+	an object of appropriate exception class is created by runtime, which is populated with lots of information about the issue
+	the runtime passes (throws) the reference of that object to the application
+	
+what you neec to do in your code?
+	you need to write your suspected code (the code which you suspect that might throw error or cause issue) inside try block and followed by catch block to catch the reference of the exception object thrown by runtime
+
+
+				Exception 
+data members: message, stackTrace, source, targetSite, lineNumber etc.
+properties: Message, StackTrace, Source, TargetSite, LineNumber etc.
+-----------------------------------------------------------------------------------------
+SystemException						ApplicationException
+	- DivideByZeroException
+	- NullReferenceException
+	- FormatException
+	- IndexOutofRangeException
+	etc.
