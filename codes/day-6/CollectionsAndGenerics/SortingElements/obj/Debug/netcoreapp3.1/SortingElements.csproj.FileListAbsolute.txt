@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\bin\Debug\netcoreapp3.1\SortingElements.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\bin\Debug\netcoreapp3.1\SortingElements.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\bin\Debug\netcoreapp3.1\SortingElements.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\bin\Debug\netcoreapp3.1\SortingElements.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\bin\Debug\netcoreapp3.1\SortingElements.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\bin\Debug\netcoreapp3.1\SortingElements.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\obj\Debug\netcoreapp3.1\SortingElements.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\obj\Debug\netcoreapp3.1\SortingElements.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\obj\Debug\netcoreapp3.1\SortingElements.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\obj\Debug\netcoreapp3.1\SortingElements.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\obj\Debug\netcoreapp3.1\SortingElements.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\obj\Debug\netcoreapp3.1\SortingElements.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\obj\Debug\netcoreapp3.1\SortingElements.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\day-6\CollectionsAndGenerics\SortingElements\obj\Debug\netcoreapp3.1\SortingElements.genruntimeconfig.cache
