@@ -125,3 +125,5 @@ IT is not only used as language for web apps, also used as language for non-web 
 TypeScript: superset of JS, which helps you with data typing, compilation time checking etc.
 
 It's like JS with compile time checking and nice data typification along with some extra feature
+
+Node JS
