@@ -97,3 +97,31 @@ safari: JS core
 
 to access HTML document and its elements from/in JavaScript code file, every browser s/w (such as, chrome, edge, firefox, safari etc.) provides a library containing useful methods (getElementById, addEventListener), objects (document,window etc.) etc.
 it is known Document Object Model (DOM)
+
+
+JS:
+//types of data:
+	a. number
+	b. bool
+	c. string
+	d. object
+
+//variables:
+	using 'var' keyword
+
+JS is loosely-typed language
+JS does not give you any compilation error, since there is no separate compiler for it
+JS will throw rumtime error always, when the JS code is loaded into the browser and then interpreted
+this is why JS is also known as dynamic programming language
+JS can act like any programming language
+IT is not only used as language for web apps, also used as language for non-web app, like desktop app
+
+	
+	undefined, null
+//operators
+//control flow statements
+
+
+TypeScript: superset of JS, which helps you with data typing, compilation time checking etc.
+
+It's like JS with compile time checking and nice data typification along with some extra feature
