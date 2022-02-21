@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        External CSS and JS file Use
+    </title>  
+    <!-- use link tag to link external css files -->
+    <link href="../styles/mystyles.css" rel="stylesheet" type="text/css">
+
+    <!-- use the script tag to link external JS file(s)-->
+    <script src="../scripts/index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- this is inline style -->
+    <!-- <button id="btnFirst" type="button" style="background-color: blueviolet;">Click Me!!!</button> -->
+
+    <!-- <button id="btnFirst" type="button">
+        Click Me!!!
+    </button>
+    <br><br />
+    <button id="btnSecond" type="button">
+        Click Me Again!!!
+    </button> -->
+
+    <!-- style using class selector-->
+    <button id="btnFirst" type="button" class="myStyle" onclick="callMe()">
+        Click Me!!!
+    <br><br />
+    <button id="btnSecond" type="button" onclick="callMeAgain()">
+        Click Me Again!!!
+    </button>
+</body>
+
+</html>

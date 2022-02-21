@@ -1,0 +1,77 @@
+1. HTML - (hypertext markup language): the one which helps to design a web page through some elements (Noun)
+2. CSS - (cascading style sheet): the one which helps you to provide style for HTML elements on the web page (Adjective)
+3. JavaScript: the one, which is the language, to provide interactivity for the HTML elements on the web page (Verb)
+
+create a web page:
+1. technlogies: (HTMl, CSS, JS)
+2. editor: Notepad, Atom, Web Storm, Submlime Text, Visual Studio Code etc.
+
+4. TypeScript
+5. Angular
+
+HTML:
+langauge/technique to create web page design
+
+HTML uses pre-defined tags/elements to create the design
+
+openning tag: <> 
+closing tag: </>
+
+example: <button></button>
+
+attribute:
+tags can have attribute (name-value pair)
+example: id is an attribute with value "button1"
+<button id="button1"> </button>
+
+tags can have nested tags or direct values
+
+a. tag having direct value:
+<button id="button1">Click</button>
+
+Click is the text of the button. the button tag here has no nested tags
+
+b. nested tags:
+	<table>
+		<tr>
+			<td>Name</td>
+		</tr>
+	</table>
+
+c. empty tags: tags which does not contain anything nested (tag or textual value)
+< /> or <> (new style)
+<meta charset="utf-8" /> or <meta charset="utf-8">
+
+every HTML document can have two parts: 
+a. head (information) and 
+b. body (actual web page design)
+
+Head:
+	meta tag: information of web page, such as <meta charset="utf-8">
+
+
+h tag: <h1> to <h6>
+
+CSS:
+style: set backgroynd color of the button
+
+css-property    : value
+background-color: burlywood;
+
+CSS-selector    attribute  css-property    : value
+<button 	style =   "background-color:burlywood;">Click Me!!! </button>
+
+
+event: action performed on an elemen tag. such as click event of button
+as a result of an event, you want some code to be executed, which is written in javascript
+the JS code is written using <script> tag in HTML file
+the <script> tag can be written inside head or body or both
+
+web servers:
+	IIS ( Internet Information Services - Windows)
+	Apache Tomcat
+
+IIS web server path, where web applications should be present to be hosted by IIS (default path)
+C:\inetpub\wwwroot\my-first-web-app
+
+you can host the web app located in some other directory by creating a virtual directory under IIS and mapping the VD to the original location
