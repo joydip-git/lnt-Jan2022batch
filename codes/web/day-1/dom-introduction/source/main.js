@@ -9,6 +9,14 @@ function clickMe() {
 }
 function clickMeFirst() {
     window.alert('button first clicked')
+
+    //create a paragraph element
+    var pElement = document.createElement('p')
+    pElement.setAttribute('id', 'p1');
+    pElement.innerText = 'Joydip'
+
+    var divObject = document.getElementById('nameDiv')
+    divObject.appendChild(pElement)
     // var allScriptTags = document.getElementsByName('script')
     // var scriptTag = allScriptTags[0]
     // window.alert(scriptTag)
