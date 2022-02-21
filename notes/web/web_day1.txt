@@ -11,6 +11,9 @@ create a web page:
 
 HTML:
 langauge/technique to create web page design
+every browser has an HTML engine, which interprets the HTML file, understands the tags and displays the design in the browser
+HTML helps to create static web pages (where the content of the page does not chnage over time)
+you use JS to add inter-activity for the web page, which makes the web page dynamic (it can response to the user interaction)
 
 HTML uses pre-defined tags/elements to create the design
 
@@ -54,6 +57,7 @@ h tag: <h1> to <h6>
 
 CSS:
 style: set backgroynd color of the button
+every browser understands the CSS file content and apply the CSS styles on the HTML tags/elements
 
 css-property    : value
 background-color: burlywood;
@@ -75,3 +79,21 @@ IIS web server path, where web applications should be present to be hosted by II
 C:\inetpub\wwwroot\my-first-web-app
 
 you can host the web app located in some other directory by creating a virtual directory under IIS and mapping the VD to the original location
+
+formatting document:
+VS code: Shift+Alt+F
+VS: Ctrl+K+D
+
+
+
+JavaScript: 
+Scripting Language, Programming Language
+Object-based programming language
+Every browser has JS engine, which compiles and executes the JS code
+example: 
+chrome, edge, opera: these have V8 engine (written in C++). edge and opera are known as chrome kit browser
+firefox: spidermonkey
+safari: JS core
+
+to access HTML document and its elements from/in JavaScript code file, every browser s/w (such as, chrome, edge, firefox, safari etc.) provides a library containing useful methods (getElementById, addEventListener), objects (document,window etc.) etc.
+it is known Document Object Model (DOM)

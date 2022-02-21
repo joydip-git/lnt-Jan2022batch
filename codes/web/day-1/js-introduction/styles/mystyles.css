@@ -1,0 +1,22 @@
+h2, button{
+    font-family: "Lucida Handwriting";
+}
+
+h2 {
+  background-color: limegreen;
+  text-align: center;  
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1px;
+  border-style: dashed;
+}
+div {
+    text-align: center;   
+}
+button{
+    background-color: gray;
+    font-size: medium;   
+}
