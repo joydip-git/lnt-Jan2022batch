@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Dev</title>
+    <script src="./build/calculation.js"></script>
+    <script src="./build/calculator.js"></script>
+    <script src="./build/index.js"></script>
+    <link rel="stylesheet" href="./styles/appstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <fieldset>
+            <legend>Make a Choice:</legend>
+            <input type="radio" id="radioAdd" name="calcuationChoice"> &nbsp; Add &nbsp;&nbsp;
+            <input type="radio" id="radioSubtract" name="calcuationChoice"> &nbsp; Subtract &nbsp;&nbsp;
+            <input type="radio" id="radioMultiply" name="calcuationChoice"> &nbsp; Multiply &nbsp;&nbsp;
+            <input type="radio" id="radioDivide" name="calcuationChoice"> &nbsp; Divide &nbsp;&nbsp;
+        </fieldset>
+    </div>
+    <br>
+    <div class="table-responsive">
+        <table class="table">
+            <tr>
+                <td>
+                    <span>First Number:</span>
+                </td>
+                <td>
+                    <input type="text" placeholder="enter a number here" id="txtFirst">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span> Second Number:</span>
+                </td>
+                <td>
+                    <input type="text" placeholder="enter a number here" id="txtSecond">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="btnStyle">
+                    <button class="btn btn-primary" id="btnCalculate" onclick="doCalculate()" >Calculate</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+input[type="text"] {
+  background-color: beige;
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+span {
+  font-size: medium;
+  font-family: "Lucida Handwriting";
+}
+.btnStyle {
+  text-align: center;
+}
+

@@ -30,7 +30,9 @@ NPM: Node Package Manager=> a downloader s/w (a command line interface/utiliy) t
 
 other CLIs (command line interface) tools: yarn, bower etc. (install them first in your machine and then use them to download and install 3rd party open-source s/w )
 
+package.json file
 "npm init" --> command to create a package.json file and that file should be present at the root of the application directory
+
 
 JSON=> JavaScript Object Notation. It is a format to represent your data. the format is very similar to JS object style
 
@@ -159,6 +161,33 @@ JSON array (of objects) stored as part of another object:
 }
 ]
 }
+
+JSON format is used to configure
+a. applicaion configuration 
+b. compiler, toll configuration etc.
+
+any NPM package (3rd party, open source s/w) that you want to install
+a. install the package globally (any application can use the package) 
+b. install the package locally (in an application you install the package, accessible only to that application)
+
+TypeScript configuration:
+if you want to configure the tsc compiler, 
+a. create a file tsconfig.json at the root of your application directory
+b. then write the settings in that file
+
+web application development:
+1. create a blank folder
+2. add the package.json file at the root of your app directory [>npm init]
+3. install necessary packages [mpm i package-name]
+4. create tsconfig.json file at the root of your app directory and wrote the configuration settings for tsc
+
+5. add the HTML page
+6. create source codes using typescript and place thoe files in a source code folder inside the application directory
+
+7. now run tsc
+8. link the JS file created and stored in the output directory with the HTML file
+
+when you install any package locally or globally, the package gets installed as part of node_modules folder. in that folder there is a .bin folder, where the script files for running those packages are present.
 
 
 

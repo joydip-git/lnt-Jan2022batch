@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "simple application created using ts",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "joydip",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  }
 }
