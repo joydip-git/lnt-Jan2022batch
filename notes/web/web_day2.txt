@@ -194,5 +194,47 @@ when you install any package locally or globally, the package gets installed as 
 3. tool to create Agular app: Angular CLI tool (@angular/cli)
 
 
+Before Angular:
+1. design (HTML)
+2. styles (css)
+3. code (JS/TS)
+4. DOM 
+5. Node JS
+6. NPM
+7. packages and their install and scripts
+8. JSON format
+9. transpilation  and different tools: development server, transpiler and many more
+10. web application development and SPA  and components
+
+s/w: Node JS and NPM, angular cli tool, VS Code (editor) 
+
+Angular: 
+Building block: components
+Component: code (*.ts) + style(*.css) + design (*.html)
+
+Things in Angular:
+Component, Directive, Pipe, Service etc.
+
+everything that you create is a class
+
+everything must have a decorator, which is a function
+
+Component in Angular is a class
+at the top of the class use a decorator function: @Component()
+
+component:
+@Component()
+class SomeComponent{}
+
+app-*-*-*
+
+Pipe: 
+@Pipe()
+class SomePipe{}
+
+Directive:
+@Directive()
+class SomeDirective{}
+
 
 
