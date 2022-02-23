@@ -189,6 +189,10 @@ web application development:
 
 when you install any package locally or globally, the package gets installed as part of node_modules folder. in that folder there is a .bin folder, where the script files for running those packages are present.
 
+1. language: TypeScript (also JS)
+2. transpiler: tsc
+3. tool to create Agular app: Angular CLI tool (@angular/cli)
+
 
 
 

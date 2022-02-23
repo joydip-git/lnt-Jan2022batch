@@ -1,0 +1,16 @@
+{
+  "name": "single-page-app",
+  "version": "1.0.0",
+  "description": "demo of single page app",
+  "scripts": {
+    "convert": "tsc",
+    "server": "lite-server"
+  },
+  "keywords": [],
+  "author": "joydip",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^4.5.5"
+  }
+}
