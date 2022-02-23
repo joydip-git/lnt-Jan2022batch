@@ -1,1 +1,165 @@
-1. dom
+1. callback
+2. new features of JS/TS
+3. TypeScript
+
+TS code -- (convert) --> JS code
+
+1. if you running your web app with latest version of JS code in the older browser with older version of JS engine, the old JS engine might not understand the latest features of JS: convert new version of JS code into older version of JS code
+
+2. also browser's JS engine, anyway, does not understand the TS code: convert TS code into JS code
+
+s/w=> transpiler: to convert TS code into JS code or new version of JS code into older version of JS code
+
+example: babel (new version of JS code into older version of JS code), typescript compiler [tsc - to convert TS code into JS code as well as to the older version of JS code]
+
+typescript compiler was created using Node JS, the server side framework
+install the TSC: use npm to install=> npm install typescript -g
+
+
+when you install Node JS, the files are installed in C:\Program Files\nodejs folder
+when you download and install third-party open-source s/w  like TypeScript compiler, babel compiler, @angualr/cli tool etc., they can be installed into a global folder: 
+C:\Users\joydip\AppData\Roaming\npm
+command: >npm in <s/w-name> -g
+
+
+NPM is a s/w registry, where people can register the open source s/w s
+NPM web site: npmjs.com
+NPM CLI: npm includes a CLI (Command Line Client) that can be used to download and install software
+
+NPM: Node Package Manager=> a downloader s/w (a command line interface/utiliy) to download and install the any other s/w created using Node JS mainly (also non-Node JS s/w s can be downloaded). NPM is installed automatically in your system when you install Node JS. 
+
+other CLIs (command line interface) tools: yarn, bower etc. (install them first in your machine and then use them to download and install 3rd party open-source s/w )
+
+"npm init" --> command to create a package.json file and that file should be present at the root of the application directory
+
+JSON=> JavaScript Object Notation. It is a format to represent your data. the format is very similar to JS object style
+
+JS:
+var anilObj = {
+   name: 'anil',
+   id:1,
+   salary: 1000
+}
+
+
+information about a person in JSON format:
+rules: 
+data/value must be with a propery name, to describe the value
+property name must be in double quotes, followed by a colon (:) and then value
+types of values: string, number, boolean, object . string values must be in double quotes.
+
+JSON object:
+{
+  "name":"anil",
+  "id":1,
+  "salary":1000
+}
+JSON array (of objects)
+[
+ {
+  "name":"anil",
+  "id":1,
+  "salary":1000,
+  "department":{
+     "department-id":1,
+     "department-name":"HR"
+  },
+  "projects":[
+     "CITA", "SIS"
+  ],
+  "addresses":[
+    { 
+      "city":"bangalore",
+      "pincode":560001,
+      "type":"permanent"
+    }, 
+    {
+      "city":"chennai",
+      "pincode":56001,
+      "type":"temporary"
+    }
+  ]
+},
+{
+  "name":"sunil",
+  "id":2,
+  "salary":2000,
+  "department":{
+     "department-id":1,
+     "department-name":"HR"
+  },
+  "projects":[
+     "CITA", "SIS"
+  ],
+  "addresses":[
+    { 
+      "city":"mumbai",
+      "pincode":560001,
+      "type":"permanent"
+    }, 
+    {
+      "city":"chennai",
+      "pincode":56001,
+      "type":"temporary"
+    }
+  ]
+}
+]
+
+JSON array (of objects) stored as part of another object:
+{
+  "employees":[
+ 	{
+  	"name":"anil",
+  	"id":1,
+  	"salary":1000,
+  	"department":{
+     		"department-id":1,
+     		"department-name":"HR"
+  	},
+  	"projects":[
+     		"CITA", "SIS"
+  	],
+ 	 "addresses":[
+    	{ 
+     	 "city":"bangalore",
+     	 "pincode":560001,
+      	"type":"permanent"
+    	}, 
+    	{
+     	 "city":"chennai",
+      	"pincode":56001,
+     	 "type":"temporary"
+    	}
+  	]
+   },
+  {
+  "name":"sunil",
+  "id":2,
+  "salary":2000,
+  "department":{
+     "department-id":1,
+     "department-name":"HR"
+  },
+  "projects":[
+     "CITA", "SIS"
+  ],
+  "addresses":[
+    { 
+      "city":"mumbai",
+      "pincode":560001,
+      "type":"permanent"
+    }, 
+    {
+      "city":"chennai",
+      "pincode":56001,
+      "type":"temporary"
+    }
+  ]
+}
+]
+}
+
+
+
+
