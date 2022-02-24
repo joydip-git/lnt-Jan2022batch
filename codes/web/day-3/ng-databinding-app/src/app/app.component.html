@@ -1,1 +1,28 @@
 <h2>Welcome to Angular</h2>
+<br>
+<!-- the way of binding the method (callMe) of component class with the HTML element event (click) is know as Event Binding. the syntax for event binding is (event-name)="component-class-method-name()" -->
+<button (click)="callMe('soumya')">Click Me!!</button>
+<br />
+
+<!-- the [] syntax of data binding is known as property binding. in this case the name of HTML element's attribute is placed inside the square bracket [], and assigned to the value of component property. any property value of any data type that is displayed using property binding DOES NOT GET converted to string data type. the original data type is maintained-->
+
+<!-- <p [id]="pId" [style.width.px]="pWidth"> -->
+<p id="{{pId}}" [style.width.px]="pWidth">
+
+    <!-- the way we bind the component property data with an HTML element in the design, is known as Data Binding. the syntax {{ }} is known as interpolation or moustache syntax. any property value of any data type that is displayed using interpolation is converted to string data type -->
+
+    Name: &nbsp; {{ message }}
+</p>
+<br />
+<div>
+    <span>Enter Value: &nbsp;</span>
+    <!--txtVal is a variable which will store reference of the DOM object representing the HTML input text element. this variable is known as Template Variable. the syntax to declare a template variable is: <element-name #var-name > -->
+    <!-- text is having two way binding: at the same time the text box's value property is bound to personName using property binding and text box's change event is bound to show() method using event binding-->
+
+    <!-- <input type="text" #txtVal placeholder="enter value here" (change)="show(txtVal.value)" [value]="personName"> -->
+
+    <!--ngModel built-in directive (part of or registered with FormsModule in @angular/forms package) creates an object of a class, named FormControl, which stores reference of the HTML input element DOM object. In this case there is no need of the Template Variable. If you bind any HTML input element with any component model data using ngModel directive, the ngModel will bind the data with 'value' attribute of the HTML element (data-binding) and also will update the component model data if the value of the HTML input element is changed, through event binding. this is known as two-way binding using the syntax [(ngModel)]="component-model-data"-->
+    <input type="text" placeholder="enter value here" [(ngModel)]="personName">
+    <br />
+    <span>Name of the person: &nbsp; {{ personName}}</span>
+</div>

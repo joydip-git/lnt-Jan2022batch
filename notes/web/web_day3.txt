@@ -1,4 +1,4 @@
-component:
+component: [it is a type of directive, just with deisgn]
 	file(in lower case): <name>.component.ts, <name>.component.html, <name>.component.css
 	example: order-view.component.ts, order-view.component.html, order-view.component.css
 	class: <name-pascal casing>Component
@@ -17,5 +17,13 @@ pipe:
    class: FilterPipe
 
 directive:
+   a. attribute
+	example: ngModel (built-in directive), ngFor
+
+   b. structural
+   example: *ngIf
+
+   c. template/component directive
+   example: any component is a directive too
 
 service:
