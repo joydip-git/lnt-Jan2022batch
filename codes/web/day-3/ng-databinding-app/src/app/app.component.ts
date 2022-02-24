@@ -18,6 +18,14 @@ import { Component } from '@angular/core'
 //the design of the component is view
 //the component class is the controller, controlling how the data flows between the design and the code (to and from)
 export class AppComponent {
+    people: string[] = ['joydip', 'amnil', 'sunil']
+    employees = [{
+        name: 'anil', id: 1, salary: 1000, location: 'bangalore'
+    }, {
+        name: 'anil', id: 1, salary: 1000, location: 'bangalore'
+    }, {
+        name: 'anil', id: 1, salary: 1000, location: 'bangalore'
+    }]
     //everything in the class are by default 'public' in TS
     //component data or model or component property
     message: string = 'Soumya';
