@@ -1,0 +1,21 @@
+component:
+	file(in lower case): <name>.component.ts, <name>.component.html, <name>.component.css
+	example: order-view.component.ts, order-view.component.html, order-view.component.css
+	class: <name-pascal casing>Component
+	example: OrderViewComponent
+
+module: 
+	a file where we register some Angular assets (components, pipes, directives, services)
+	does not have any deisgn or css
+   file (in lower case): <name>.module.ts
+   example: order.module.ts
+	class: <name-pascal casing>Module
+	example: OrderModule
+
+pipe: 
+	file (in lower case): <name>.pipe.ts => filter.pipe.ts
+   class: FilterPipe
+
+directive:
+
+service:
