@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-service-demo": {
+    "ng-parent-child-interaction": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ng-service-demo",
+            "outputPath": "dist/ng-parent-child-interaction",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ng-service-demo:build:production"
+              "browserTarget": "ng-parent-child-interaction:build:production"
             },
             "development": {
-              "browserTarget": "ng-service-demo:build:development"
+              "browserTarget": "ng-parent-child-interaction:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-service-demo:build"
+            "browserTarget": "ng-parent-child-interaction:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "ng-service-demo"
+  "defaultProject": "ng-parent-child-interaction"
 }

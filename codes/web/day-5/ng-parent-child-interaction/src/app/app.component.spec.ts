@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ng-service-demo'`, () => {
+  it(`should have as title 'ng-parent-child-interaction'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng-service-demo');
+    expect(app.title).toEqual('ng-parent-child-interaction');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ng-service-demo app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('ng-parent-child-interaction app is running!');
   });
 });

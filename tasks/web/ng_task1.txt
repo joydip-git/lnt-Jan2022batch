@@ -21,6 +21,17 @@ app about displaying product records
 	a. import ProductsModule in the app.module.ts
 	b. use (nest) the product list component in the app commponent design
 
+5. Add a text box at the top of the table in ProductList component design
+	this text box will be used to filter the products in the table by the product name
+	ex: if you enter a letter 'a' or partial text 'ab', then only the products containing the letter a or the partial text ab, should be displayed in the table
+
+6. create a pipe for the abive purpose, register the pipe in appropriate module and use the pipe in the product list component deisgn
+
+7. create a service with method to return all product records from the repository and register in appropriate module
+8. use the service in product list component code to fetch data from repository 
+9. use Dependeny injection for the object of service class
+
+
 [
     {
         "productId": 1,

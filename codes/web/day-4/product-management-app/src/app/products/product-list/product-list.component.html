@@ -18,8 +18,8 @@
                     </div>
                 </td>
                 <td>{{p.productId}}</td>
-                <td>{{p.productName}}</td>
-                <td>{{p.price}}</td>
+                <td>{{p.productName|uppercase}}</td>
+                <td>{{p.price|currency:'INR'}}</td>
                 <td>{{p.description}}</td>
             </tr>
         </tbody>

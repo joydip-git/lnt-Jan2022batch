@@ -3,3 +3,18 @@
 <div class="container">
     <app-product-list></app-product-list>
 </div>
+
+<br>
+<div>
+    <input type="radio" name="numgroup" title="Even" (change)="changeChoice(1)">&nbsp;Even
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="numgroup" title="Odd" (change)="changeChoice(2)">&nbsp;Odd
+</div>
+<div style="width:300px;margin-left: 30px;">
+    <select title="Select a number" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+        <option>--select--</option>
+        <option *ngFor="let num of numbers|numberfilter:choice">
+            {{num}}
+        </option>
+    </select>
+</div>
