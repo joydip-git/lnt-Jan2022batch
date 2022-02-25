@@ -1,6 +1,7 @@
 import { Person } from "src/models/person"
 
-export const places = ['Bangalore', 'Chennai', 'Mumbai']
+export const places: string[] = ['Bangalore', 'Chennai', 'Mumbai']
+
 export const people: Person[] = [{
     id: 1,
     name: 'joydip',
@@ -17,3 +18,15 @@ export const people: Person[] = [{
     salary: 3000,
     location: 'chennai'
 }]
+/*
+export const people: Person[] = [
+    new Person('joydip', 1, 1000, 'bangalore')
+]
+*/
+/**
+ * Person[] people = new person[]
+ * {
+ *    
+ * };
+ * 
+ */
