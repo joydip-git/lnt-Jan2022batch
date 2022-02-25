@@ -1,0 +1,34 @@
+<div style="text-align: center;">
+    <fieldset>
+        <legend>
+            Make a Choice:
+        </legend>
+        <input type="radio" name="radioCalc" id="radioAdd" (change)="saveSelection(1)">&nbsp;Add
+        &nbsp;&nbsp;
+        <input type="radio" name="radioCalc" id="radioSub" (change)="saveSelection(2)">&nbsp;Subtract
+        &nbsp;&nbsp;
+        <input type="radio" name="radioCalc" id="radioMulti" (change)="saveSelection(3)">&nbsp;Mutiply
+        &nbsp;&nbsp;
+        <input type="radio" name="radioCalc" id="radioDiv" (change)="saveSelection(4)">&nbsp;Divide
+    </fieldset>
+    <br>
+    <table>
+        <tr>
+            <td>First Number:</td>
+            <td><input type="text" [(ngModel)]="firstNumber"></td>
+        </tr>
+        <tr>
+            <td>Second Number:</td>
+            <td><input type="text" [(ngModel)]="secondNumber"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button (click)="calculate()">Calculate</button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <div>
+        <span>Result:&nbsp;&nbsp;{{result}}</span>
+    </div>
+</div>

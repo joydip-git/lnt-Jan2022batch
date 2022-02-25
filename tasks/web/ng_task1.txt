@@ -1,0 +1,18 @@
+1. create a models folder
+	a. create a class Product, with following attributes
+		- id, price, name, description (string), imagePath (string)
+2. create a repository folder
+	a. add a file named 'products.ts'
+	b. create an arrary to store sample Product class objects and export the sam
+3. create a component, named ProductListComponent
+	a. fetch the product array from repository
+	b. display the products using a table in the design
+	c. register the component with a new child module
+		i. create a module file product.module.ts
+		ii. create a module class ProductModule
+		iii. register ProductListComponent here
+		iv. make the ProductListComponent exportable
+4. in App component:
+	a. import ProductModule
+	b. use (nest) the product list component in the app commponent design
+	
