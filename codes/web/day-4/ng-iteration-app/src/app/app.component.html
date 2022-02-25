@@ -1,0 +1,50 @@
+Locations:<br />
+<!-- ngIf, ngFor belongs to common module from @angular/common package. If you have imported BrowserModule, then you do not need to import CommonModule separately, otherwise you need to import CommonModule separately-->
+<ol *ngIf="locations && locations.length>0; else alternateDesign">
+  <!-- 
+    if(locations.length>0){
+    for(let loc of locations){
+      const li = document.createElement('li')
+      li.innerText=loc
+    }
+  }
+  else
+     {
+       //code
+     }
+  -->
+  <!-- declarative syntax: {{ prop-name }}, [attr-name]="prop-name", (event-name)="method", ngModel-->
+  <!-- angular uses declarative programming -->
+  <!--ngFor (short form og ngForOf) is a structural directive -->
+  <li *ngFor="let loc of locations" type="square">
+    {{loc}}
+  </li>
+</ol>
+
+<!-- to render an HTML design, used frequently with ngIf to render an alternate design template-->
+<ng-template #alternateDesign>
+  <div>No locations found</div>
+</ng-template>
+
+<br><br><br>
+<table *ngIf="peopleRecords && peopleRecords.length>0; else alternateMessage">
+  <thead>
+    <tr>
+      <td>Id</td>
+      <td>Name</td>
+      <td>Salary</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of peopleRecords">
+      <td>{{ p.id}}</td>
+      <!-- <td (click)="showLocation(p.location, p.name)">{{p.name}}</td> -->
+      <td (click)="showLocation(p.id)">{{p.name}}</td>
+      <td>{{p.salary}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<ng-template #alternateMessage>
+  <div>No Person record found</div>
+</ng-template>

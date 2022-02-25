@@ -18,10 +18,10 @@ pipe:
 
 directive:
    a. attribute
-	example: ngModel (built-in directive), ngFor
+	example: ngModel (built-in directive)
 
    b. structural
-   example: *ngIf
+   example: *ngIf, *ngFor
 
    c. template/component directive
    example: any component is a directive too
