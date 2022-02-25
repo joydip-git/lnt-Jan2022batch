@@ -1,0 +1,29 @@
+A. create a service (class alnog with reusable methods)
+
+B. register angular service:
+a. component, pipe, directive level => the object of the service is for that component/pipe/directive only
+@Component({ providers:[]})
+@Pipe({ providers:[]})
+@Directive({ providers:[]})
+
+b. child module level => the object of the service is available to every asset of this child module 
+
+@NgModule({ providers:[]})
+class SomeChildModule{}
+
+c. application or root level => the object of the service is available to every asset of the entire application
+
+@NgModule({ providers:[]})
+class AppModule{}
+
+C. ask for dependency injection
+Component => 
+class SomeComponent{
+	constructor(private svcRef:ServiceClassName){
+	}
+
+	public SomeMethod(){
+		this.svcRef.ServiceMethod();
+	}
+}
+
