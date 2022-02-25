@@ -1,0 +1,9 @@
+1. create a models folder
+	a. create a class Product, with following attributes
+		- id, price, name, description (string), imagePath (string)
+2. create a repository folder
+	a. add a file named 'products.ts'
+	b. create an arrary to store sample Product class objects and export the same
+3. in App component:
+	a. fetch the product array from repository
+	b. display the products in a table in the design
