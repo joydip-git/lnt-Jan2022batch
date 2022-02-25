@@ -4,15 +4,17 @@
 2. create a repository folder
 	a. add a file named 'products.ts'
 	b. create an arrary to store sample Product class objects and export the sam
-3. create a component, named ProductListComponent
+3. create a folder by the name 'products' inside the 'app' foler
+4. create a sub-folder by the name 'product-list'
+5. create a component, named ProductListComponent [product-list.component.ts, product-list.component.html, product-list.component.css etc.] in the 'product-list' folder
 	a. fetch the product array from repository
 	b. display the products using a table in the design
 	c. register the component with a new child module
-		i. create a module file product.module.ts
-		ii. create a module class ProductModule
+		i. create a module file products.module.ts, directly under 'products' folder [NOT in  the sub-folder 'product-list']
+		ii. create a module class ProductsModule
 		iii. register ProductListComponent here
 		iv. make the ProductListComponent exportable
 4. in App component:
-	a. import ProductModule
+	a. import ProductsModule in the app.module.ts
 	b. use (nest) the product list component in the app commponent design
 	
