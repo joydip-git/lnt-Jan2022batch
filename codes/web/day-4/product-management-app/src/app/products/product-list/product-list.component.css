@@ -1,0 +1,11 @@
+img {
+  width: 50px;
+  margin: 2px;
+}
+thead {
+  background-color: burlywood;
+}
+#divProducts {
+  margin-left: 10px;
+  margin-right: 10px;
+}

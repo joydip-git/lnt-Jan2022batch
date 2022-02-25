@@ -14,7 +14,9 @@ app about displaying product records
 		i. create a module file products.module.ts, directly under 'products' folder [NOT in  the sub-folder 'product-list']
 		ii. create a module class ProductsModule
 		iii. register ProductListComponent here
+
 		iv. make the ProductListComponent exportable
+
 4. in App component:
 	a. import ProductsModule in the app.module.ts
 	b. use (nest) the product list component in the app commponent design

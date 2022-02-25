@@ -1,0 +1,31 @@
+<div id="divProducts" class="table-responsive">
+    <table *ngIf="productsData && productsData.length>0; else alternate" class="table">
+        <thead>
+            <tr>
+                <td>Image</td>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of productsData">
+                <td>
+                    <!-- <img src="{{p.imagePath}}" alt="NA"> -->
+                    <div class="img-responsive">
+                        <img [src]="p.imagePath" alt="NA">
+                    </div>
+                </td>
+                <td>{{p.productId}}</td>
+                <td>{{p.productName}}</td>
+                <td>{{p.price}}</td>
+                <td>{{p.description}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ng-template #alternate>
+        <div>No products found</div>
+    </ng-template>
+</div>
