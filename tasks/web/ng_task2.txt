@@ -1,0 +1,11 @@
+1. create an angular app
+2. create a service class
+	a. method to add two numbers
+	b. method to subtract two numbers
+	Note: both methods accepts two arguments of type number and returns number data type
+	public MethodName(a: number, b: number):number { return 0;}
+5. register your service at the root level
+4. create a component which can call that service methods for adding two numbers and subtracting two numbers
+5. register the component at the root level
+6. nest the component in the app component design
+	
