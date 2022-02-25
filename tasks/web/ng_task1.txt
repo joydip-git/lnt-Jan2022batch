@@ -74,6 +74,8 @@ app about displaying product records
 
 
 data: products data
+	a. model, represents the type of data to work with
+	b. sample data storage (array of product objects)
     access from a component
-			   display the in the componeht design
+			   display the in the component design
 	
