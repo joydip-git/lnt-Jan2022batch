@@ -1,0 +1,26 @@
+<div class="conatiner">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Phone</td>
+                    <td>Company</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of usersData">
+                    <td>
+                        <div [routerLink]="['/users',user.id,'posts']">
+                            {{user.username}}
+                        </div>
+                    </td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.phone}}</td>
+                    <td>{{user.company.name}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

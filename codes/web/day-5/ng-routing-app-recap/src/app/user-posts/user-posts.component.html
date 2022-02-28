@@ -1,0 +1,23 @@
+<div class="conatiner">
+    <div style="float: right;">
+        <button class="btn btn-primary" (click)="goBack()">Go Back</button>
+    </div>
+    <div class="table-responsive" style="float: left;">
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>Id</td>
+                    <td>Title</td>
+                    <td>Body</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let post of posts">
+                    <td>{{post.id}}</td>
+                    <td>{{post.title}}</td>
+                    <td>{{post.body}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -28,6 +28,14 @@ a. nested component interaction
 b. routed component interaction
 
 built-in angular service: Router, ActivatedRoute, ActivatedRouterSnapshot
+built-in angular directives: router-outlet, routerLink
+built-in classes: Route, Routes
+built-in module: RouterModule
+
+
 ActivatedRoute: represent the current active route
+
+HttpClient: built-in service class, which helps you to perform http requests
+the methods of this class, returns an observable object containing actual response. if the response contain JSON data, convert that to your model data using pipe() method of observable, in the pipe() method pass logic of transformation.
 
 
