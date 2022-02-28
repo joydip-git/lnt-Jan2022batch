@@ -22,3 +22,12 @@ export class AppComponent {
 <h4>{{parentData}}</h4>
 
 the property data of the component class (code) is available in the component design (html) of the same component
+
+component interaction: interaction between two components (data flow between two components)
+a. nested component interaction
+b. routed component interaction
+
+built-in angular service: Router, ActivatedRoute, ActivatedRouterSnapshot
+ActivatedRoute: represent the current active route
+
+

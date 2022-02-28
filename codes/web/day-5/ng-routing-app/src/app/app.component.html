@@ -1,5 +1,17 @@
 App (route) Component
-<br>
+<nav class="navbar navbar-default">
+    <div>
+        <button routerLink="/home" class="btn btn-group">
+            Home
+        </button>
+        <button routerLink="/some" class="btn btn-group">
+            Some
+        </button>
+        <button routerLink="/another" class="btn btn-group">
+            Another
+        </button>
+    </div>
+</nav>
 <!-- the place where some or another component will be displayed -->
 <!-- route-outlet directive reserves the place where routed components can be displayed -->
 <router-outlet>
