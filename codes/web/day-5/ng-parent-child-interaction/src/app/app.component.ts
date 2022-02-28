@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-parent-child-interaction';
+  parentData: string = 'data from parent (app) component'
+  childData: string = '';
+
+  receiveDataFromChild(data: string) {
+    this.childData = data
+  }
 }

@@ -1,0 +1,24 @@
+1. component interaction
+2. forms and validation
+3. routing
+
+component: metadata of the component + code (class with data/properties) + design (html)
+
+import { Component } from '@angular/core';
+
+//metadata
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+
+//component class code
+export class AppComponent {
+  parentData: string = 'data from parent (app) component'
+}
+
+//design
+<h4>{{parentData}}</h4>
+
+the property data of the component class (code) is available in the component design (html) of the same component
