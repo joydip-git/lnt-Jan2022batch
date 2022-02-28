@@ -1,0 +1,17 @@
+<form>
+    <div>
+        <label for="">Id:&nbsp;</label>
+        <input type="text" id='txtId' name="" placeholder="enter id here" #idinput />
+    </div>
+    <div>
+        <label for="">Name:&nbsp;</label>
+        <input type="text" id='txtName' name="" placeholder="enter name here" #nameinput />
+    </div>
+    <div>
+        <label for="">Salary:&nbsp;</label>
+        <input type="text" id='txtSalary' name="" placeholder="enter salary here" #salaryinput />
+    </div>
+    <div>
+        <button type="button" (click)="submitData(idinput.value,nameinput.value,salaryinput.value)">Submit</button>
+    </div>
+</form>

@@ -38,4 +38,12 @@ ActivatedRoute: represent the current active route
 HttpClient: built-in service class, which helps you to perform http requests
 the methods of this class, returns an observable object containing actual response. if the response contain JSON data, convert that to your model data using pipe() method of observable, in the pipe() method pass logic of transformation.
 
+Angular forms:
+a. template-driven forms
+b. reactive forms
+
+validation:
+a. built-in
+b. custom
+
 

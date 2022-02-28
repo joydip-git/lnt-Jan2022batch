@@ -1,0 +1,61 @@
+<!-- <form name="personFrm" #personForm="ngForm">
+    <div>
+        <label for="">Id:&nbsp;</label>
+        <input type="text" id='txtId' name="txtid" placeholder="enter id here" ngModel />
+    </div>
+    <div>
+        <label for="">Name:&nbsp;</label>
+        <input type="text" id='txtName' name="txtname" placeholder="enter name here" ngModel />
+    </div>
+    <div>
+        <label for="">Salary:&nbsp;</label>
+        <input type="text" id='txtSalary' name="txtsalary" placeholder="enter salary here" ngModel />
+    </div>
+    <div>
+        <button type="button" (click)="submitData(personForm.form)">Submit</button>
+    </div>
+</form> -->
+<form #personfrm="ngForm">
+    <div>
+        <label for="">Id:&nbsp;</label>
+        <input type="number" id='txtId' name="txtid" placeholder="enter id here" [(ngModel)]="personInfo.id"
+            #id="ngModel" required />
+    </div>
+
+    <div *ngIf="id.invalid && (id.dirty || id.touched)" class="alert">
+        <div *ngIf="id.errors?.['required']">
+            Id is required
+        </div>
+    </div>
+
+    <div>
+        <label for="">Name:&nbsp;</label>
+        <input type=" text" id='txtName' name="txtname" placeholder="enter name here" [(ngModel)]="personInfo.name"
+            #name="ngModel" required />
+    </div>
+
+    <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert">
+        <div *ngIf="name.errors?.['required']">
+            Name is required
+        </div>
+    </div>
+
+    <div>
+        <label for="">Salary:&nbsp;</label>
+        <input type="number" id='txtSalary' name="txtsalary" placeholder="enter salary here"
+            [(ngModel)]="personInfo.salary" #salary="ngModel" required max="10000" />
+    </div>
+
+    <div *ngIf="salary.invalid && (salary.dirty || salary.touched)" class="alert">
+        <div *ngIf="salary.errors?.['required']">
+            Salary is required
+        </div>
+        <div *ngIf="salary.errors?.['max']">
+            your Salary {{salary.errors?.['max'].actual}} should be NOT greater than {{salary.errors?.['max'].max}}
+        </div>
+    </div>
+
+    <div>
+        <button type="button" (click)="submitData(personfrm.form)">Submit</button>
+    </div>
+</form>
