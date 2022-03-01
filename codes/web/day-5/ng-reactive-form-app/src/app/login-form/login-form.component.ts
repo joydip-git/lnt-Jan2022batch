@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup, FormBuilder } from '@angular/forms';
+import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { passwordValidator } from '../custom-validators/password-validator';
 
 @Component({
   selector: 'app-login-form',
@@ -12,13 +13,35 @@ export class LoginFormComponent implements OnInit {
   // password: FormControl = new FormControl('')
 
   // loginform: FormGroup = new FormGroup({
-  //   username: new FormControl(''),
-  //   password: new FormControl('')
+  //   username: new FormControl(
+  //     '',
+  //     [
+  //       Validators.required,
+  //       Validators.email
+  //     ]
+  //   ),
+  //   password: new FormControl(
+  //     '',
+  //     [
+  //       Validators.required,
+  //       Validators.minLength(6),
+  //       Validators.maxLength(10)
+  //     ]
+  //   )
   // })
 
   loginform: FormGroup = this._fb.group({
-    username: [''],
-    password: ['']
+    username: [
+      '',
+      [Validators.required, Validators.email]
+    ],
+    password: [
+      '',
+      [
+        Validators.required,
+        passwordValidator(6, 10)
+      ]
+    ]
   })
 
   constructor(private _fb: FormBuilder) { }
@@ -27,6 +50,6 @@ export class LoginFormComponent implements OnInit {
   }
 
   submitData() {
-    console.log(this.loginform.value)
+    console.log(this.loginform)
   }
 }

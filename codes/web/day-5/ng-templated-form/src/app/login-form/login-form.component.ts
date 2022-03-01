@@ -33,7 +33,8 @@ export class LoginFormComponent {
         password: ''
     }
 
-    submitData() {
+    submitData(frm: any) {
+        console.log(frm)
         console.log(this.userInfo)
     }
 }

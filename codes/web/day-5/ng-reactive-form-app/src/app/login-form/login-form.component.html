@@ -5,10 +5,60 @@
         <input type="email" class="form-control" name="username" id="username" formControlName="username">
     </div>
 
+    <div [hidden]="loginform.controls['username'].valid || loginform.controls['username'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="loginform.controls['username'].errors?.['required']">
+            User name is required
+        </div>
+        <div *ngIf="loginform.controls['username'].errors?.['email']">
+            User name must be an email id
+        </div>
+    </div>
+
     <div class="form-group">
         <label for="password">Password:&nbsp;</label>
         <!-- <input type="password" class="form-control" name="password" id="password" [formControl]="password"> -->
         <input type="password" class="form-control" name="password" id="password" formControlName="password">
+    </div>
+
+    <div [hidden]="loginform.controls['password'].valid || loginform.controls['password'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="loginform.controls['password'].errors?.['required']">
+            Password is required
+        </div>
+        <!-- <div *ngIf="loginform.controls['password'].errors?.['minlength']">
+            Password length should be {{loginform.controls['password'].errors?.['minlength'].requiredLength}}. Current
+            length:{{loginform.controls['password'].errors?.['minlength'].actualLength}}
+        </div>
+        <div *ngIf="loginform.controls['password'].errors?.['maxlength']">
+            Password length should NOT be more
+            than{{loginform.controls['password'].errors?.['maxlength'].requiredLength}}. Current
+            length:{{loginform.controls['password'].errors?.['maxlength'].actualLength}}
+        </div> -->
+
+        <div *ngIf="loginform.controls['password'].errors?.['minlengtherror']">
+            Password length should be length:
+            {{loginform.controls['password'].errors?.['minlengtherror'].expectedlength}}.
+            Current length:
+            length:{{loginform.controls['password'].errors?.['minlengtherror'].currentlength}}
+        </div>
+        <div *ngIf="loginform.controls['password'].errors?.['maxlengtherror']">
+            Password length should NOT be more
+            than{{loginform.controls['password'].errors?.['maxlengtherror'].expectedlength}}. Current
+            length:{{loginform.controls['password'].errors?.['maxlengtherror'].currentlength}}
+        </div>
+
+        <div *ngIf="loginform.controls['password'].errors?.['uppercase']">
+            {{loginform.controls['password'].errors?.['uppercase']}}
+        </div>
+
+        <div *ngIf="loginform.controls['password'].errors?.['lowercase']">
+            {{loginform.controls['password'].errors?.['lowercase']}}
+        </div>
+
+        <div *ngIf="loginform.controls['password'].errors?.['digit']">
+            {{loginform.controls['password'].errors?.['digit']}}
+        </div>
     </div>
 
     <div id="submitDiv">
