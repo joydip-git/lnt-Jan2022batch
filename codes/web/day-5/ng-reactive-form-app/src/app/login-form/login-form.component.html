@@ -1,0 +1,17 @@
+<form [formGroup]="loginform" (ngSubmit)="submitData()">
+    <div class="form-group">
+        <label for="username">User Name:&nbsp;</label>
+        <!-- <input type="email" class="form-control" name="username" id="username" [formControl]="username"> -->
+        <input type="email" class="form-control" name="username" id="username" formControlName="username">
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password:&nbsp;</label>
+        <!-- <input type="password" class="form-control" name="password" id="password" [formControl]="password"> -->
+        <input type="password" class="form-control" name="password" id="password" formControlName="password">
+    </div>
+
+    <div id="submitDiv">
+        <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+</form>

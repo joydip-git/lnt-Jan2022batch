@@ -46,4 +46,9 @@ validation:
 a. built-in
 b. custom
 
+command to create component without test case files:
+>ng generate component <component-name> --skip-tests
+or
+>ng g c <component-name> --skip-tests
+
 
