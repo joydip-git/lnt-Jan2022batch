@@ -66,7 +66,7 @@ export function passwordValidator(minlen: number, maxlen: number): ValidatorFn {
 }
 */
 
-import { Directive } from "@angular/core";
+import { Directive, OnInit } from "@angular/core";
 import { AbstractControl, NG_VALIDATORS, ValidationErrors, Validator } from "@angular/forms";
 
 @Directive({
@@ -77,11 +77,17 @@ import { AbstractControl, NG_VALIDATORS, ValidationErrors, Validator } from "@an
         multi: true
     }]
 })
-export class PasswordValidatorDirective implements Validator {
+export class PasswordValidatorDirective implements Validator, OnInit {
+    constructor() {
+        console.log('object created')
+    }
+    ngOnInit(): void {
+
+    }
     validate(control: AbstractControl): ValidationErrors | null {
         const pwd: string = <string>control.value;
         // let errors = { uppercase: '', lowercase: '', digit: '' }
-
+        console.log('validator called')
         if (pwd.length < 6)
             return {
                 minlengtherror: {
@@ -135,5 +141,4 @@ export class PasswordValidatorDirective implements Validator {
 
         return null;
     }
-
 }

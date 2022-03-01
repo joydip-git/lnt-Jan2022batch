@@ -22,7 +22,7 @@
         <!-- <input type="password" class="form-control" name="password" id="password" #passwordctrl="ngModel" required
             minlength="6" maxlength="12" [(ngModel)]="userInfo.password"> -->
         <input type="password" class="form-control" name="password" id="password" #passwordctrl="ngModel" required
-            passwordValidator [(ngModel)]="userInfo.password">
+            [(ngModel)]="userInfo.password" passwordValidator>
     </div>
 
     <!-- <div [hidden]="passwordctrl.valid || passwordctrl.pristine" class="alert alert-danger"> -->
@@ -35,14 +35,14 @@
             typed {{passwordctrl.errors?.['minlength'].actualLength}} character
         </div> -->
         <div *ngIf="passwordctrl.errors?.['minlengtherror']">
-            the password must have minimum {{passwordctrl.errors?.['minlengtherror'].expectedlength}} characters. you
-            have
-            typed {{passwordctrl.errors?.['minlengtherror'].currentlength}} characters
+
+            the password must have minimum {{passwordctrl.errors?.['minlengtherror'].expectedlength}} characters.
+
+            you have typed {{passwordctrl.errors?.['minlengtherror'].currentlength}} characters
         </div>
         <div *ngIf="passwordctrl.errors?.['maxlengtherror']">
-            the password must have minimum {{passwordctrl.errors?.['maxlengtherror'].expectedlength}} characters. you
-            have
-            typed {{passwordctrl.errors?.['maxlengtherror'].currentlength}} characters
+            the password must have minimum {{passwordctrl.errors?.['maxlengtherror'].expectedlength}} characters.
+            you have typed {{passwordctrl.errors?.['maxlengtherror'].currentlength}} characters
         </div>
         <div *ngIf="passwordctrl.errors?.['digit']">
             {{passwordctrl.errors?.['digit']}}
