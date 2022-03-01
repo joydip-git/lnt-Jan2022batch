@@ -1,0 +1,17 @@
+<form ngForm #frm="ngForm" (click)="submitdata(frm)">
+  Enter Value:<input type="text" placeholder="enter value" ngModel #val="ngModel" required appLengthValidator="5"
+    name="valdata">
+  <br>
+  <div [hidden]="val.valid || val.pristine">
+    <div *ngIf="val.errors?.['required']">
+      enter value
+    </div>
+    <div *ngIf="val.errors?.['lengtherror']">
+      {{val.errors?.['lengtherror']}}
+    </div>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+
+<!--AppComponent is parent and RehistrationComponent is child of or nested in AppComponent-->
+<!-- <app-registration></app-registration> -->
