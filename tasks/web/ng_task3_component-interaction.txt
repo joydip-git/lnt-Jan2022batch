@@ -1,0 +1,16 @@
+1. Create an angular app
+2. create another component: registration component. It will be nested component.
+	through the form in the design accept following values from user:
+	a. name
+	b. username
+	c. password
+	d. retype password
+	e. mobile no
+	on the form place a button to submit the complete form data
+	(for testing pupose just print the form values in the console: name, password, username and mobile no)
+
+	register the component in the app module
+	nest the component in app.component.html file
+
+3. this form data which is part of the registration component should be passwed to the app component and display the same form data (name, password, username and mobile no), but through app component
+	
