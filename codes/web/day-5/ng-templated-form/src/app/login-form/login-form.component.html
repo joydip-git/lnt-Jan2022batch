@@ -1,0 +1,14 @@
+<form>
+    <div class="form-group">
+        <label for="username">User Name:&nbsp;</label>
+        <input type="email" class="form-control" name="username" id="username" #usernamectrl="ngModel" ngModel>
+    </div>
+    <div class="form-group">
+        <label for="password">Password:&nbsp;</label>
+        <input type="password" class="form-control" name="password" id="password" #passwordctrl="ngModel" ngModel>
+    </div>
+    <div id="submitDiv">
+        <button type="button" class="btn btn-success"
+            (click)="submitData(usernamectrl.value, passwordctrl.value)">Submit</button>
+    </div>
+</form>
