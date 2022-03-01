@@ -1,14 +1,45 @@
-<form>
+<!-- <form ngForm #loginfrmctrl="ngForm" (ngSubmit)="submitData(usernamectrl.value, passwordctrl.value)"> -->
+<!-- <form ngForm #loginfrmctrl="ngForm" (ngSubmit)="submitData(loginfrmctrl.value)"> -->
+<form ngForm #loginfrmctrl="ngForm" (ngSubmit)="submitData();loginfrmctrl.reset()">
     <div class="form-group">
         <label for="username">User Name:&nbsp;</label>
-        <input type="email" class="form-control" name="username" id="username" #usernamectrl="ngModel" ngModel>
+        <input type="email" class="form-control" name="username" id="username" #usernamectrl="ngModel" required email
+            [(ngModel)]="userInfo.username">
     </div>
+
+    <!-- <div [hidden]="usernamectrl.valid || usernamectrl.pristine" class="alert alert-danger"> -->
+    <div *ngIf="usernamectrl.invalid && (usernamectrl.pristine|| usernamectrl.dirty)" class="alert alert-danger">
+        <div *ngIf="usernamectrl.errors?.['required']">
+            Name is required
+        </div>
+        <div *ngIf="usernamectrl.errors?.['email']">
+            the user name should be in email format
+        </div>
+    </div>
+
     <div class="form-group">
         <label for="password">Password:&nbsp;</label>
-        <input type="password" class="form-control" name="password" id="password" #passwordctrl="ngModel" ngModel>
+        <input type="password" class="form-control" name="password" id="password" #passwordctrl="ngModel" required
+            minlength="6" maxlength="12" [(ngModel)]="userInfo.password">
     </div>
+
+    <!-- <div [hidden]="passwordctrl.valid || passwordctrl.pristine" class="alert alert-danger"> -->
+    <div *ngIf="passwordctrl.invalid && (passwordctrl.pristine|| passwordctrl.dirty)" class="alert alert-danger">
+        <div *ngIf="passwordctrl.errors?.['required']">
+            Pasword is required
+        </div>
+        <div *ngIf="passwordctrl.errors?.['minlength']">
+            the password must have minimum {{passwordctrl.errors?.['minlength'].requiredLength}} characters. you have
+            typed {{passwordctrl.errors?.['minlength'].actualLength}} character
+        </div>
+    </div>
+
     <div id="submitDiv">
-        <button type="button" class="btn btn-success"
-            (click)="submitData(usernamectrl.value, passwordctrl.value)">Submit</button>
+        <!-- <button type="submit" class="btn btn-success"
+            (click)="submitData(usernamectrl.value, passwordctrl.value)">Submit</button> -->
+        <!-- <button type="submit" class="btn btn-success"
+                        (click)="submitData(loginfrmctrl.value)">Submit</button> -->
+        <!-- <button type="submit" class="btn btn-success" (click)="submitData()">Submit</button> -->
+        <button type="submit" class="btn btn-success" [disabled]="!loginfrmctrl.form.valid">Submit</button>
     </div>
 </form>

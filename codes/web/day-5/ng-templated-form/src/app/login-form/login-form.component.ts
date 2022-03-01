@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
-import { FormControl, NgModel } from "@angular/forms";
+// import { FormControl, NgForm, NgModel } from "@angular/forms";
+import { User } from "../models/user";
 
 @Component({
     selector: 'app-login-form',
@@ -13,7 +14,26 @@ export class LoginFormComponent {
     //     console.log(unamectrl.control.value)
     //     console.log(pwdctrl.control.value)
     // }
-    submitData(uname: string, pwd: string) {
-        console.log(uname, pwd)
+    // submitData(frm: NgForm) {
+    //     /**
+    //      * frm.form.value =>
+    //      * {
+    //      *  username:'',
+    //      *  password:''
+    //      * }
+    //      */
+    //     console.log(frm.form.value)
+    // }
+    // submitData(frmData: any) {
+    //     console.log(frmData)
+    // }
+
+    userInfo: User = {
+        username: '',
+        password: ''
+    }
+
+    submitData() {
+        console.log(this.userInfo)
     }
 }
