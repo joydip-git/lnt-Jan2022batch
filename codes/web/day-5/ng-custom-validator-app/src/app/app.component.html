@@ -1,20 +1,56 @@
+<!--
 <div>
   Enter Data:&nbsp;&nbsp;
   <input type="text" placeholder="enter data here" [formControl]="inputdata">
+</div>
+  a div for different messages. display this div only if the input element validations have failed or no value has been entered in the input element yet
 
-  <!-- a div for different messages. display this div only if the input element validations have failed or no value has been entered in the input element yet-->
-  <div [hidden]="inputdata.valid || inputdata.pristine">
-    <!-- div to display error messages from rqeuired validation failure-->
-    <div *ngIf="inputdata.errors?.['required']">
-      Data is required
-    </div>
-    <!-- div to display error messages from uppercase check validation failure-->
-    <div *ngIf="inputdata.errors?.['noUpperCase'].status">
-      <!-- Data must have at least one upper case -->
-      {{ inputdata.errors?.['noUpperCase'].message }}
-    </div>
+<div [hidden]="inputdata.valid || inputdata.pristine">
+ div to display error messages from rqeuired validation failure
+  <div *ngIf="inputdata.errors?.['required']">
+    Data is required
+  </div>
+  div to display error messages from uppercase check validation failure
+  <div *ngIf="inputdata.errors?.['noUpperCase']">
+     Data must have at least one upper case
+    {{ inputdata.errors?.['noUpperCase'].message }}
+  </div>
+ div to display error messages from length validator validation failure
+  <div *ngIf="inputdata.errors?.['lengtherror']">
+   Data must have at least one upper case
+    {{ inputdata.errors?.['lengtherror'].message }}
   </div>
 </div>
-<div>
-  <button type="button" (click)="submit()">Submit</button>
 </div>
+<div>
+  <button type="submit" [disabled]="inputdata.invalid" (click)="submit()">Submit</button>
+</div>-->
+
+<form [formGroup]="login">
+  <div>
+    Enter User Name:&nbsp;&nbsp;
+    <input type="text" placeholder="enter data here" formControlName="username">
+  </div>
+
+  <div [hidden]="login.controls['username'].valid || login.controls['username'].pristine">
+    <div *ngIf="login.controls['username'].errors?.['required']">
+      username is required
+    </div>
+  </div>
+  <div>
+    Enter Password:&nbsp;&nbsp;
+    <input type="text" placeholder="enter data here" formControlName="password">
+  </div>
+  <div [hidden]="login.controls['password'].valid || login.controls['password'].pristine">
+    <div *ngIf="login.controls['password'].errors?.['required']">
+      password is required
+    </div>
+    <div *ngIf="login.controls['password'].errors?.['lengtherror']">
+      {{login.controls['password'].errors?.['lengtherror'].message}}
+      current length is: &nbsp; {{login.controls['password'].errors?.['lengtherror'].currentlength}}
+    </div>
+  </div>
+  <div>
+    <button type="submit" [disabled]="!login.valid" (click)="submit()">Submit</button>
+  </div>
+</form>
