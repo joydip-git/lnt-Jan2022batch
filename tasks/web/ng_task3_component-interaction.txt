@@ -20,4 +20,7 @@ note: create the registration component using Reactive Form style (try also temp
 
 5. create another component in the same application: Confirmation component and pass the data, that App component has received from registration component, to this new confirmation component, where you display the values (name, password, username, mobile no)
 
+6. create a custom validator for checking password (should have one uppercase, one lowercase, length should be between 6 and 12, one digit and one special character)
+7. create a custom validator for comparing the password and retype password
+
 	
