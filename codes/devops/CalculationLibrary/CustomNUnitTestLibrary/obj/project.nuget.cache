@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yUFV4iE/zd+l871u46FAulnWbEX4MD0mIzUUcUR4KW3mMaaZR/g2aJwND+JmKNkl5lqdF74zUG3KYOTy54bBIQ==",
+  "success": true,
+  "projectFilePath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\devops\\CalculationLibrary\\CustomNUnitTestLibrary\\CustomNUnitTestLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joydip\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\joydip\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\joydip\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512"
+  ],
+  "logs": []
+}

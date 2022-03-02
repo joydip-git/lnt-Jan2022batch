@@ -1,3 +1,20 @@
-1. git
-2. unit testing
+1. unit testing
+2. git
 3. jenkins
+
+white box 
+	- unit testing
+black box
+
+testing tool
+	- xunit
+	- nunit
+	- MS test
+
+
+Method CalculationLibraryTestProject.CalculationTest.Initialize has wrong signature. The method must be static, public, does not return a value and should take a single parameter of type TestContext. Additionally, if you are using async-await in method then return-type must be Task.
+
+
+NUnit features a fluent assert syntax, parameterized, generic and theory tests and is user-extensible.
+
+This package includes the NUnit 3 framework assembly, which is referenced by your tests. You will need to install version 3 of the nunit3-console program or a third-party runner that supports NUnit 3 in order to execute tests. Runners intended for use with NUnit 2.x will not run NUnit 3 tests correctly.

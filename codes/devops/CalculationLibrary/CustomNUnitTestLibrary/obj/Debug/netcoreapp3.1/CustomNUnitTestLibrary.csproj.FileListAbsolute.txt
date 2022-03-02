@@ -1,0 +1,13 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\bin\Debug\netcoreapp3.1\CustomNUnitTestLibrary.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\bin\Debug\netcoreapp3.1\CustomNUnitTestLibrary.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\bin\Debug\netcoreapp3.1\CustomNUnitTestLibrary.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\bin\Debug\netcoreapp3.1\CalculationLibrary.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\bin\Debug\netcoreapp3.1\CalculationLibrary.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\obj\Debug\netcoreapp3.1\CustomNUnitTestLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\obj\Debug\netcoreapp3.1\CustomNUnitTestLibrary.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\obj\Debug\netcoreapp3.1\CustomNUnitTestLibrary.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\obj\Debug\netcoreapp3.1\CustomNUnitTestLibrary.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\obj\Debug\netcoreapp3.1\CustomNUnitTestLibrary.csproj.CopyComplete
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\obj\Debug\netcoreapp3.1\CustomNUnitTestLibrary.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\obj\Debug\netcoreapp3.1\CustomNUnitTestLibrary.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\devops\CalculationLibrary\CustomNUnitTestLibrary\obj\Debug\netcoreapp3.1\CustomNUnitTestLibrary.csproj.AssemblyReference.cache
