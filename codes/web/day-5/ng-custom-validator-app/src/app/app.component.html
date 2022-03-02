@@ -1,0 +1,20 @@
+<div>
+  Enter Data:&nbsp;&nbsp;
+  <input type="text" placeholder="enter data here" [formControl]="inputdata">
+
+  <!-- a div for different messages. display this div only if the input element validations have failed or no value has been entered in the input element yet-->
+  <div [hidden]="inputdata.valid || inputdata.pristine">
+    <!-- div to display error messages from rqeuired validation failure-->
+    <div *ngIf="inputdata.errors?.['required']">
+      Data is required
+    </div>
+    <!-- div to display error messages from uppercase check validation failure-->
+    <div *ngIf="inputdata.errors?.['noUpperCase'].status">
+      <!-- Data must have at least one upper case -->
+      {{ inputdata.errors?.['noUpperCase'].message }}
+    </div>
+  </div>
+</div>
+<div>
+  <button type="button" (click)="submit()">Submit</button>
+</div>
