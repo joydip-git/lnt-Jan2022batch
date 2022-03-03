@@ -1,0 +1,12 @@
+devops features:
+1. automation
+2. collaboration
+3. integration
+4. configuration management
+
+Git:
+distributed version control system (DVCS), distributed source code management system
+local repository => remote repository
+
+GitHub:
+

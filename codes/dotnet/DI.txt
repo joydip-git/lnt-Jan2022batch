@@ -1,0 +1,41 @@
+
+interface IDao
+{
+	void M1();
+}
+abstract class BaseDao:IDao
+{
+	public abstract void M1();
+}
+class ProductDao: BaseDao
+{
+	public override void M1()
+	{
+		//code
+	}
+}
+
+class BO
+{ 
+	public void Foo()
+	{ 
+		//IDao dao = Container.Create();
+		IDao dao = Container.Create<IDao,ProductDao>();
+		dao.M1();
+	}
+}
+
+class Container
+{
+	public static IDao Create()
+	{
+		IDao dao = null;
+		dao = new ProductDao();
+		return dao;
+	}
+	public static TInterface Create<TInterface,TClass>() where TClass:TInterface
+	{
+		TInterface dao = Activator.CreateInstance(typeof(TClass))
+		return dao;
+	}
+}
