@@ -1,0 +1,93 @@
+ASP.NET Core and MVC
+
+web app: client-side vs server-side
+MVC architecture
+asp.net core
+
+client-side: 
+1. the entire application created using client-side framework and deployed in the server machine, is sent to the client machine on the first request (until the next update). hence no further request goes to server, as every asset of the application is present in the client machine. this improves performance
+
+2. the client-side framework/library applications are single-page application (SPA). when the route chnages in the browser address bar, the proper component is loaded in the single HTML page, but that happens in the client machine. the request to fetch new component does not go to the server machine. it is served from the client machine itself.
+
+3. if on the component, any data is required, that is fetched from the server where the data is hosted. this is client-side data fetching.
+
+4. Angular, Old Angular JS, React JS, Vue.js are examples of technologies to create client-side web application
+
+5. the entire source code of the SP client-side app is written using scripting languages, which is understood by browser. hence the source code is also sent along with design to the client machine.
+
+6. security of client-side apps are slightly less robust compared to server-side apps
+
+server-side: 
+1. the entire application created using client-side framework and deployed in the server machine, is NOT sent to the client machine on the first request. every time, user needs something (page, image etc.), the request is sent to the server machine from client machine and after the procesing of the request, the asset is sent to the client machine from server. hence you always will have a round-trip to the server from client. this slows down the performance.
+
+2. the server-side framework/library applications are NOT single-page application (SPA). They consists of separate HTML pages for every design. so whenever the route chnages in the browser address bar, the proper page is fecthed from server machine.
+
+3. if on the design page, any data is required, that is fetched from the server where the data is hosted. but that happens in the server machine where the application is deployed. that means, the page along with data is sent to the client. the data generally is not fetched on the page from client machine. this is server side data fetching.
+
+4. ASP.NET, ASP.NET MVC, ASP.NET Core, ASP.NET Core MVC web apps, Java Servelet, Spring MVC etc. are examples of server side web application technology.
+
+5. the entire source code of the server-side app is written using programming languages,like C#, Java etc. which is NOT understood by browser. hence the source code is never sent along with design to the client machine. that is why everytime the request is sent to the server machine and proper code wriiten in programming language is executed at the server machine, response is generated and that is sent to the client machine.
+
+6. security of server-side apps are more robust compared to client-side apps
+
+
+server-side web app: ASP.NET Core MVC
+active server pages
+
+any asp.net core web app (Page based app, web api etc.) start as a console application
+when the console application runs, the console application helps to create web application
+
+1. it helps to create a host for web application: 
+	a. creates web context/environment for web app to run
+	b. receive request from clients and proccess the request and sent the response back
+
+	http://www.lnt.com/app/index
+
+Host class creates a web host builder object. that builder object creates a web host.
+
+
+Revision: generic, delegate, generic delegate, collections, new features in C#, LINQ
+    public delegate bool Call(int a);
+    public class Program
+    {
+        //public static bool IsEven(int number)
+        //{
+        //    return number % 2 == 0;
+        //}
+        public static List<int> Filter(List<int> input, Call call)
+        {
+            List<int> output = new List<int>();
+            foreach (int item in input)
+            {
+                bool status = call(item);
+                if (status)
+                    output.Add(item)
+            }
+            return output;
+        }
+        public static void Main(string[] args)
+        {
+            //Call call = new Call(Program.IsEven);
+            //Call call = delegate (int num)
+            //{
+            //    return num % 2 == 0;
+            //};
+
+            //Lambda
+            //Call call = (int num) =>
+            //{
+            //    return num % 2 == 0;
+            //};
+            
+            //Lambda expression
+            //Call call = (num) => num % 2 == 0;
+
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+            //var res = Filter(numbers, call);
+            var res = Filter(numbers, (num) => num % 2 == 0);
+            foreach (var item in res)
+            {
+                Console.WriteLine(item);
+            }
+        }
+    }
