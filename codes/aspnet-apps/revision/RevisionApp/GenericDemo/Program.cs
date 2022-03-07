@@ -27,6 +27,7 @@ namespace GenericDemo
         {
             return (x + y);
         }
+
         static void Main()
         {
             FilterDel<int> evenDel = new FilterDel<int>(Program.IsEven);
