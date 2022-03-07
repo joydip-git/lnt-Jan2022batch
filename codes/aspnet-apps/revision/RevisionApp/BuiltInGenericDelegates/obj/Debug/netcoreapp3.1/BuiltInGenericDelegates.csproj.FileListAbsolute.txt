@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\bin\Debug\netcoreapp3.1\BuiltInGenericDelegates.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\bin\Debug\netcoreapp3.1\BuiltInGenericDelegates.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\bin\Debug\netcoreapp3.1\BuiltInGenericDelegates.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\bin\Debug\netcoreapp3.1\BuiltInGenericDelegates.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\bin\Debug\netcoreapp3.1\BuiltInGenericDelegates.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\bin\Debug\netcoreapp3.1\BuiltInGenericDelegates.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\obj\Debug\netcoreapp3.1\BuiltInGenericDelegates.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\obj\Debug\netcoreapp3.1\BuiltInGenericDelegates.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\obj\Debug\netcoreapp3.1\BuiltInGenericDelegates.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\obj\Debug\netcoreapp3.1\BuiltInGenericDelegates.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\obj\Debug\netcoreapp3.1\BuiltInGenericDelegates.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\obj\Debug\netcoreapp3.1\BuiltInGenericDelegates.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\obj\Debug\netcoreapp3.1\BuiltInGenericDelegates.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\BuiltInGenericDelegates\obj\Debug\netcoreapp3.1\BuiltInGenericDelegates.genruntimeconfig.cache

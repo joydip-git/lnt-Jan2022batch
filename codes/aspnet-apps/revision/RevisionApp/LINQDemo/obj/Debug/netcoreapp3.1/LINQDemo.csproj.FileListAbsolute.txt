@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\bin\Debug\netcoreapp3.1\LINQDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LINQDemo\obj\Debug\netcoreapp3.1\LINQDemo.genruntimeconfig.cache

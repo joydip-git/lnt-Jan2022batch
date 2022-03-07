@@ -91,3 +91,19 @@ Revision: generic, delegate, generic delegate, collections, new features in C#, 
             }
         }
     }
+
+
+LINQ: technique to query a source of data [Language (L) Integrated(IN) Query (Q)]
+LINQ can be written in two ways: Query Operator Syntax and Method Query Syntax
+
+Query Operator: we use lots of query operators, like, where, order by, group by, select etc.
+query syntax always start with the following:
+	from <var-name> in <collection-name>
+	......
+	
+
+Method query: we use extension methods of collections, like, Where(), OrderBy(), OrderByDescending(), Select(), GroupBy() etc. all these methods always asks user to pass a logic (a reference to a function) through lots of built-in delegates, such as, Action, Action<T>, Predicate, Predicate<T>, Func<> etc.
+
+Where() method accespts logic to be applied on every item for filtration in a collection. The logic (function) must be passed through an object of Func<> delegate.
+
+ForEach() method accespts logic to be applied on every item, such as printing the item. The logic must be passed through an object of Action<T> delegate.
