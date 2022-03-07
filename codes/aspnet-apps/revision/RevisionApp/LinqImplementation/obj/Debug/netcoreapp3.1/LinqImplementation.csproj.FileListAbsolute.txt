@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\bin\Debug\netcoreapp3.1\LinqImplementation.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\bin\Debug\netcoreapp3.1\LinqImplementation.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\bin\Debug\netcoreapp3.1\LinqImplementation.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\bin\Debug\netcoreapp3.1\LinqImplementation.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\bin\Debug\netcoreapp3.1\LinqImplementation.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\bin\Debug\netcoreapp3.1\LinqImplementation.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\obj\Debug\netcoreapp3.1\LinqImplementation.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\obj\Debug\netcoreapp3.1\LinqImplementation.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\obj\Debug\netcoreapp3.1\LinqImplementation.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\obj\Debug\netcoreapp3.1\LinqImplementation.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\obj\Debug\netcoreapp3.1\LinqImplementation.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\obj\Debug\netcoreapp3.1\LinqImplementation.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\obj\Debug\netcoreapp3.1\LinqImplementation.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\LinqImplementation\obj\Debug\netcoreapp3.1\LinqImplementation.genruntimeconfig.cache

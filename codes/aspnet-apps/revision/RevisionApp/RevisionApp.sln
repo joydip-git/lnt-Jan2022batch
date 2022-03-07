@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuiltInGenericDelegates", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQDemo", "LINQDemo\LINQDemo.csproj", "{03155F53-91BD-4311-89BE-C3031C5CD557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqPractice", "LinqPractice\LinqPractice.csproj", "{463144DD-7E9D-4DA0-9356-7E2485EA01AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqPractice", "LinqPractice\LinqPractice.csproj", "{463144DD-7E9D-4DA0-9356-7E2485EA01AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqImplementation", "LinqImplementation\LinqImplementation.csproj", "{C31E1504-F039-41FA-ADDB-8A84190F4936}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{463144DD-7E9D-4DA0-9356-7E2485EA01AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{463144DD-7E9D-4DA0-9356-7E2485EA01AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{463144DD-7E9D-4DA0-9356-7E2485EA01AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31E1504-F039-41FA-ADDB-8A84190F4936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31E1504-F039-41FA-ADDB-8A84190F4936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31E1504-F039-41FA-ADDB-8A84190F4936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31E1504-F039-41FA-ADDB-8A84190F4936}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
