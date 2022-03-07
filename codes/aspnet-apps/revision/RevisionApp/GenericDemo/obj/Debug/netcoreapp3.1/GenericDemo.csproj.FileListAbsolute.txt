@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\bin\Debug\netcoreapp3.1\GenericDemo.exe
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\bin\Debug\netcoreapp3.1\GenericDemo.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\bin\Debug\netcoreapp3.1\GenericDemo.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\bin\Debug\netcoreapp3.1\GenericDemo.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\bin\Debug\netcoreapp3.1\GenericDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\bin\Debug\netcoreapp3.1\GenericDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\obj\Debug\netcoreapp3.1\GenericDemo.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\obj\Debug\netcoreapp3.1\GenericDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\obj\Debug\netcoreapp3.1\GenericDemo.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\obj\Debug\netcoreapp3.1\GenericDemo.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\obj\Debug\netcoreapp3.1\GenericDemo.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\obj\Debug\netcoreapp3.1\GenericDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\obj\Debug\netcoreapp3.1\GenericDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\revision\RevisionApp\GenericDemo\obj\Debug\netcoreapp3.1\GenericDemo.genruntimeconfig.cache
