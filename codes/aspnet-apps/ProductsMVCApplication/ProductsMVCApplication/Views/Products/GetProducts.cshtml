@@ -1,0 +1,17 @@
+﻿<!--class GetProducts: RazorPageBase -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Products</title>
+</head>
+<body>
+    @{
+        var data = this.ViewBag.MyValue;
+        var myData = this.ViewData["MyData"];
+    }
+    Value:&nbsp;<span>@data</span>
+    <br />
+    Data:&nbsp;<span>@myData</span>
+</body>
+</html>
+

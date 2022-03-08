@@ -30,5 +30,15 @@ the action/method by the name Index() is called from that object. no argument is
 The Index() takes the view (index.cshtml) containing razor syntax. then it is passed to razor view engine.
 razor view engine produces the pure HTML, by executing the C# code and producing the data to be displayed on the view. Now the Index() action returns that pure HTML as response to the client.
 
+What can be return type of any action of a controller?
+a. ViewResult (a view, HTML)
+b. JsonResult (data in json format)
+c. FileResult (file)
+d. RedirectResult (redirection to another route)
+etc.....
+all these do implement an interface, named, IActionResult
+
+also regular types (string, int, collection, array, any object etc.) can be returned from action
+
 
 		
