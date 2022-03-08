@@ -1,0 +1,31 @@
+﻿<!--Razor syntax-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <h2>Welcome to my website</h2>
+    @{
+        var names = new string[] { "joydip", "anil" };
+    }
+    <span>@names[0]</span>
+    <br />
+    <span>@names[1]</span>
+</body>
+</html>
+<!--the above razor design is passed to a view engine (Razor View Engine), which translates the file into a pure HTML file (by executing the C# code). after that your action Index() will return tyhe pure HTML as reponse -->
+<!--
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <h2>Welcome to my website</h2>
+    <span>Joydip</span>
+    <br/>
+    <span>Anil</span>
+</body>
+</html>-->
