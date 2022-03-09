@@ -1,0 +1,42 @@
+﻿@using ProductsMVCApplication.Models
+@model Product
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Product</title>
+</head>
+<body>
+    <h2>Add a Product</h2>
+    @using (var frm = Html.BeginForm("SubmitProductData","Products"))
+    @*@using (var frm = Html.BeginForm())*@
+    {
+        <div>
+            @Html.LabelFor(p => p.ProductId)
+            :&nbsp;
+            @Html.EditorFor(p => p.ProductId)
+        </div>
+        <div>
+            @Html.LabelFor(p => p.ProductName)
+            :&nbsp;
+            @Html.EditorFor(p => p.ProductName)
+        </div>
+        <div>
+            @Html.LabelFor(p => p.Price)
+            :&nbsp;
+            @Html.EditorFor(p => p.Price)
+        </div>
+        <div>
+            @Html.LabelFor(p => p.Description)
+            :&nbsp;
+            @Html.EditorFor(p => p.Description)
+        </div>
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    }
+    @if (this.ViewBag.Error!=null)
+    {
+        <span>@this.ViewBag.Error</span>
+    }
+</body>
+</html>

@@ -92,5 +92,53 @@ namespace ProductsMVCApplication.Controllers
             else
                 return this.NotFound("No record found");
         }
+
+        //[HttpGet]
+        public ViewResult AddProduct()
+        {
+            return this.View();
+        }
+
+        //[HttpPost]
+        //public IActionResult AddProduct(Product newProductData)
+        //{
+        //    var allProducts = ProductRepository.Products;
+        //    var found = allProducts.Where(p => p.ProductId == newProductData.ProductId);
+        //    if (found != null && found.Count() > 0)
+        //    {
+        //        string errorMessage = "The product exists";
+        //        this.ViewBag.Error = errorMessage;
+        //        //this will return the View of AddProduct method (HTTPPost)
+        //        return this.View();
+        //        //return this.View("AddProduct", newProductData);
+        //    }
+        //    else
+        //        ProductRepository.Add(newProductData);
+
+        //    return this.RedirectToAction("GetProducts");
+        //}
+        /*
+         * ProductId: 4
+           ProductName: fgfsdgs
+           Price: 1234
+           Description: sdadgsd
+         */
+        public IActionResult SubmitProductData(Product newProductData)
+        {
+            var allProducts = ProductRepository.Products;
+            var found = allProducts.Where(p => p.ProductId == newProductData.ProductId);
+            if (found != null && found.Count() > 0)
+            {
+                string errorMessage = "The product exists";
+                this.ViewBag.Error = errorMessage;
+                //this will return the View of AddProduct method (HTTPPost)
+                return this.View("AddProduct");
+                //return this.View("AddProduct", newProductData);
+            }
+            else
+                ProductRepository.Add(newProductData);
+
+            return this.RedirectToAction("GetProducts");
+        }
     }
 }

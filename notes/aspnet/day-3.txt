@@ -91,4 +91,13 @@ Model Binding:
 a. Binding a view wih a specific type of model. If a view in this way is bound to a certain type of model, then the view is known Strongly Typed View
 b. also pass the same type of data from the controller action to that view
 
+HTTP Protocol methods:
+-------------------------------
+GET, POST, PUT, PATCH, DELETE
+
+http://localhost:9559/Products/AddProduct (GET)
+
+on submit buton click:
+http://localhost:9559/Products/AddProduct (POST - with payload)
+
 
