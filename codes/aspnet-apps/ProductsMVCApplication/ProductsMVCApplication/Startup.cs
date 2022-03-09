@@ -29,7 +29,6 @@ namespace ProductsMVCApplication
             }
 
             app.UseRouting();
-
             //anonymous type: used to represent some data. (C# 3.0 - 2007)
             //it is a read-only object.
             //It's purpose is to create just an object containing data, for read-only pourpose
