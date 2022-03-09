@@ -13,14 +13,10 @@ namespace ProductsMVCApplication
 {
     public class Startup
     {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
         }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -29,29 +25,14 @@ namespace ProductsMVCApplication
             }
 
             app.UseRouting();
-            //anonymous type: used to represent some data. (C# 3.0 - 2007)
-            //it is a read-only object.
-            //It's purpose is to create just an object containing data, for read-only pourpose
-            //even the anonymous objects do inherit from Object base class
-            //You can't inherit from an anonymous object, since actually there is no class
-            //var someObj = new { FirstName="Joydip", LastName="Mondal" };
-
-
-            //delegate void Action<T>(T obj);
             Action<IEndpointRouteBuilder> endpointBuilderAction = (endpointBuilder) =>
-            {
-                //an anonymous object, to represent a default route configuration
-                //assuming you have a controller class: ProductsController and an action inside that class: Index
-                var defaultRoute = new { controller = "Products", action = "Index" };
-                //map controller action(s) with the provided route pattern, when the user makes a request with the same route pattern
+            {    
                 endpointBuilder.MapControllerRoute(
                         "Default",
                         "{controller}/{action}/{arg?}",
-                        defaultRoute
+                        new { controller = "Products", action = "Index" }
                     );
-                //localhost:9959/Products/GetProduct/100 => controller=Products, action=GetProduct, arg="100"
             };
-            //while registering the routing middleware for MVC type application, using UseEndpoints() method, we are also configuring the route pattern for our MVC application
             app.UseEndpoints(endpointBuilderAction);
         }
     }

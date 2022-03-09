@@ -1,15 +1,17 @@
-﻿@using ProductsMVCApplication.Models
+﻿@{
+    this.Layout = "~/Views/Shared/_Layout.cshtml";
+    this.ViewBag.Title = "Add Product";
+}
+
+@using ProductsMVCApplication.Models
 @model Product
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Add Product</title>
-</head>
-<body>
-    <h2>Add a Product</h2>
-    @using (var frm = Html.BeginForm("SubmitProductData","Products"))
-    @*@using (var frm = Html.BeginForm())*@
-    {
+
+<h2>Add a Product</h2>
+@*@using (var frm = Html.BeginForm())*@
+
+@using (var frm = Html.BeginForm("SubmitProductData", "Products"))
+{
+    <div class="form" style="text-align:center">
         <div>
             @Html.LabelFor(p => p.ProductId)
             :&nbsp;
@@ -30,13 +32,12 @@
             :&nbsp;
             @Html.EditorFor(p => p.Description)
         </div>
-        <div>
-            <input type="submit" value="Submit" />
+        <div style="text-align:center">
+            <input type="submit" value="Submit" class="btn btn-primary" />
         </div>
-    }
-    @if (this.ViewBag.Error!=null)
-    {
-        <span>@this.ViewBag.Error</span>
-    }
-</body>
-</html>
+    </div>
+}
+@if (this.ViewBag.Error != null)
+{
+    <span>@this.ViewBag.Error</span>
+}

@@ -24,8 +24,8 @@ answer: Controller
 9. Which interface is the base of ViewResult, RedirectResult etc. class?
 answer: IActionResult
 
-10. Which are two ways to pass data from Controller to View?
-answer: through ViewBag and ViewDataDictionary (many more) objects
+10. Which are ways to pass data from Controller to View?
+answer: through ViewBag and ViewDataDictionary, TempData objects as well as using model binding
 
 11. what is the name of the syntax that is used in View files (*.cshtml)?
 answer: Razor (C# and HTML together)
@@ -90,6 +90,7 @@ obj.Invoke();
 Model Binding:
 a. Binding a view wih a specific type of model. If a view in this way is bound to a certain type of model, then the view is known Strongly Typed View
 b. also pass the same type of data from the controller action to that view
+c. when a form data of a view is submitted back to the controller, the model binder creates an object of the model type based on the data and id's of the form input controls, received from the view form
 
 HTTP Protocol methods:
 -------------------------------
@@ -99,5 +100,10 @@ http://localhost:9559/Products/AddProduct (GET)
 
 on submit buton click:
 http://localhost:9559/Products/AddProduct (POST - with payload)
+
+
+
+
+
 
 

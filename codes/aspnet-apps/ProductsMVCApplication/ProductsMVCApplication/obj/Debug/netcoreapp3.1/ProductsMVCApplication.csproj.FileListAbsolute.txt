@@ -31,3 +31,4 @@ E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\Produc
 E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Products\GetProducts.cshtml.g.cs
 E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Products\GetProduct.cshtml.g.cs
 E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Products\AddProduct.cshtml.g.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
