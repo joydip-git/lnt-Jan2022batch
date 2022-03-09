@@ -15,12 +15,23 @@ this method gets called when IWebHostBuilder creates/builds an WebHost object
 
 5. what is the importance of Configure() method in Startup class? when does it get called?
 6. what is IServiceCollection interface?
-7. Which interface represents middleware pipeline?
+7. Which interface represents middleware pipeline? 
+answer: IApplicationBuiilder interface (present as an argument to the Configure method
+
 8. Which base class a controller class inherits from?
-9. Which interfce is the base of ViewResult, RedirectResult etc. class?
+answer: Controller
+
+9. Which interface is the base of ViewResult, RedirectResult etc. class?
+answer: IActionResult
+
 10. Which are two ways to pass data from Controller to View?
+answer: through ViewBag and ViewDataDictionary (many more) objects
+
 11. what is the name of the syntax that is used in View files (*.cshtml)?
+answer: Razor (C# and HTML together)
+
 12. What is the importance of IEndpointRouteBuilder interface?
+answer: to configure endpoint routes for your application (namespace: Microsoft.AspNetCore.Routing)
 
 Configuration of web host:
 stage-1: during the creation/build of the web host. ConfigureServices() method gets called during this time and all required middleware/service class instance are created and dependency injected.
@@ -29,13 +40,36 @@ stage-2: during the running of the web host. Configure() method gets called. it 
 
 IServiceCollection Methods:
 -----------------------------------------
-AddController()
-AddControllerWithViews() //creates objects of a middleware classes, which provide suuports for creating controller object, calling actions from the controller object, passing argument to the action, process view using viewengine and create pure HTML to be sent as response etc.
-AddRazorPages()
-AddMvc()
-AddMvcCore()
+1. AddController():
+supports provided: controllers, model binding, authorization, CORS, validations, formatters
+supports NOT provided: TempData, Views, pages, tag helpers etc.
+
+2. AddControllerWithViews():
+supports provided: for controllers, model binding, authorization, CORS, validation, formatters, TempData, Views, tag helpers
+supports NOT provided: page based
+
+creates objects of a middleware classes for all the above services  (supports for creating controller object, calling actions from the controller object, passing argument to the action, process view using viewengine and create pure HTML to be sent as response etc.) and more
+
+3. AddRazorPages():
+supports provided: for controllers, model binding, authorization, validations, TempData, Views, Pages, Tag Helpers
+supports NOT provided: CORS, formatters
+
+
+4. AddMvc():
+
+
+5. AddMvcCore():
+supports NOT provided: TempData, authorization, validation, Views, pages, etc.
+
+
 AddAuthentication() //authenticationmiddleware obj = new authenticationmiddleware();
 AddAuthorization() //authorizationmiddleware obj = new authorizationmiddleware();
+AddFormatterMappings();
+AddViews();
+AddRazorViewEngine();
+AddCacheTagHelper();
+AddCors();
+AddJsonFormatters();
 
 Middleware registration methods:
 ----------------------------------
