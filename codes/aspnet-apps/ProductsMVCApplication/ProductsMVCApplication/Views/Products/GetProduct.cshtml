@@ -1,0 +1,33 @@
+﻿@using ProductsMVCApplication.Models
+@model Product
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Detail</title>
+</head>
+<body>
+    @{
+        var p = this.Model;
+        var htmlHelper = this.Html;
+    }
+    <fieldset style="width:300px;background-color:beige;font-family:'Segoe UI';font-size:medium">
+        <legend style="font-size:large">Details of @p.ProductName</legend>
+        @*<label for="">ProductId:&nbsp;</label>3*@
+        @htmlHelper.LabelFor(m => m.ProductId)
+        :&nbsp;
+        @htmlHelper.DisplayTextFor(m => m.ProductId)
+        <br />
+        @htmlHelper.LabelFor(m => m.ProductName)
+        :&nbsp;
+        @htmlHelper.DisplayTextFor(m => m.ProductName)
+        <br />
+        @htmlHelper.LabelFor(m => m.Price)
+        :&nbsp;
+        @htmlHelper.DisplayTextFor(m => m.Price)
+        <br />
+        @htmlHelper.LabelFor(m => m.Description)
+        :&nbsp;
+        @htmlHelper.DisplayTextFor(m => m.Description)
+    </fieldset>
+</body>
+</html>

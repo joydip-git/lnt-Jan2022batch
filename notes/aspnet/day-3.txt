@@ -87,4 +87,8 @@ class authenticationmiddleware
 
 obj.Invoke();
 
+Model Binding:
+a. Binding a view wih a specific type of model. If a view in this way is bound to a certain type of model, then the view is known Strongly Typed View
+b. also pass the same type of data from the controller action to that view
+
 

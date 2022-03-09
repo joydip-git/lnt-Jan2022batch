@@ -49,7 +49,7 @@ namespace ProductsMVCApplication
                         "{controller}/{action}/{arg?}",
                         defaultRoute
                     );
-                //localhost:9959/Products/Index
+                //localhost:9959/Products/GetProduct/100 => controller=Products, action=GetProduct, arg="100"
             };
             //while registering the routing middleware for MVC type application, using UseEndpoints() method, we are also configuring the route pattern for our MVC application
             app.UseEndpoints(endpointBuilderAction);

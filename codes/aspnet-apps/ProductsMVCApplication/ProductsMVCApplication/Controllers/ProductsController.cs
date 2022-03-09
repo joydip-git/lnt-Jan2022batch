@@ -29,9 +29,6 @@ namespace ProductsMVCApplication.Controllers
         }
         public ViewResult GetProducts()
         {
-            //fetch sample product data from repository
-            List<Product> productsData = ProductRepository.Products;
-
             //data
             int x = 10;
             int y = 20;
@@ -46,15 +43,54 @@ namespace ProductsMVCApplication.Controllers
             //save the vakue in the ViewDataDictionary object using a key (string type)
             viewDataObject["MyData"] = y;
 
+            //fetch sample product data from repository
+            List<Product> productsData = ProductRepository.Products;
             //pass the data to the view
-            ViewResult result = this.View();
+            //you can pass List<Product> type data to the View method if the view (GetProducts.cshtml file) is bound to the same type of model (List<Product>)
+            ViewResult result = this.View(productsData);
 
             //return the view with data as response
             return result;
         }
-        public ViewResult GetProduct(int arg)
+        /*
+        public IActionResult GetProduct(int arg = 1)
         {
-            return null;
+            List<Product> allProducts = ProductRepository.Products;
+            //var query = from p in allProducts
+            //            where p.ProductId == arg
+            //            select p;
+            var all = allProducts.Where(p => p.ProductId == arg);
+            Product found = null;
+            if (all != null && all.Count() > 0)
+            {
+                found = all.First();
+            }
+
+            //either we are returning JsonResult or NotFoundObjectResult
+            if (found != null)
+                return this.Json(found);
+            else
+                return this.NotFound("No record found"); 
+        }
+        */
+        public IActionResult GetProduct(int arg = 1)
+        {
+            List<Product> allProducts = ProductRepository.Products;
+            //var query = from p in allProducts
+            //            where p.ProductId == arg
+            //            select p;
+            var all = allProducts.Where(p => p.ProductId == arg);
+            Product found = null;
+            if (all != null && all.Count() > 0)
+            {
+                found = all.First();
+            }
+
+            //either we are returning JsonResult or NotFoundObjectResult
+            if (found != null)
+                return this.View(found);
+            else
+                return this.NotFound("No record found");
         }
     }
 }
