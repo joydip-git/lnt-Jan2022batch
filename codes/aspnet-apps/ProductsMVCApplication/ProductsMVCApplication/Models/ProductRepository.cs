@@ -87,28 +87,13 @@ namespace ProductsMVCApplication.Models
             }
         }
 
-        private SqlParameter CreateParameter<T>(string paramName, T paramValue)
-        {
-            SqlParameter pm = new SqlParameter();
-            pm.ParameterName = paramName;
-            pm.Value = paramValue;
-            return pm;
-        }
-        /*
-        private SqlParameter CreateParameter(string paramName, object paramValue)
-        {
-            SqlParameter pm = new SqlParameter();
-            pm.ParameterName = paramName;
-            pm.Value = paramValue;
-            return pm;
-        }
-        */
-
         //method to fetch all product records from the database table
-        public void FetchAllProducts()
+        public List<Product> FetchAllProducts()
         {
             SqlConnection connection = null;
             SqlCommand command = null;
+            SqlDataReader reader = null;
+            List<Product> products = null;
             try
             {
                 //createing connection object
@@ -125,7 +110,27 @@ namespace ProductsMVCApplication.Models
                 //this.OpenConnection(connection);
                 connection.Open();
 
-                //
+                //execute the stored procedure
+                reader = command.ExecuteReader();
+
+                if (reader.HasRows)
+                {
+                    products = new List<Product>();
+                    //DataTable dt = new DataTable("products");
+                    //dt.Load(reader);
+                    while (reader.Read())
+                    {
+                        Product product = new Product();
+
+                        product.ProductId = (int)reader["productid"];
+                        product.ProductName = (string)reader["productname"];
+                        product.Price = (decimal)reader["price"];
+                        product.Description = (string)reader["description"];
+
+                        products.Add(product);
+                    }
+                }
+                return products;
             }
             catch (SqlException ex)
             {
@@ -139,7 +144,10 @@ namespace ProductsMVCApplication.Models
             {
                 //access database table
                 //this.CloseConnection(connection);
-                connection.Close();
+                if (reader != null)
+                    reader.Close();
+                if (connection != null)
+                    connection.Close();
             }
         }
 
@@ -181,7 +189,23 @@ namespace ProductsMVCApplication.Models
             }
         }
 
+        private SqlParameter CreateParameter<T>(string paramName, T paramValue)
+        {
+            SqlParameter pm = new SqlParameter();
+            pm.ParameterName = paramName;
+            pm.Value = paramValue;
+            return pm;
+        }
+
         /*
+        private SqlParameter CreateParameter(string paramName, object paramValue)
+        {
+            SqlParameter pm = new SqlParameter();
+            pm.ParameterName = paramName;
+            pm.Value = paramValue;
+            return pm;
+        }
+        
         private void CreateConnection(out SqlConnection connection)
         {
             connection = new SqlConnection(this.connectionString);

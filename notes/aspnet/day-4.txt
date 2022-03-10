@@ -196,8 +196,15 @@ object ExecuteScalar() => use it to execute select query, which returns just a s
 select count(*) from <table-name>
 select <col-name> from <table-name> where <pk-column>=value
 
-IDataReader ExecuteReader() => use it to execute select query, which returns multiple values (many rows, a single row with multiple column value). the method stores the result set in an object of data reader class (SqlDataReader, OrcaleDataReader etc.) after executing the query. the method retuns that data reader object containing result set.
+IDataReader ExecuteReader() => use it to execute select query, which returns multiple values (many rows, a single row with multiple column value). the method stores the result-set in an object of data reader class (SqlDataReader, OrcaleDataReader etc.) after executing the query. the method retuns that data reader object containing result set.
 
 XML:
 ExecuteXmlReader() => use it for XML data from XML file. Like ExcuteReader, it creates data reader object and stores all the XML data in that. the method returns the reader object containing the XML data.
+
+Data Reader object:
+-----------------------------------------------------
+ist is used to store the result set produced from select query execution. This is used to supply the data to the application. It is a read-only, forward-only stream of data.
+Reader object actually blocks/consumes the connection, hence you will not be able to close the connection or execute any other query, until and unless, you close the reader.
+If you close the reader, without extracting the data from it, you will loose the data.
+So, extract/read the data from reader and empty it. then close the reader and then only you can execute any query against the database using the same connection or close the connection itself, if there is nothing else to do.
 

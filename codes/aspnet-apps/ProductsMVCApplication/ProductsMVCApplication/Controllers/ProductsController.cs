@@ -14,38 +14,30 @@ namespace ProductsMVCApplication.Controllers
             ViewResult viewResult = this.View();
             return viewResult;
         }
-        /*
+
         public ViewResult GetProducts()
         {
             //call GetProducts method of ProductRepository class here to fetch all product details from the database table
-            ProductRepository repository = new ProductRepository();
-            repository.FetchAllProducts();
-            //List<Product> productsData = ProductRepository.Products;
-            //ViewResult result = this.View(productsData);
-            //return result;
-            return this.View();
+            ProductRepository repository = null;
+            try
+            {
+                repository = new ProductRepository();
+                List<Product> productsData = repository.FetchAllProducts();
+                ViewResult result = this.View(productsData);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                this.ViewBag.Error = ex.Message;
+                return this.View(null);
+            }
         }
-        
+        /*
         public IActionResult GetProduct(int arg = 1)
         {
-            //call GetProductById method of ProductRepository class here to fetch this product details from the database table, by supplying the id
-            ProductRepository repository = new ProductRepository();
-            repository.FetchProductById(arg);
-            return this.View();
-            /*
-            var all = allProducts.Where(p => p.ProductId == arg);
-            Product found = null;
-            if (all != null && all.Count() > 0)
-            {
-                found = all.First();
-            }
-
-            if (found != null)
-                return this.View(found);
-            else
-                return this.NotFound("No record found");
            
-            }
+           
+        }
         */
         public ViewResult AddProduct()
         {

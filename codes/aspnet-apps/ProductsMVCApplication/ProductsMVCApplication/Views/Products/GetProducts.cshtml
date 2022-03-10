@@ -14,15 +14,26 @@
 @model List<Product>
 
 
-@{   
-    List<Product> products = this.Model;
+<h4>All Products</h4>
+<hr />
+
+@{
+    if (Model != null)
+    {
+        var produts = this.Model;
+        <ul>
+            @foreach (Product p in produts)
+            {
+                <li>@p.ProductName</li>
+            }
+        </ul>
+    }
 }
-    <h4>All Products</h4>
-    <hr />
-    <ul>
-        @foreach (Product p in products)
-        {
-            <li>@p.ProductName</li>
-        }
-    </ul>
+
+@{
+    if (ViewBag.Error != null)
+    {
+        <span>@ViewBag.Error</span>
+    }
+}
 
