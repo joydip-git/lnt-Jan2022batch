@@ -1,0 +1,141 @@
+1. model binding
+2. HTML helper
+3. Layout
+
+ViewResult: when you need to return a view (HTML)
+JsonResult: when you need to return data in JSON format
+RedirectResult: when you want to redirect an user from the requested route to some other route
+NotFoundObjectResult: when want to return a result indicating the requested data/object/value not found
+
+class ProductsController:Controller{
+public ViewResult/IActionResult GetRecords()
+{
+    return this.View();
+}
+public IActionResult GetData(int id)
+{
+   if(condition is true)
+   {
+	//you return an HTML (ViewResult)
+	IActionResult vrObject = null;
+        vrObject = this.View();
+	return vrObject;
+   }
+   else
+   {
+        //you return not found (NotFoundObjectResult)
+	IActionResult nfObject = this.NotFound();
+	return nfObject;
+   }
+}
+}
+class Controller
+{
+    public ViewResult View()
+    {
+       return new ViewResult();
+    }
+    public NotFoundObjectResult NotFound()
+    {
+       return new NotFoundObjectResult();
+    }
+}
+class ViewResult: IActionResult{}
+class NotFoundObjectResult: IActionResult{}
+
+class Person{}
+class Student:Person{}
+class Professor:Person{}
+
+Student s1 = new Student();
+Professor p1 = new Professor();
+
+Person[] people = new Person[2];
+people[0]=s1;
+people[1]=p1;
+
+
+delegate 
+
+class A
+{
+    public void M1(){}
+}
+
+class Program
+{
+   static void Call()
+   {
+   }   
+
+   static void Main()
+   {
+   }
+}
+
+OOP
+delegate
+Generic method, class, interface, delegate
+anonymous method
+lambda expression
+LINQ
+
+Where()=> method to filter any collection
+the method accepts an argument
+the type pf argument is Func<in T, out TResult> delegate.
+create an object of a delegate which will refer to a method that can be used to filter the collection
+
+iterate through the colletion of numbers
+declare a variable which can store one number at a time
+check the number is even or not
+if even, then add the number in a new collection
+
+(int N) => N % 2 == 0
+
+public bool IsEven(int N)
+{
+   if(N%2==0) return true; else return false;
+}
+
+using System;
+using System.Linq;
+/*
+class A
+{
+   public bool IsEven(int N)
+   {
+     if(N%2==0) return true; else return false;
+   }
+}
+*/
+class Program
+{   
+   static void Main()
+   {
+      List<int> numbers = new List<int>{1,2,3,4,5,6,7,8,9,0};
+      //Func<int,bool> evenFilterLogic = new Func<int,bool>(new A().IsEven);
+        //anonymous method
+        /*
+	Func<int,bool> evenFilterLogic = delegate(int N)
+   	{
+     		if(N%2==0) return true; else return false;
+   	};
+	*/
+	//anonymous method wriiten using Lambda expression (the expression to create anonymous method)
+	//Func<int,bool> evenFilterLogic = (N)=>N%2==0;
+        //numbers.Where(evenFilterLogic);
+	numbers.Where((N)=>N%2==0);
+        allProducts.Where((Product p)=>p.ProductId==arg);
+   }
+}
+
+
+I do not want to use Sample data
+create a database
+create a table "products" 
+columns: productid [PK] int, productname varchar(50), price decimal(18,2), description varchar(max)
+stored procedures: 
+a. getting all products, 
+b. get a product for given id, 
+c. add a product record in the table
+

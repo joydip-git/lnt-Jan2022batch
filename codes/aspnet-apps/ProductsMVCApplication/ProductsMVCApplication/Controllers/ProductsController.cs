@@ -14,15 +14,18 @@ namespace ProductsMVCApplication.Controllers
             ViewResult viewResult = this.View();
             return viewResult;
         }
+        /*
         public ViewResult GetProducts()
         {
+         //call GetProducts method of ProductRepository class here to fetch all product details from the database table
             List<Product> productsData = ProductRepository.Products;
             ViewResult result = this.View(productsData);
             return result;
         }
-       
+
         public IActionResult GetProduct(int arg = 1)
         {
+        //call GetProductById method of ProductRepository class here to fetch this product details from the database table, by supplying the id
             List<Product> allProducts = ProductRepository.Products;
             var all = allProducts.Where(p => p.ProductId == arg);
             Product found = null;
@@ -44,6 +47,7 @@ namespace ProductsMVCApplication.Controllers
 
         public IActionResult SubmitProductData(Product newProductData)
         {
+          //call AddProduct method of ProductRepository class here to add this product into database table
             var allProducts = ProductRepository.Products;
             var found = allProducts.Where(p => p.ProductId == newProductData.ProductId);
             if (found != null && found.Count() > 0)
@@ -57,5 +61,6 @@ namespace ProductsMVCApplication.Controllers
 
             return this.RedirectToAction("GetProducts");
         }
+        */
     }
 }
