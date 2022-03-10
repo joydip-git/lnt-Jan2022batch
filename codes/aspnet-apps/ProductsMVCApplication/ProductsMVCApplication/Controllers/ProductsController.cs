@@ -14,7 +14,7 @@ namespace ProductsMVCApplication.Controllers
             ViewResult viewResult = this.View();
             return viewResult;
         }
-        
+        /*
         public ViewResult GetProducts()
         {
             //call GetProducts method of ProductRepository class here to fetch all product details from the database table
@@ -44,9 +44,9 @@ namespace ProductsMVCApplication.Controllers
                 return this.View(found);
             else
                 return this.NotFound("No record found");
-            */
-        }
-       
+           
+            }
+        */
         public ViewResult AddProduct()
         {
             return this.View();
@@ -55,21 +55,28 @@ namespace ProductsMVCApplication.Controllers
         public IActionResult SubmitProductData(Product newProductData)
         {
             //call AddProduct method of ProductRepository class here to add this product into database table
-            ProductRepository repository = new ProductRepository();
-            repository.InsertProduct(newProductData);
-            //var allProducts = ProductRepository.Products;
-            //var found = allProducts.Where(p => p.ProductId == newProductData.ProductId);
-            //if (found != null && found.Count() > 0)
-            //{
-            //    string errorMessage = "The product exists";
-            //    this.ViewBag.Error = errorMessage;
-            //    return this.View("AddProduct");
-            //}
-            //else
-            //    ProductRepository.Add(newProductData);
-
-            //return this.RedirectToAction("GetProducts");
-            return View();
+            ProductRepository repository = null;
+            try
+            {
+                repository = new ProductRepository();
+                var status = repository.InsertProduct(newProductData);
+                if (status)
+                {
+                    this.ViewBag.Message = "record added successfully";
+                    //return this.RedirectToAction("GetProducts");
+                    return this.View("AddProduct");
+                }
+                else
+                {
+                    this.ViewBag.Message = "could not add record..try later";
+                    return this.View("AddProduct");
+                }
+            }
+            catch (Exception ex)
+            {
+                this.ViewBag.Message = ex.Message;
+                return this.View("AddProduct");
+            }
         }
     }
 }

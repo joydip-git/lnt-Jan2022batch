@@ -140,7 +140,7 @@ b. get a product for given id,
 c. add a product record in the table
 
 
-ADO.NET: 
+ADO.NET: ActiveX Data Object
 -------------------------------------------------------------------------------------
 data access technology in .NET framework/.NET Core framework
 It helps you to access data/manipulate data from any data source (Sql Server, Oracle, MySql etc.)
@@ -156,21 +156,48 @@ A. Data Provider: collection of built-in classes, interfaces, enums etc. for int
 Specific data provoders:
 SQL Server Data Provider: set of built-in classes, interfaces, enums etc. for interacting with SQL Server
 Namespace: System.Data.SqlClient
-Example: SqlConnection, SqlCommand, SqlDataReader (connected approach), SqlDataAdapter (disconnected approach) etc.
+Example: SqlConnection, SqlCommand, SqlDataReader (connected approach), SqlDataAdapter (disconnected approach), SqlParameter etc.
 
 Oracle Data Provider: set of built-in classes, interfaces, enums etc. for interacting with Oracle
 Namespace: System.Data.OracleClient
-Example: OracleConnection, OracleCommand, OracleDataReader (connected approach), OracleDataAdapter (disconnected approach) etc.
+Example: OracleConnection, OracleCommand, OracleDataReader (connected approach), OracleDataAdapter (disconnected approach), OracleParameter  etc.
 
 Jet Database Data Provider: set of built-in classes, interfaces, enums etc. for interacting with Jet databases like MS Access
 Namespace: System.Data.OleDb (OLE => Object Linking and Embedding)
-Example: OleDbConnection, OleDbCommand, OleDbDataReader (connected approach), OleDbDataAdapter (disconnected approach) etc.
+Example: OleDbConnection, OleDbCommand, OleDbDataReader (connected approach), OleDbDataAdapter (disconnected approach), OleDbParameter  etc.
 
 Common Data Provider: set of common built-in classes, interfaces, enums etc. for interacting with any database, including SQL Server, Oracle, MS Access or any other database
 Namespace: System.Data.Odbc (ODBC => Open Database Connectivity)
-Example: OdbcConnection, OdbcCommand, OdbcDataReader (connected approach), OdbcDataAdapter (disconnected approach) etc.
+Example: OdbcConnection, OdbcCommand, OdbcDataReader (connected approach), OdbcDataAdapter (disconnected approach), OdbcParameter  etc.
 
 B. Data Consumer: which consumes the data (stores data). It does not depend on where you are accessing the data from. These built-in types just helps ypu to store data in disconnected/connected mode.
 ------------------------------------------------------------------------------------------
 Namespace: System.Data
 Example: DataSet, DataTable, DataColumn, DataRow, DataRelation etc.
+
+
+System.Data also contains following interfaces:
+IDbConnection,    IDbCommand,    IDbDataReader,    IDbDataAdapter,   IDbParameter etc.
+
+System.Data.Common namespace contains following abstract classes
+DbConnection,     DbCommand,     DbDataReader,     DbDataAdapter,    DbParameter etc.
+
+System.Data.SqlClient
+SqlConnection,    SqlCommand,    SqlDataReader,    SqlDataAdapter,    SqlParameter etc.
+OracleConnection, OracleCommand, OracleDataReader, OracleDataAdapter, OracleParameter etc.
+
+to execute query use following methods of any command class:
+------------------------------------------------------------------------
+NON-SELECT:
+int ExecuteNonQuery() => use it to execute any non-select query (insert, update, delete, alter, create, drop etc.)
+
+SELECT:
+object ExecuteScalar() => use it to execute select query, which returns just a single value 
+select count(*) from <table-name>
+select <col-name> from <table-name> where <pk-column>=value
+
+IDataReader ExecuteReader() => use it to execute select query, which returns multiple values (many rows, a single row with multiple column value). the method stores the result set in an object of data reader class (SqlDataReader, OrcaleDataReader etc.) after executing the query. the method retuns that data reader object containing result set.
+
+XML:
+ExecuteXmlReader() => use it for XML data from XML file. Like ExcuteReader, it creates data reader object and stores all the XML data in that. the method returns the reader object containing the XML data.
+

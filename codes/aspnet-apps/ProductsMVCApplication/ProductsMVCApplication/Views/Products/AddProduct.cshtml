@@ -37,7 +37,12 @@
         </div>
     </div>
 }
-@if (this.ViewBag.Error != null)
+@if (this.ViewBag.Message != null)
 {
-    <span>@this.ViewBag.Error</span>
+    <span>@this.ViewBag.Message</span>
 }
+
+@* @if (this.ViewBag.Error != null)
+    {
+        <span>@this.ViewBag.Error</span>
+    } *@
