@@ -139,3 +139,38 @@ a. getting all products,
 b. get a product for given id, 
 c. add a product record in the table
 
+
+ADO.NET: 
+-------------------------------------------------------------------------------------
+data access technology in .NET framework/.NET Core framework
+It helps you to access data/manipulate data from any data source (Sql Server, Oracle, MySql etc.)
+
+Connected Approach: Throughout the database operation you are connected to the database. Here you do any operation directly against the table.
+
+Disconnected Approach: Get connected to the database, fetch all the records from table(s) and disconnect from database. Then, store the data temporarily in the application, manipuate that data, and then update the changes again to the database, by connecting to the database once more and then immediately disconnect. Here your manipulation of data happens in the data temporarily saved in your application. Then you just update those changes in the database later any point of time.
+
+ADO.NET Object Model:
+
+A. Data Provider: collection of built-in classes, interfaces, enums etc. for interacting with a database
+----------------------------------------------------------------------------------------------------
+Specific data provoders:
+SQL Server Data Provider: set of built-in classes, interfaces, enums etc. for interacting with SQL Server
+Namespace: System.Data.SqlClient
+Example: SqlConnection, SqlCommand, SqlDataReader (connected approach), SqlDataAdapter (disconnected approach) etc.
+
+Oracle Data Provider: set of built-in classes, interfaces, enums etc. for interacting with Oracle
+Namespace: System.Data.OracleClient
+Example: OracleConnection, OracleCommand, OracleDataReader (connected approach), OracleDataAdapter (disconnected approach) etc.
+
+Jet Database Data Provider: set of built-in classes, interfaces, enums etc. for interacting with Jet databases like MS Access
+Namespace: System.Data.OleDb (OLE => Object Linking and Embedding)
+Example: OleDbConnection, OleDbCommand, OleDbDataReader (connected approach), OleDbDataAdapter (disconnected approach) etc.
+
+Common Data Provider: set of common built-in classes, interfaces, enums etc. for interacting with any database, including SQL Server, Oracle, MS Access or any other database
+Namespace: System.Data.Odbc (ODBC => Open Database Connectivity)
+Example: OdbcConnection, OdbcCommand, OdbcDataReader (connected approach), OdbcDataAdapter (disconnected approach) etc.
+
+B. Data Consumer: which consumes the data (stores data). It does not depend on where you are accessing the data from. These built-in types just helps ypu to store data in disconnected/connected mode.
+------------------------------------------------------------------------------------------
+Namespace: System.Data
+Example: DataSet, DataTable, DataColumn, DataRow, DataRelation etc.

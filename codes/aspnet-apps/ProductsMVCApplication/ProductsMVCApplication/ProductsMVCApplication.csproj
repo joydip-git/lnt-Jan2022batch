@@ -8,4 +8,8 @@
     <None Remove="Models\ProductRepository.txt" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
 </Project>

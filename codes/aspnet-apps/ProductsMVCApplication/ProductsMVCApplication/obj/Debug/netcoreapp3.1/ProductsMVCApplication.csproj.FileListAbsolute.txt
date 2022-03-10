@@ -32,3 +32,9 @@ E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\Produc
 E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Products\GetProduct.cshtml.g.cs
 E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Products\AddProduct.cshtml.g.cs
 E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\ProductsMVCApplication\ProductsMVCApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

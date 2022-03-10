@@ -14,19 +14,25 @@ namespace ProductsMVCApplication.Controllers
             ViewResult viewResult = this.View();
             return viewResult;
         }
-        /*
+        
         public ViewResult GetProducts()
         {
-         //call GetProducts method of ProductRepository class here to fetch all product details from the database table
-            List<Product> productsData = ProductRepository.Products;
-            ViewResult result = this.View(productsData);
-            return result;
+            //call GetProducts method of ProductRepository class here to fetch all product details from the database table
+            ProductRepository repository = new ProductRepository();
+            repository.FetchAllProducts();
+            //List<Product> productsData = ProductRepository.Products;
+            //ViewResult result = this.View(productsData);
+            //return result;
+            return this.View();
         }
-
+        
         public IActionResult GetProduct(int arg = 1)
         {
-        //call GetProductById method of ProductRepository class here to fetch this product details from the database table, by supplying the id
-            List<Product> allProducts = ProductRepository.Products;
+            //call GetProductById method of ProductRepository class here to fetch this product details from the database table, by supplying the id
+            ProductRepository repository = new ProductRepository();
+            repository.FetchProductById(arg);
+            return this.View();
+            /*
             var all = allProducts.Where(p => p.ProductId == arg);
             Product found = null;
             if (all != null && all.Count() > 0)
@@ -38,8 +44,9 @@ namespace ProductsMVCApplication.Controllers
                 return this.View(found);
             else
                 return this.NotFound("No record found");
+            */
         }
-
+       
         public ViewResult AddProduct()
         {
             return this.View();
@@ -47,20 +54,22 @@ namespace ProductsMVCApplication.Controllers
 
         public IActionResult SubmitProductData(Product newProductData)
         {
-          //call AddProduct method of ProductRepository class here to add this product into database table
-            var allProducts = ProductRepository.Products;
-            var found = allProducts.Where(p => p.ProductId == newProductData.ProductId);
-            if (found != null && found.Count() > 0)
-            {
-                string errorMessage = "The product exists";
-                this.ViewBag.Error = errorMessage;
-                return this.View("AddProduct");
-            }
-            else
-                ProductRepository.Add(newProductData);
+            //call AddProduct method of ProductRepository class here to add this product into database table
+            ProductRepository repository = new ProductRepository();
+            repository.InsertProduct(newProductData);
+            //var allProducts = ProductRepository.Products;
+            //var found = allProducts.Where(p => p.ProductId == newProductData.ProductId);
+            //if (found != null && found.Count() > 0)
+            //{
+            //    string errorMessage = "The product exists";
+            //    this.ViewBag.Error = errorMessage;
+            //    return this.View("AddProduct");
+            //}
+            //else
+            //    ProductRepository.Add(newProductData);
 
-            return this.RedirectToAction("GetProducts");
+            //return this.RedirectToAction("GetProducts");
+            return View();
         }
-        */
     }
 }
