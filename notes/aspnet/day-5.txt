@@ -1,1 +1,77 @@
-Entity Franework Core:
+ADO.NET:
+a. take care of the many underlying aspects: creating connection, openning and closing the same, handling coammnd, configuring, handling reader obejct etc. In that case, people looses focus from the actual business logic.
+solution: if someone takes care of those underlying aspects and the developers focus more on what to do (business logic), rather than how to do.
+
+b. if the backend database changes, you have to re-write the complete DAL code
+solution> if developers can use a technology which provides data access facility independent of the database
+
+.NET Framework (4.8): Entity Franework (EF -> 6.x) 
+and 
+.NET Core: Entity Framework Core (EF Core -> 6.0 [3.1])
+
+a. EF is open source
+b. OR/M framework: 
+	- ORM: Object Relational Mapping
+
+Db first approach:
+-----------------------------------------------
+a. information about database and it's tables, other objects (stored procedures, triggers,views etc.)
+database: [Schema model]
+--------------------------------------------------------------------------
+appdb 
+connection string: server=joydip-pc database=appdb user id=sa password=sqlserver2017
+tables: categories and products
+stored procedures: addproduct, getproducts, getproduct
+
+tables:
+---------------------------------------------------------------------------
+categories: category(pk) int, categoryname (varchar(50))
+products: productid(pk) int, productname varchar(50), price decimal(18,2), description varchar(max), categoryid(fk) int
+relationship: fk_categories_products_categoryid
+
+b. create a context and othe model classes to represent the information about the database and its tables [Conceptual model]
+context class:
+-------------------------------------------------------------
+AppDbContext inherits from DbContext
+properties: 
+a. products => return all the product records from database table "products" as collection of "product" entity model object
+and 
+b. categories => return all the category records from database table "categories" as collection of "category" entity model object
+
+
+entity models/POCO (Plain Old C# Objects) classes:
+-------------------------------------------------------------------------------------------
+category: int categoryid, string categoryname
+product: int productid, string productname, decimal price, string description, int categoryid
+
+c. information about mapping between the database and its tables and context and other models classes [Mapping model]
+--------------------------------------------------------------------------------------------
+
+categories					category
+--------------------------------------------------------------------------------
+categoryid (int) <----------------------------> categoryid (int)
+categoryname <--------------------------------> categoryname
+
+
+products					product
+--------------------------------------------------------------------------------
+productid (int) <----------------------------> productid (int)
+productname <--------------------------------> productname
+..........................
+
+
+b. code first approach
+create some classes: db context, some POCO class
+
+class AccountDbContext:DbContext => accountdb
+{ 
+        public AccountDbContext():base("server=.;database=accountdb;uid=sa;pwd=sqlserver2017") {}
+	public ICollection<Account> Accounts {get;} 
+}
+class Account => accounts
+{
+   public int AccountId{set;get;}
+   .........................
+}
+
+
