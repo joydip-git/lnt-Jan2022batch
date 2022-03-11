@@ -32,13 +32,29 @@ namespace ProductsMVCApplication.Controllers
                 return this.View(null);
             }
         }
-        /*
+
         public IActionResult GetProduct(int arg = 1)
         {
-           
-           
+            ProductRepository repository = null;
+            try
+            {
+                repository = new ProductRepository();
+                var product = repository.FetchProductById(arg);
+                if (product == null)
+                {
+                    this.ViewBag.Message = "No Product found";
+                    return this.View();
+                }
+                else
+                    return this.View(product);
+            }
+            catch (Exception ex)
+            {
+                this.ViewBag.Message = ex.Message;
+                return this.View();
+            }
         }
-        */
+
         public ViewResult AddProduct()
         {
             return this.View();

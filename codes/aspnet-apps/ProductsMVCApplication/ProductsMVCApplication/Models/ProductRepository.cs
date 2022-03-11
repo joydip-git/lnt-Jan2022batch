@@ -120,13 +120,7 @@ namespace ProductsMVCApplication.Models
                     //dt.Load(reader);
                     while (reader.Read())
                     {
-                        Product product = new Product();
-
-                        product.ProductId = (int)reader["productid"];
-                        product.ProductName = (string)reader["productname"];
-                        product.Price = (decimal)reader["price"];
-                        product.Description = (string)reader["description"];
-
+                        Product product = ConvertToProduct(reader);
                         products.Add(product);
                     }
                 }
@@ -152,10 +146,12 @@ namespace ProductsMVCApplication.Models
         }
 
         //method to fecth a single product record from database table, given the id of the product
-        public void FetchProductById(int id)
+        public Product FetchProductById(int id)
         {
             SqlConnection connection = null;
             SqlCommand command = null;
+            SqlDataReader reader = null;
+            Product product = null;
             try
             {
                 //createing connection object
@@ -169,9 +165,22 @@ namespace ProductsMVCApplication.Models
                 command.CommandText = "GetProductById";
                 command.CommandType = CommandType.StoredProcedure;
 
+                SqlParameter pmid = CreateParameter<int>("@productid", id);
+                command.Parameters.Add(pmid);
+
                 //openning the connection
                 //this.OpenConnection(connection);
                 connection.Open();
+
+                reader = command.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        product = ConvertToProduct(reader);
+                    }
+                }
+                return product;
             }
             catch (SqlException ex)
             {
@@ -195,6 +204,18 @@ namespace ProductsMVCApplication.Models
             pm.ParameterName = paramName;
             pm.Value = paramValue;
             return pm;
+        }
+        private Product ConvertToProduct(SqlDataReader reader)
+        {
+            Product product = new Product
+            {
+
+                ProductId = (int)reader["productid"],
+                ProductName = (string)reader["productname"],
+                Price = (decimal)reader["price"],
+                Description = (string)reader["description"]
+            };
+            return product;
         }
 
         /*
