@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JqBFjl0hfX6POJUvUNFI7rkQsbDQkA4Aw5YnWWx/PWduUoiIJpPyrixjRxGNVqbZP2njpV6WlzqMwrjbcUmq5A==",
+  "dgSpecHash": "DNp7/sCgjxKn143apTYJbB2ckIWzQUcXe5b+nwmE8Z6V4VMRXeea1mhzzJYG4a6XjWqlNlxjUm82rzvug3K6fQ==",
   "success": true,
-  "projectFilePath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\aspnet-apps\\EFDemo\\EFDemo\\EFDemo.csproj",
+  "projectFilePath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\aspnet-apps\\EF_CodeFirst\\EF_CodeFirst\\EF_CodeFirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joydip\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\joydip\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

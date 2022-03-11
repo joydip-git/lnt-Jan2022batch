@@ -5682,11 +5682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\aspnet-apps\\EFDemo\\EFDemo\\EFDemo.csproj",
-      "projectName": "EFDemo",
-      "projectPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\aspnet-apps\\EFDemo\\EFDemo\\EFDemo.csproj",
+      "projectUniqueName": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\aspnet-apps\\EF_CodeFirst\\EF_CodeFirst\\EF_CodeFirst.csproj",
+      "projectName": "EF_CodeFirst",
+      "projectPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\aspnet-apps\\EF_CodeFirst\\EF_CodeFirst\\EF_CodeFirst.csproj",
       "packagesPath": "C:\\Users\\joydip\\.nuget\\packages\\",
-      "outputPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\aspnet-apps\\EFDemo\\EFDemo\\obj\\",
+      "outputPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\aspnet-apps\\EF_CodeFirst\\EF_CodeFirst\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

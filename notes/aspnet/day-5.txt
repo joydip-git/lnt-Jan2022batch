@@ -74,4 +74,7 @@ class Account => accounts
    .........................
 }
 
+Migrartion: history of database and its table creation and modifcation
+history of table design creation and further alteration
+
 
