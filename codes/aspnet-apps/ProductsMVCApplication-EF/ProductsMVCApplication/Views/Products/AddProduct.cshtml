@@ -1,0 +1,48 @@
+﻿@{
+    this.Layout = "~/Views/Shared/_Layout.cshtml";
+    this.ViewBag.Title = "Add Product";
+}
+
+@using ProductsMVCApplication.Models
+@model Product
+
+<h2>Add a Product</h2>
+@*@using (var frm = Html.BeginForm())*@
+
+@using (var frm = Html.BeginForm("SubmitProductData", "Products"))
+{
+    <div class="form" style="text-align:center">
+        <div>
+            @Html.LabelFor(p => p.ProductId)
+            :&nbsp;
+            @Html.EditorFor(p => p.ProductId)
+        </div>
+        <div>
+            @Html.LabelFor(p => p.ProductName)
+            :&nbsp;
+            @Html.EditorFor(p => p.ProductName)
+        </div>
+        <div>
+            @Html.LabelFor(p => p.Price)
+            :&nbsp;
+            @Html.EditorFor(p => p.Price)
+        </div>
+        <div>
+            @Html.LabelFor(p => p.Description)
+            :&nbsp;
+            @Html.EditorFor(p => p.Description)
+        </div>
+        <div style="text-align:center">
+            <input type="submit" value="Submit" class="btn btn-primary" />
+        </div>
+    </div>
+}
+@if (this.ViewBag.Message != null)
+{
+    <span>@this.ViewBag.Message</span>
+}
+
+@* @if (this.ViewBag.Error != null)
+    {
+        <span>@this.ViewBag.Error</span>
+    } *@

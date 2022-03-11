@@ -1,0 +1,14 @@
+﻿  //"server" or "data source"
+            //"initial catalog" or "database"
+
+            //windows authentication
+            //"integrated security=SSPI" or "integrated security=true" or "persistent security=true"
+
+            //sql server authentication
+            //"user id" or "uid"
+            //"password" or "pwd"
+
+
+             //this.connectionString = "data source=joydip-pc; initial catalog=appdb; uid=sa; pwd=sqlserver2017";
+            this.connectionString = "server=joydip-pc; database=appdb; integrated security=sspi";
+            this.connectionString = "server=joydip-pc; database=appdb; integrated security=true";

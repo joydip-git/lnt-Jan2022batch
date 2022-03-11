@@ -1,0 +1,10 @@
+1. create a database
+2. create a table for storing account data
+column names: accountid, accountname, accountbalance, withdrwallimit
+
+3. create a MVC web application
+4. add entity framework in the application
+5. create a DAO class, with a method to return all the account records
+
+6. create a controller action which will be requested by user and as a response the action will return a view with every account details (display only the account holder name and the current balance in the design)
+7. also keep an action Index which will be used for default route

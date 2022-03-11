@@ -1,0 +1,41 @@
+﻿@{
+    this.Layout = "~/Views/Shared/_Layout.cshtml";
+    this.ViewBag.Title = "Product Detail";
+}
+
+@using ProductsMVCApplication.Models
+@model Product
+
+@{
+    if (Model != null)
+    {
+        <fieldset style="width:300px;background-color:beige;font-family:'Segoe UI';font-size:medium">
+            <legend style="font-size:large">Details of @Model.ProductName</legend>
+            @*<label for="">ProductId:&nbsp;</label>3*@
+            @Html.LabelFor(m => m.ProductId)
+            :&nbsp;
+            @*@Html.DisplayTextFor(m => m.ProductId)*@
+            <span>@Model.ProductId</span>
+            <br />
+            @Html.LabelFor(m => m.ProductName)
+            :&nbsp;
+            @*@Html.DisplayTextFor(m => m.ProductName)*@
+            <span>@Model.ProductName</span>
+            <br />
+            @Html.LabelFor(m => m.Price)
+            :&nbsp;
+            @*@Html.DisplayTextFor(m => m.Price)*@
+            <span>@Model.Price</span>
+            <br />
+            @Html.LabelFor(m => m.Description)
+            :&nbsp;
+            @*@Html.DisplayTextFor(m => m.Description)*@
+            <span>@Model.Description</span>
+        </fieldset>
+    }
+    if (this.ViewBag.Message != null)
+    {
+        <span>@ViewBag.Message</span>
+    }
+}
+

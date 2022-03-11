@@ -1,0 +1,39 @@
+﻿<!--class GetProducts: RazorPageBase -->
+<!-- this following line will create a container for this view. only List<Product> type data can be stored in the container. and the controller action, using this container, can only pass List<Product> of type data to this view-->
+@{
+    this.Layout = "~/Views/Shared/_Layout.cshtml";
+    this.ViewBag.Title = "All Products";
+}
+
+@*@model ProductsMVCApplication.Models.Product*@
+@*@model int*@
+@*@model string*@
+@*@model string[]*@
+
+@using ProductsMVCApplication.Models
+@model List<Product>
+
+
+<h4>All Products</h4>
+<hr />
+
+@{
+    if (Model != null)
+    {
+        var produts = this.Model;
+        <ul>
+            @foreach (Product p in produts)
+            {
+                <li>@p.ProductName</li>
+            }
+        </ul>
+    }
+}
+
+@{
+    if (ViewBag.Error != null)
+    {
+        <span>@ViewBag.Error</span>
+    }
+}
+
