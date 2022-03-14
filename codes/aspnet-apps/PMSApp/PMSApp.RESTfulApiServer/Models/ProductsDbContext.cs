@@ -5,18 +5,18 @@ namespace PMSApp.RESTfulApiServer.Models
 {
     public class ProductsDbContext : DbContext
     {
-        //public ProductsDbContext(DbContextOptions<ProductsDbContext> dbContextOptions)
-        //: base(dbContextOptions)
-        public ProductsDbContext()
+        //public ProductsDbContext() { }
+        public ProductsDbContext(DbContextOptions<ProductsDbContext> dbContextOptions)
+        : base(dbContextOptions)      
         {
             Console.WriteLine("context created");
         }
         public DbSet<Product> Products { set; get; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("server=joydip-pc;database=productsdb;user id=sa;password=sqlserver2017");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("server=joydip-pc;database=productsdb;user id=sa;password=sqlserver2017");
+        //}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
