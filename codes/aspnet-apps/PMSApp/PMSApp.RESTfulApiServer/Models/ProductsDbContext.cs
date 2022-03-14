@@ -5,6 +5,12 @@ namespace PMSApp.RESTfulApiServer.Models
 {
     public class ProductsDbContext : DbContext
     {
+        //public ProductsDbContext(DbContextOptions<ProductsDbContext> dbContextOptions)
+        //: base(dbContextOptions)
+        public ProductsDbContext()
+        {
+            Console.WriteLine("context created");
+        }
         public DbSet<Product> Products { set; get; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

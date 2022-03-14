@@ -46,4 +46,9 @@ state of an object: data along with the description of the data
   .............................
 }]
 
+Dependency injection in ASP.NET Core:
+1. we will tell asp.net core framework to create an object of ProductDaoImpl class and supply the object reference through interface to the controller clsss through the constructor of the controller: StartUp.cs
+
+2. Create a parameterized constructor of the controller class where you declare an argument [productDaoImpl] of type interface [IProductDaoImpl], that is implemented in the class [ProductDaoImpl], on whose object your controller is dependent
+
 

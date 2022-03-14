@@ -14,11 +14,17 @@ namespace PMSApp.RESTfulApiServer.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+        private IProductDaoImpl productDao;
+        public ProductsController(IProductDaoImpl productDaoImpl)
+        {
+            Console.WriteLine("controller created...");
+            this.productDao = productDaoImpl;
+        }
+
         [HttpGet]
         [Route("{id}")]
         public IActionResult GetProduct(int id)
         {
-            ProductDaoImpl productDao = new ProductDaoImpl();
             var fetchedData = productDao.FetchOne(id);
             return this.Ok(fetchedData);
         }
@@ -26,15 +32,13 @@ namespace PMSApp.RESTfulApiServer.Controllers
         [HttpGet]
         public IActionResult GetProducts()
         {
-            ProductDaoImpl productDao = new ProductDaoImpl();
             var fetchedData = productDao.FetchAll();
             return this.Ok(fetchedData);
         }
 
         [HttpPost]
         public IActionResult AddProduct(Product product)
-        {
-            ProductDaoImpl productDao = new ProductDaoImpl();
+        {           
             var result = productDao.AddOne(product);
             return this.CreatedAtAction("AddProduct", $"{result} record added");
         }
@@ -56,7 +60,6 @@ namespace PMSApp.RESTfulApiServer.Controllers
         [Route("filter/{name}")]
         public IActionResult FilterProductsByName(string name)
         {
-            ProductDaoImpl productDao = new ProductDaoImpl();
             var fetchedData = productDao.Filter(name);
             return this.Ok(fetchedData);
         }

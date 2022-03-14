@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="table-responsive">
+
+        <table class="table" *ngIf="products && products.length>0; else alternate">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let p of products">
+                    <td>{{p.productName|uppercase}}</td>
+                    <td>{{p.price|currency:'INR'}}</td>
+                    <td>{{p.starRating}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<ng-template #alternate>
+    <span>No records found</span>
+</ng-template>
