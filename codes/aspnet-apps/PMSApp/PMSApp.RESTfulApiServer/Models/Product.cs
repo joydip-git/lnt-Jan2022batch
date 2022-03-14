@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PMSApp.RESTfulApiServer.Repository
+namespace PMSApp.RESTfulApiServer.Models
 {
     public class Product
     {
