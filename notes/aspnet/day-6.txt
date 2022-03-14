@@ -1,0 +1,49 @@
+1. display all the products in the UI
+	fetch all the product records from the sql server database. 
+	An web api application's controller action will return these data in JSON format to Angular application.
+	Angular application will request the action from a Service class method
+	An angular component will call the Service class method and get the data and disply the data in the component
+2. filter the products in the UI
+3. add a new product 
+4. update an existing product
+5. view a product detail
+
+
+RESTful API application: 
+ASP.NET Core Web API application
+(Node JS+ Express JS)
+Spring MVC etc,.
+
+Representational State Transfer (REST) technology
+												[Route("api/[controller]")]
+
+request				     Method	input			output			Methods
+-----------------------------------------------------------------------------------------------------------------------------
+												[HttpGet]
+http://localhost:56177/api/Products    GET	---			an arry of products	GetProducts
+
+												[HttpGet]
+												[Route("{x}")]
+http://localhost:56177/api/Products/1  GET	1 (id) as route data	a product object	GetProductById(
+												[FromUrl]int x)
+
+												[HttpPost]
+http://localhost:56177/api/Products    POST	product data 		a value indicating 	AddProduct([FromBody]Product 										record has been added 	p)													successfully or not
+												[HttpPut]
+http://localhost:56177/api/Products    PUT	product data		a value indicating 	UpdatedProduct(Product p)										record has been updated														successfully or not
+												 [HttpDelete]
+												 [Route("{id}")]
+http://localhost:56177/api/Products/1  DELETE	1 (id) as route data	a value indicating 	 DeleteProductById(int id)										record has been deleted														successfully or not
+
+state of an object: data along with the description of the data
+[{
+  "productname":"dell xps",
+  "productid":1,
+  .............................
+},{
+  "productname":"hp probook",
+  "productid":2,
+  .............................
+}]
+
+

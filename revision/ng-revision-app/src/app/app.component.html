@@ -1,0 +1,7 @@
+<h2>{{title}}</h2>
+Value:&nbsp;<input type="text" #txtdata />
+<button (click)="call(txtdata.value)">Click Me!!!</button>
+<br>
+<app-sample (sampleDataFired)="receiveDataFromSample($event)"></app-sample>
+<br>
+<app-another [receivedDataFromParent]="receivedData"></app-another>

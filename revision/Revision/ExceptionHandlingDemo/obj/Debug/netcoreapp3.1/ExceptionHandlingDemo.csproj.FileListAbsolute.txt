@@ -1,0 +1,14 @@
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\bin\Debug\netcoreapp3.1\ExceptionHandlingDemo.exe
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\bin\Debug\netcoreapp3.1\ExceptionHandlingDemo.deps.json
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\bin\Debug\netcoreapp3.1\ExceptionHandlingDemo.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\bin\Debug\netcoreapp3.1\ExceptionHandlingDemo.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\bin\Debug\netcoreapp3.1\ExceptionHandlingDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\bin\Debug\netcoreapp3.1\ExceptionHandlingDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\obj\Debug\netcoreapp3.1\ExceptionHandlingDemo.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\obj\Debug\netcoreapp3.1\ExceptionHandlingDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\obj\Debug\netcoreapp3.1\ExceptionHandlingDemo.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\obj\Debug\netcoreapp3.1\ExceptionHandlingDemo.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\obj\Debug\netcoreapp3.1\ExceptionHandlingDemo.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\obj\Debug\netcoreapp3.1\ExceptionHandlingDemo.dll
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\obj\Debug\netcoreapp3.1\ExceptionHandlingDemo.pdb
+E:\LnT-Training\lnt-Jan2022batch\revision\Revision\ExceptionHandlingDemo\obj\Debug\netcoreapp3.1\ExceptionHandlingDemo.genruntimeconfig.cache
