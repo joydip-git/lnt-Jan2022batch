@@ -11,5 +11,11 @@ namespace BankingSystemApp.BankingAPIService.Controllers
     [ApiController]
     public class LoginContoller : ControllerBase
     {
+        [HttpPost]
+        [Route("authenticate")]
+        public IActionResult Authenticate(string username,string password)
+        {
+            return null;
+        }
     }
 }
