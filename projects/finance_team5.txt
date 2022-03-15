@@ -1,0 +1,39 @@
+customer/registration table
+--------------------------------------
+customerid/regid userid(fk)
+
+
+usertype
+------------------
+usertypeid usertypename
+1		admin
+2		user
+
+login
+------------------------
+userid(pk) pwd usertypeid(fk) 
+
+
+products
+-----------------------
+productid(pk) 
+
+order:
+-------------------------------------------------------------------
+orderid(pk) productid(fk) orderamount orderdate customerid(pk)
+
+paymenttable:
+---------------------------------------------------------------
+paymentid(pk) orderid(fk) downpayment  remaining balance
+
+emitype
+----------------------------
+emitypeid emiduration
+1		3
+2		6
+...............
+
+
+emistable:
+-------------------------------------------------------------
+emiid(pk) customerid(fk) orderid(fk) emiamount emitypeid paymentid(fk)

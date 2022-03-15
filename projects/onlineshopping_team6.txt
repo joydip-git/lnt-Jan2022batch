@@ -1,0 +1,73 @@
+products
+----------------------
+productid(pk) retailerid(fk) price 
+
+
+usertype
+usertypeid(pk) usertypename
+1		admin
+2		retailer
+3		user
+
+
+customer[user]
+-----------------------------
+customerid(pk) userid(fk)
+
+
+login
+--------------------------------------
+userid(pk) pwd  usertypeid(fk)
+
+ordertable
+------------------------------------------------------
+orderid(pk) customerid(fk) orderamt orderdate
+
+payment
+----------------------------------------------
+paymentid(pk) orderid(fk) 
+
+reatilertable
+---------------------------
+rid(pk)
+
+cart table
+------------------------------
+cartid(pk) cartamount customerid(fk)
+1	   2000		1
+
+cartitems
+------------------------------------------
+entryid(pk) cartid(fk) productid(fk)
+1		1		1		1
+2		1		2
+3		1		3
+
+4		2		1
+5		2		2
+6		2		4
+7		2		5
+
+wishlist
+-------------------------------------
+wishid(pk) custid
+1		1
+2		2
+3		3 
+
+
+wishitems
+---------------
+entryid(pk) wishid(fk) productid(fk)
+1		1		1		1
+2		1		2
+3		1		3
+
+4		2		1
+5		2		2
+6		2		4
+7		2		5
+
+
+
+

@@ -1,0 +1,40 @@
+usertype
+------------------------
+usertypeid(pk) usertypename
+----------------------------
+1		admin
+2		user
+
+login:
+userid(pk) password usertypeid(fk)
+---------------------------------------
+joy			2          
+jatin			1
+
+customer
+-------------------------------------------
+customerid(pk)   userid(fk)
+
+routes
+-------------
+routeid(pk)
+
+bus:
+busid(pk) routeid(fk) driverid(fk)
+
+driver
+---------------------------
+driverid(pk)
+
+
+bookingtable
+---------------------------------
+bookingid(pk) customerid(fk)
+
+payments:
+---------------------------------
+paymentid(pk) bookingid(fk)
+
+cancellation table
+-------------------------------------------------------------
+cancellationid(pk) bookingid(fk) amountrefundable cancellationdate

@@ -1,0 +1,54 @@
+questionbank
+qid (pk), qtest
+----------------
+1         what is angular?
+2         what is C#?
+
+answerbank
+ansid(pk), anstext,             qid  
+---------------------------------------------
+1	   server-side framework 1
+2	   client-side framework 1
+3	   a .net framework      1
+4          a java framework      1
+5          a language		 2
+6          a java framework      1
+
+questioncorrectanswer
+-----------------------------------
+qaid(pk) qid(fk)	ansid(fk) 
+100`		1       2
+101		2       2
+102		3       4
+103		4       4
+
+level
+------------
+leveid(pk) levelname
+
+
+usertype
+-------------------
+typeid(pk) typename
+1         admin
+2         user
+
+login
+--------------------------------
+userid(pk) pwd    typeid (fk)
+-----------------------
+joy    joy123      1
+
+userregistration
+------------------------------
+regid(pk) userid(fk) email state city  
+1         joy        -           
+
+
+studentexamtable
+----------------------------------------------
+examentryid(pk) userid(fk) marks levelid(fk)
+1		joy        50     1
+2               joy        70     2
+3               jagdish    89     1
+4                j         91     2

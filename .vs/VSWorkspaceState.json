@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\projects",
+    "\\projects\\server",
+    "\\projects\\server\\BankingSystemApp",
+    "\\projects\\server\\BankingSystemApp\\BankingSystemApp.BankingAPIService",
+    "\\projects\\server\\BankingSystemApp\\BankingSystemApp.BankingAPIService\\Controllers",
+    "\\projects\\server\\BankingSystemApp\\BankingSystemApp.BankingAPIService\\DataAccessLayer"
+  ],
+  "SelectedNode": "\\projects\\server\\BankingSystemApp\\BankingSystemApp.BankingAPIService\\DataAccessLayer\\LoginDao.cs",
+  "PreviewInSolutionExplorer": false
+}
