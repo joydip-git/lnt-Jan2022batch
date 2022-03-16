@@ -1,0 +1,24 @@
+userinfo:
+---------------------
+uid(pk) usertypeid(fk) permittedtosale 
+
+ croptype
+---------------------
+ croptypeid(pk) croptype  
+1		khariif 
+2		rabi
+
+sell
+-----------------------------------------------------------------------------------
+sellid(pk) croptypeid(fk) cropname fertilizertype  quantity uid(fk) baseprice
+1								1	
+2								1
+
+bidding
+---------------------------------------------------------
+biddingid(pk) uid(fk) sellid(fk) bidamt biddate bidtstatus
+1		3     	1         10000          0/1
+2               5       1	  15000	
+
+
+
