@@ -1,0 +1,13 @@
+1. solve repository issue
+2. create database and tables
+3. DO NOT:
+   a. work on login
+   b. work on validation
+  
+
+4. DO
+    a. create Repository (where DbContext and entity model classes will be present when you scaffold)
+    b. create DAL folder (where a DaoImpl class and interface containing methods to work with FF core will be present. the class will implement the interface). 
+    c. controller actions
+
+5. UI (angular) 
