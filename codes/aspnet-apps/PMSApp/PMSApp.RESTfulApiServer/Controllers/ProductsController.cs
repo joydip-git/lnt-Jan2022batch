@@ -38,9 +38,17 @@ namespace PMSApp.RESTfulApiServer.Controllers
 
         [HttpPost]
         public IActionResult AddProduct(Product product)
-        {           
+        {
             var result = productDao.AddOne(product);
-            return this.CreatedAtAction("AddProduct", $"{result} record added");
+            return this.CreatedAtAction(
+                "AddProduct",
+                new
+                {
+                    StatusCode = 201,
+                    Response = result,
+                    Data = product
+                }
+                );
         }
 
         [HttpPut]

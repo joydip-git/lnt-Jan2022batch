@@ -1,8 +1,9 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { map, Observable, Observer } from "rxjs";
-import { ProductModel } from "../models/product";
+import { ProductModel } from "../models/product.model";
 import { environment } from '../../environments/environment'
+import { ResponseModel } from "../models/response.model";
 
 //since you are asking angular dependency injector to create an instance of HttpClient class and inject the reference of the object to the constructor of the ProductService class. the reference of HttpClient class object will be stored in private data member _http.
 @Injectable()
@@ -59,5 +60,9 @@ export class ProductService {
             )
         );
         return productModelObs;
+    }
+    public addProduct(product: ProductModel): Observable<ResponseModel> {
+        const responseObs: Observable<any> = this._http.post(this.url, product);
+        return responseObs.pipe(map((resp: any) => <ResponseModel>resp))
     }
 }

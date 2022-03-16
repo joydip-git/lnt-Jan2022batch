@@ -1,7 +1,7 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { Observable, Observer } from 'rxjs';
-import { ProductModel } from './models/product';
+import { ProductModel } from './models/product.model';
 import { ProductService } from './sevices/product.service';
 
 @Component({
