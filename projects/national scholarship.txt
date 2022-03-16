@@ -91,4 +91,6 @@ did(pk) docid(fk) doc uploadedbystudent(fk)[adhaaar] uploadedbyinstitute(fk)[iid
 
 application
 ---------------------------------------
-appid(pk) eid(fk) iid(fk) rid(fk) cid(fk) adhhar(fk) fid(fk) bid(fk) schemeid(fk)
+appid(pk) eid(fk) iid(fk) rid(fk) cid(fk) adhhar(fk) fid(fk) bid(fk) schemeid(fk) status [nullable]
+										   0/1
+		
