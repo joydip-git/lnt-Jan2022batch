@@ -1,0 +1,94 @@
+usertype
+------------------
+utid(PK) utname
+1    Student
+2    Institute
+.................
+
+login
+--------------------
+email(pk) pwd utid(FK)
+
+stats
+------------------
+stateid(PK) statename
+
+districts
+----------------------
+did(pk) dname stateid(fk)
+
+block
+--------------
+bid(pk)
+
+studentregistration:
+----------------------------
+adhaar(pk) name dob gender mobile userid(fk)
+
+bankdetails
+-----------------
+ifsc(pk) name accountnumber adhaar(fk)
+
+schemetable
+--------------------
+schemeid(PK) schemename
+
+criteria
+---------------------
+criteraid criteriadescription varchar(max)
+-------------------------------------
+1
+
+
+instiute:
+----------------------
+iid(pk) iname
+
+studymode
+---------------------
+smodeid(pk) somdename
+1		fulltime
+2		parttime
+
+religion
+----------------
+rid rname
+
+
+community
+--------------------
+cid(pk) cname
+
+standard
+------------
+sid	sname
+1	10
+2	12
+
+educationdetails
+-------------------------------
+eid(pk) roll board passingyear % standardid(fk)
+
+family
+----------------
+fid(pk) fname mname annulaincome profession
+
+contacts
+---------------------
+conid(pk) stateid(fk) did(fk) hno pno sno
+
+documenttype
+--------------------
+docid  docname
+1	domicile
+2       10th
+	
+documents
+------------------------------------
+did(pk) docid(fk) doc uploadedbystudent(fk)[adhaaar] uploadedbyinstitute(fk)[iid]
+1	  1	   		1			NULL
+2      
+
+application
+---------------------------------------
+appid(pk) eid(fk) iid(fk) rid(fk) cid(fk) adhhar(fk) fid(fk) bid(fk) schemeid(fk)
