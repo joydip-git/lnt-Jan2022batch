@@ -1,0 +1,55 @@
+payment
+-----------------------------------------------------------------
+paymentid(pk) paymentamt insuranceid(fk) cardname cardnumber 
+
+insuranceduartion
+------------------------------
+duraid(pk)   duravalue
+----------------------------
+1		1
+2		2
+3		3
+
+
+insuranceplantypes
+---------------------
+planid(pk) planname
+---------------------------
+1	   Third Party Liability
+2	   Comprehensive
+
+
+insurnacevehicletypes
+----------------------
+vehicletypeid(pk)	vehicletypename
+----------------------------------------------
+1			4 wheeler
+2			2 wheeler
+
+customer
+--------------------
+customerid(pk) userid(fk)
+
+login:
+---------------------
+userid(pk) pwd
+
+insuredvehicles
+-----------------------------------
+vehicleid(pk)	vehiclename
+
+insurance/policy:
+------------------------------------------------------------------------------------------------------
+policynumber(pk) customerid(fk) vehicleid(fk) vehicletypeid(fk) duraid(fk) planid(fk) 
+
+claimreason
+-----------------------
+claimreasonid(pk)	claimreasonname
+-------------------------------------
+1			Natiral disaster
+.............................................
+
+claimtable:
+-----------------------------------------------------------------------
+claimid(pk) policynumber(fk) claimreasonid(fk)  claimableamount
+
