@@ -1,2 +1,16 @@
 Reactive Extensions
 some APIs for asynchronous programming in different programming languages, such as, JavaScript (RxJS => Reactive Extension for JavaScript), .NET, Java, Scala, Swift etc.
+
+RESTful API app:
+Node JS + Express JS
+ASP.NET Core Web API (.net core framework)
+ASP.NET Web API (.net framework)
+Java (Spark)
+
+
+Front-end (client-side)
+----------------------------
+Angular
+   - how do you make request to RESTful APIs?
+   - using HttpClient [built-in service class from @angular/common/http package and reistered in HttpClientModule module] class's methods
+   - every method helps you to make request to RESTful APIs using HTTP protocol methods like GET, POST, PUT, DELETE etc.
