@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.ProductServiceApi\\DummyProject.ProductServiceApi.csproj": {}
+  },
+  "projects": {
+    "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.BusinessModels\\DummyProject.BusinessModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.BusinessModels\\DummyProject.BusinessModels.csproj",
+        "projectName": "DummyProject.BusinessModels",
+        "projectPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.BusinessModels\\DummyProject.BusinessModels.csproj",
+        "packagesPath": "C:\\Users\\joydip\\.nuget\\packages\\",
+        "outputPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.BusinessModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joydip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.DataAccessLayer\\DummyProject.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.DataAccessLayer\\DummyProject.DataAccessLayer.csproj",
+        "projectName": "DummyProject.DataAccessLayer",
+        "projectPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.DataAccessLayer\\DummyProject.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\joydip\\.nuget\\packages\\",
+        "outputPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joydip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.BusinessModels\\DummyProject.BusinessModels.csproj": {
+                "projectPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.BusinessModels\\DummyProject.BusinessModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.ProductServiceApi\\DummyProject.ProductServiceApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.ProductServiceApi\\DummyProject.ProductServiceApi.csproj",
+        "projectName": "DummyProject.ProductServiceApi",
+        "projectPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.ProductServiceApi\\DummyProject.ProductServiceApi.csproj",
+        "packagesPath": "C:\\Users\\joydip\\.nuget\\packages\\",
+        "outputPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.ProductServiceApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joydip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.BusinessModels\\DummyProject.BusinessModels.csproj": {
+                "projectPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.BusinessModels\\DummyProject.BusinessModels.csproj"
+              },
+              "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.DataAccessLayer\\DummyProject.DataAccessLayer.csproj": {
+                "projectPath": "E:\\LnT-Training\\lnt-Jan2022batch\\codes\\DummyProject\\DummyProject.DataAccessLayer\\DummyProject.DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

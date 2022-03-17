@@ -1,0 +1,16 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\bin\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\bin\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.runtimeconfig.json
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\bin\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.runtimeconfig.dev.json
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\bin\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\bin\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\bin\Debug\netcoreapp3.1\DummyProject.BusinessModels.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\bin\Debug\netcoreapp3.1\DummyProject.BusinessModels.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\obj\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\obj\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\obj\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\obj\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\obj\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\obj\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.csproj.CopyComplete
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\obj\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\obj\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.DataAccessLayer\obj\Debug\netcoreapp3.1\DummyProject.DataAccessLayer.genruntimeconfig.cache

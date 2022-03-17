@@ -1,0 +1,10 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.BusinessModels\bin\Debug\netcoreapp3.1\DummyProject.BusinessModels.deps.json
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.BusinessModels\bin\Debug\netcoreapp3.1\DummyProject.BusinessModels.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.BusinessModels\bin\Debug\netcoreapp3.1\DummyProject.BusinessModels.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.BusinessModels\obj\Debug\netcoreapp3.1\DummyProject.BusinessModels.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.BusinessModels\obj\Debug\netcoreapp3.1\DummyProject.BusinessModels.GeneratedMSBuildEditorConfig.editorconfig
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.BusinessModels\obj\Debug\netcoreapp3.1\DummyProject.BusinessModels.AssemblyInfoInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.BusinessModels\obj\Debug\netcoreapp3.1\DummyProject.BusinessModels.AssemblyInfo.cs
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.BusinessModels\obj\Debug\netcoreapp3.1\DummyProject.BusinessModels.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.BusinessModels\obj\Debug\netcoreapp3.1\DummyProject.BusinessModels.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\DummyProject\DummyProject.BusinessModels\obj\Debug\netcoreapp3.1\DummyProject.BusinessModels.pdb
