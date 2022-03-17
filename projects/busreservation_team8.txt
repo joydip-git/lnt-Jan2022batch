@@ -38,3 +38,100 @@ paymentid(pk) bookingid(fk)
 cancellation table
 -------------------------------------------------------------
 cancellationid(pk) bookingid(fk) amountrefundable cancellationdate
+
+
+
+
+after review:
+------------------------------------
+-------------------------------------------
+usertype
+-----------------------
+usertypeid(pk)   usertypename
+-------------------------------
+1			admin
+2			customer
+
+
+users/logintable
+---------------------------------------
+userid(email,pk) name password usertypeid(fk)
+joy@gmail.com    joy   joy@123   1/2
+
+declare @usertyepidval int
+select @usertyepidval = usertypeid from users where userid=<> and passowrd=<>
+
+select usertypename from usertype where usertypeid=@usertyepidval
+
+
+select count(name) from users/login where userid=@uid and password=@pwd =>1/0
+
+type
+--------------------
+butypeid   bustype
+1		semi-deluxe
+2		deluxe
+3		sleeper
+
+bus table:
+busid(pk) registrationno bustypeid(fk) no_of_seats
+
+
+busroute
+--------------------------------------
+routeid orgin destination duration
+1         blr  chn        6
+2         blr  hyd        10
+
+
+busschedule
+-------------------------------------------------------------------------------------------------------------
+scheduleid(pk) busid(fk) drivername  routeid(fk) depdate/scheduledata arrivaldate available booked blocked
+1		1	  sunil	  	1		3/18/2022	3/19/2022      4        27     9
+2		2         joydip
+
+passengerticket
+--------------------------------------------------------------------------------------
+ticketid(pk) customer/passengerid(fk) bookingdate scheduleid(fk) bookamt
+1		1			3/17/2022  	1        1000     
+
+
+login page:
+user name: _______________________
+password: _________________________
+
+         Login
+
+
+class UserType { string usertypeid{g;s;} string usertypename{g;s;} }
+class User { string userid{g;s;} int usertypeid{g;s;} public UserType UserTypeInfo{g;s;}}
+
+[Route("api/[controller]")]
+[ApiController]
+AuthenticationController:ControllerBase
+{
+   [HttpPost]
+   [Route("{login}")]
+   public Login(User user)
+   {
+     using(var db = new ADbContext)
+     {
+       var filteredRecords = db.Users.Where(u=>u.UserId==user.userid && u.pwd == user.pwd);
+       var found = filteredRecords.First();
+       if(found!==null)
+       {
+          var val = found.UserTypeInfo.usertypename
+          if(val!="admin")
+          {
+             return this.Redirect("Customers","DashBoard");
+          }
+       }
+     }
+   }
+}
+
+//[1,2,3,4,5].where(n=>n%2==0).First();
+
+
+
+
