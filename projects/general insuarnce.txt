@@ -102,3 +102,18 @@ public class X:IX
 }
 
 
+//ideas2:
+email: ______________
+pass:  _______________
+      Login => call a web api controller action (Email,pwd)
+      save email in the local/session storage in the browser
+
+     localstorage["uid"]=<email-value>
+
+localhost:4200/customer-home
+fetch the email from local/sessionstorage in the browser
+and send that to a web api contoller action to fectch plociy number, mobile number, etc. and display the same in the page
+
+localhost:4200/claim-insurance/<email>
+localhost:4200/renew-insurance/<email>
+
