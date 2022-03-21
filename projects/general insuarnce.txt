@@ -53,3 +53,52 @@ claimtable:
 -----------------------------------------------------------------------
 claimid(pk) policynumber(fk) claimreasonid(fk)  claimableamount
 
+
+
+//ideas:
+
+localhost:4200/claim-insurance
+redirect you to login
+
+localhost:4200/login?returnUrl=claim-insurance
+
+userid(email): ______________________
+pwd:           ___________________________
+             Login
+
+
+localhost:4200/claim-insurance/akash_user
+
+fetch the route data in the component class code of claim-insurance component
+send a request to the web api application using service class (using httpclient get method and passing the email)
+
+
+policy number: <policy-no> from database table
+mobile number: <mob_no> from database table
+
+claim reasons: select list containing values fetched from claim_reasons table from database
+ claim insurance
+
+=> controller action
+
+[HttpGet]
+[Route("/claim/{email}")]
+public IAR GetPolicyAndMobileDetails(string email)
+{
+   
+}
+
+
+public interface IX
+{
+    CustomerRegistration FetchPolicyAndMobileDetails(string email);
+}
+
+public class X:IX
+{
+  publcic CustomerRegistration FetchPolicyAndMobileDetails(string email){}
+  //fetch policy number and nobile number from customer-regiatration table with the matching email
+  
+}
+
+
