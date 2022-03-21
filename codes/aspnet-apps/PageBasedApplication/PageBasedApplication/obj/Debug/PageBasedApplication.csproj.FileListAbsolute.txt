@@ -1,0 +1,7 @@
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\PageBasedApplication\PageBasedApplication\bin\PageBasedApplication.dll.config
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\PageBasedApplication\PageBasedApplication\bin\PageBasedApplication.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\PageBasedApplication\PageBasedApplication\bin\PageBasedApplication.pdb
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\PageBasedApplication\PageBasedApplication\obj\Debug\PageBasedApplication.csproj.AssemblyReference.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\PageBasedApplication\PageBasedApplication\obj\Debug\PageBasedApplication.csproj.CoreCompileInputs.cache
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\PageBasedApplication\PageBasedApplication\obj\Debug\PageBasedApplication.dll
+E:\LnT-Training\lnt-Jan2022batch\codes\aspnet-apps\PageBasedApplication\PageBasedApplication\obj\Debug\PageBasedApplication.pdb
