@@ -1,0 +1,25 @@
+authentication and authorization using asp.net core and angular front-end
+---------------------------------------------------------------------------------------
+
+JSON Web Token: Jwt
+----------------------------------------
+Open, industry standard technique for security
+carries claims between two parties
+this means that, data sent between two parties using JWT is digitally signed and can be easily confirmed and trusted
+
+xx.yy.zz
+
+xx
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+
+this object is encoded in Base64Url format
+yy
+{
+  "sub": "1234567890",
+  "name": "John Doe",
+  "admin": true
+}
+this object is encoded in Base64Url format
