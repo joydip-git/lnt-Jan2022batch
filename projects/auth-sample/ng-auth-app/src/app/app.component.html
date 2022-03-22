@@ -1,1 +1,9 @@
-<button (click)="loginUser()">Login</button>
+<div>
+    <button routerLink="/login">Login</button> &nbsp;&nbsp;
+    <button routerLink="/products">Products</button>&nbsp;&nbsp;
+    <button (click)="logout()">
+        LogOut
+    </button>
+</div>
+<br>
+<router-outlet></router-outlet>

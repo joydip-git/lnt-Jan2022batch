@@ -1,0 +1,5 @@
+<div *ngIf="products && products.length>0">
+    <ol>
+        <li *ngFor="let p of products">{{p.name}}</li>
+    </ol>
+</div>

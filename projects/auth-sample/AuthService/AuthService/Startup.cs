@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using AuthService.Auth;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 
 namespace AuthService
 {
@@ -58,7 +59,7 @@ namespace AuthService
             
             //dependency injection of services for JwtBearer token validation
             authenticationBuilder.AddJwtBearer(jwtAction);
-
+            services.AddCors();
             services.AddControllers();
         }
 
@@ -70,8 +71,15 @@ namespace AuthService
                 app.UseDeveloperExceptionPage();
             }
 
+            Action<CorsPolicyBuilder> action = (CorsPolicyBuilder builder) =>
+            {
+                builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+            };
+            app.UseCors(action);
             app.UseRouting();
-
             //add this line
             app.UseAuthentication();
             app.UseAuthorization();
