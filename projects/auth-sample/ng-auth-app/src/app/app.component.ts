@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'ng-auth-app';
   constructor() {
-    sessionStorage.setItem('token', 'joy@gmail.com')
-    localStorage.setItem('token', 'joy@gmail.com')
+
+  }
+  loginUser() {
+
   }
 }

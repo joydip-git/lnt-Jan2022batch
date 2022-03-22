@@ -23,3 +23,12 @@ yy
   "admin": true
 }
 this object is encoded in Base64Url format
+
+1. add nuget packages:
+    a. Microsoft.AspNetCore.Authentication.JwtBearer (v3.1.23): ASP.NET Core middleware that enables an application to receive an OpenID Connect bearer token.
+    b. System.IdentityModel.Tokens.Jwt (v6.16.0): Includes types that provide support for creating, serializing and validating JSON Web Tokens.
+
+2. add dependency for authentication service supporting Jwt authentication scheme in ConfigureServices method in StartUp.cs file
+3. add middleware for authentication in Configure method in Startup.cs file
+
+4. autheticate user, and if authenticated successfully, generate Jwt and send the same as response to the front-end
