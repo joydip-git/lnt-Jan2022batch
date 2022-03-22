@@ -12,6 +12,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
+using AuthService.Repository.Data;
+using AuthService.Auth;
 
 namespace AuthService.Controllers
 {
@@ -20,10 +22,10 @@ namespace AuthService.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        private IConfiguration configuration;
-        public LoginController(IConfiguration _configuration)
+        private IJwtTokenManager jwtTokenManager;
+        public LoginController(IJwtTokenManager _manager)
         {
-            this.configuration = _configuration;
+            this.jwtTokenManager = _manager;
         }
 
         [AllowAnonymous]
@@ -37,7 +39,7 @@ namespace AuthService.Controllers
 
             //generate the Jwt and send as response to the user
             //get the secret key from appsettings.json file and convert it inot a byte array
-            var tokenValue = GenerateJwt(user);
+            var tokenValue = this.jwtTokenManager.GenerateJwt(user);
             return this.Ok(new { token = tokenValue });
 
         }
@@ -46,11 +48,16 @@ namespace AuthService.Controllers
         //[Authorize]
         public string Index()
         {
+            //string userName = HttpContext.User.Claims.First().Value;
             var headerValue = HttpContext.Request.Headers["Authorization"];
-            var arrOfStrings = headerValue.ToString().Split(' ');
-            var token = arrOfStrings[1];
-            return "welcome to asp.net core auth " + token;
-            //return "welcome to asp.net core auth";
+            if (headerValue.Count > 0)
+            {
+                var arrOfStrings = headerValue.ToString().Split(' ');
+                var token = arrOfStrings[1];
+                return "welcome to asp.net core auth, Admin " + token;
+            }
+            else
+                return "welcome to asp.net core auth";
         }
 
         //[Authorize]
@@ -59,32 +66,6 @@ namespace AuthService.Controllers
         public ActionResult<string[]> GetValues()
         {
             return new string[] { "Joydip", "Priya" };
-        }
-
-        private string GenerateJwt(UserInfo user)
-        {
-            string secretKey = this.configuration["Jwt:Key"];
-            byte[] secrectKeyByteArray = Encoding.UTF8.GetBytes(secretKey);
-            SymmetricSecurityKey tokenKey = new SymmetricSecurityKey(secrectKeyByteArray);
-            SigningCredentials signingCredentials = new SigningCredentials(tokenKey, SecurityAlgorithms.HmacSha256);
-
-            Claim userNameBasedClaim = new Claim(ClaimTypes.Name, user.UserName);
-            Claim[] userClaims = new Claim[] { userNameBasedClaim };
-            ClaimsIdentity identiy = new ClaimsIdentity(userClaims);
-            SecurityTokenDescriptor tokeDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = identiy,
-                Expires = DateTime.Now.AddMinutes(5),
-                SigningCredentials = signingCredentials
-            };
-            JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
-            SecurityToken securityToken = tokenHandler.CreateToken(tokeDescriptor);
-            string token = tokenHandler.WriteToken(securityToken);
-            return token;
-        }
-        private void ValidateJwt()
-        {
-
-        }
+        }        
     }
 }
