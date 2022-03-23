@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e9373eb1-bbba-4056-95c7-5e2e5230f6a6": {
+      "ProjectGuid": "e9373eb1-bbba-4056-95c7-5e2e5230f6a6",
+      "DisplayName": "OnlineExamSystemApp",
+      "ColorIndex": 0
+    },
+    "954b2b30-153f-4405-bc07-4ff5117ec397": {
+      "ProjectGuid": "954b2b30-153f-4405-bc07-4ff5117ec397",
+      "DisplayName": "OnlineExamSystemApp",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

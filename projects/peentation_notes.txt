@@ -1,0 +1,82 @@
+accounts
+--------------
+accountid name
+1         sunil
+2         joydip
+3         deepthi
+4	  akash
+
+check whether the accno does exist and the name is same
+
+payeelist
+----------------------------------------------------------------
+beneficiaryid(pk) accountidofyou(fk)	accountidofpayee(fk)
+-------------------------------------------------------
+1			1		2	
+2			1		4
+3			2		1
+4			2		3
+
+roles
+-----------------------
+roleid(pk) rolename
+----------------------------
+1		admin
+2		customer
+
+login
+--------------------------
+userid(pk) password roleid(fk)
+joy_acc    joy@123  1
+sunil_dmin sun@123  2
+
+customers
+-----------------------------
+customerid(pk) name address
+
+
+accounts
+-----------------------------------------------------
+accid(pk) customerid(fk) acc_ib_login(fk) balance
+
+
+pendingaccountrequest
+--------------------------------------------------
+reqid(pk) name   address  status
+			  p
+                          a
+
+PPT:
+introduce team 
+1. about the project
+	a. what are the issues in the existing system
+        b. what this s/w is going to do? how it is going to fix the issues of existing system?
+
+2. features of your s/w?
+3. team and specify repsonsibility
+4. what softtware specification?
+
+5. Project: functional requirements
+6. application flow digram, use case diagram, class diagram
+7. database diagram
+8. Restful API application structure
+9. Angular application structure
+
+
+
+users
+    -- components
+    -- services
+    -- pipes
+accounts
+admin
+common
+   -- auth guard
+   -- interceptor
+   -- auth service
+
+
+
+			  
+
+	
