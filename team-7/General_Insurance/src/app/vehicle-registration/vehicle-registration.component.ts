@@ -83,6 +83,7 @@ export class VehicleRegistrationComponent implements OnInit {
             ...this._vehicleregistration,
             vehicleTypeId: this.vehicleTypeId
         };
+        this.vs.addVehicleData(vehilceData)
     }
 }
 

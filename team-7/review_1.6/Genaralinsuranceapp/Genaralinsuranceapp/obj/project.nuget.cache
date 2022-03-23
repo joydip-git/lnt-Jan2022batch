@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0avD0hpRVW3ko4UrBe2ROwMEGUoZzCmFKdmVg8M0V5Fs+OhayVfI4zxHGwhqz7Xa4M9aBdPlBgKKXgqstrzGRg==",
+  "dgSpecHash": "VVq2xKIf9XlZykZvudCW4YyaGvCVzpHN5PtOHKaQvC/gPyvuNdAsI9ny/HUrqBxdy5DwXFIiI5IDUa7qVQ00nQ==",
   "success": true,
-  "projectFilePath": "E:\\LnT-Training\\lnt-projects\\review_1.6\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+  "projectFilePath": "E:\\LnT-Training\\lnt-Jan2022batch\\team-7\\review_1.6\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joydip\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.23\\microsoft.aspnetcore.authentication.jwtbearer.3.1.23.nupkg.sha512",
     "C:\\Users\\joydip\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

@@ -28,6 +28,7 @@ namespace Genaralinsuranceapp.DataAcessLayer
             var customer = db.CustomerRegistration.Where(c => c.Email == email).First();
             var custid = customer.CustomerId;
             Vehiclesdetails vehicle = db.Vehiclesdetails.Where(vd => vd.CustomerId == custid).First();
+            //vehicle.VehicleTypeId
             db.Policydetails.Add(policydetails);
             return db.SaveChanges();
 

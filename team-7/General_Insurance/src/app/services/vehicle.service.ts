@@ -14,6 +14,6 @@ export class VehicleService {
     return this._http.get<VehicleTypes>(this.url + "/vehicletypes");
   }
   public addVehicleData(v: Vehicles) {
-    return this._http.post(v);
+    return this._http.post(this.url + "/" + "", v);
   }
 }
