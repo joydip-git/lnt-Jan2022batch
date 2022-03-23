@@ -1,0 +1,60 @@
+<form [formGroup]="claim" (ngSubmit)="submitData()">
+
+  <div class="head">
+     <h1>Enter Your Policy Details! </h1> 
+  </div>
+  <div class="box1">
+  <div class="header">
+      <h1>Please Enter The Below Credentials </h1>    
+    </div>
+
+  <div class="form-group">
+      <label for="policynumber">Please enter your PolicyNumber:&nbsp;</label>
+      <input type="number" class="form-control" name="policynumber" id="policynumber" formControlName="policynumber">
+  </div>
+
+  <div [hidden]="claim.controls['policynumber'].valid || claim.controls['policynumber'].pristine"
+      class="alert alert-danger">
+      <div *ngIf="claim.controls['policynumber'].errors?.['required']">
+           Please enter your fullname 
+      </div>
+      </div>
+  
+      <div class="form-group">
+          <label for="phnnumber">Enter your Contact number:&nbsp;</label>
+          <input type="text" class="form-control" name="phnnumber" id="phnnumber" formControlName="phnnumber">
+      </div>
+  
+      <div [hidden]="claim.controls['phnnumber'].valid || claim.controls['phnnumber'].pristine"
+          class="alert alert-danger">
+          <div *ngIf="claim.controls['phnnumber'].errors?.['required']">
+             kindly provide contact number 
+          </div>
+      </div> 
+      <div class="row">
+          <div class="col-md-2">
+            <label for="FormControlCategory" style="color: black;font-size: medium;" ><b>Category*:</b></label>
+          </div>
+          <div class="col-md-6">
+            <select  class="form-control"  formControlName="Category" id="Category">
+              <option [ngValue]="undefined">Reason To Claim Insurance</option>
+              <option>Natural Disaster</option>
+              <option>Man Made Disaster</option>
+              <option>Road Accident</option>
+              <option>Theft</option>
+             
+            </select>
+          </div>
+          <div [hidden]="claim.controls['Category'].valid || claim.controls['Category'].pristine"
+          class="alert alert-danger">
+          <div *ngIf="claim.controls['Category'].errors?.['required']">
+              Select a catogery from the list
+          </div>
+          </div>
+        </div>
+      
+<div id="submitDiv">
+  <button type="submit" class="btn btn-success"  [disabled]="!claim.valid">Submit</button>
+</div>
+</div>
+</form>

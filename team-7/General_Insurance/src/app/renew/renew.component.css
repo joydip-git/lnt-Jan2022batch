@@ -1,0 +1,49 @@
+.head
+{
+    width: max-width;
+    height: 70px;
+    background-color: rgb(44, 44, 160);
+    text-align: center;
+    color: white;
+   border-radius: 20px;
+position: relative;
+top: 20px;
+}
+.head h1{
+    position: relative;
+    top: 15px; 
+    font-size: 30px;
+   }
+   
+   .form-group{
+       width: 400px;
+       font-size: 15px;
+       
+   }
+   .box1{
+       width: 600px;
+       border-style: solid;
+       position: relative;
+       top: 30px;
+       margin-left: 450px;
+       height: 300px;
+       position: relative;
+       height: 400px;
+
+   
+   }
+   .header h1{
+       text-align: center;
+       font-size: 30px;
+   }
+   #submitDiv{
+       text-align: center;
+   }
+   .btn{
+       background-color: rgb(44, 44, 160);
+       width: 100px;
+       height: 30px;
+       font-size: 20px;
+       color: white;
+   }
+   

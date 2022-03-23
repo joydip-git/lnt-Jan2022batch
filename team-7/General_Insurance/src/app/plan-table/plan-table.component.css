@@ -1,0 +1,77 @@
+.background{
+    background-color: rgb(182, 182, 182);
+    width: 750px;
+    margin-left: 22%;
+    border-style: solid;
+    border-width: 1px;
+    height: 700px;
+    }
+    
+    
+    
+    .padding{
+    background-color: rgb(182, 182, 182);
+    width: 10px;
+    height: 30px;
+    }
+    
+    
+    
+    .main_title{
+    background-color: cornflowerblue;
+    color: white;
+    width: 75%;
+    height: 50px;
+    text-align: center;
+    padding: 10px 100px 10px 40px;
+    margin-left: 100px;
+    border-style: solid;
+    border-color: rgb(95, 122, 245);
+    border-width: 1px;
+    
+    }
+    
+    
+    
+    .sub-title1{
+    margin: 20px 30px 2px ;
+    width: 200px;
+    height: 40px;
+    padding: 0px 0px 0px 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 2px;
+    }
+    
+    
+    
+    .payment-button{
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 65px;
+    margin-left: 285px;
+    padding: 10px 20px 10px 20px;
+    border-style: solid;
+    border-color: rgb(95, 122, 245);
+    
+    
+    
+    }
+    
+    
+    
+    .plans{
+    background-color: cornflowerblue;
+    width: 155px;
+    height: 30px;
+    margin: 50px 10px 0px 285px;
+    color: white;
+    }
+    
+    
+    
+    .scroll-box{
+    margin-left: 285px;
+    margin-top: 5px;
+    }

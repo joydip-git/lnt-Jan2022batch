@@ -1,0 +1,105 @@
+<form [formGroup]="vehicleregistration" (ngSubmit)="submitData()">
+    <div class="header">
+        <h1>Please Enter Your Vehicle Details Here </h1>
+    </div>
+    <div>
+        <button type="button" *ngFor="let vt of vehileTypesData" (click)="chooseVehileType(vt.vehicletypeId)">
+            {{vt.vehicletype}} Insurance
+        </button>
+    </div>
+    <div class="form-group">
+        <label for="Manufacturer">please enter your Vehicle Manufacturer:&nbsp;</label>
+        <input type="text" class="form-control" name="Manufacturer" id="Manufacturer" formControlName="Manufacturer">
+    </div>
+
+    <div [hidden]="vehicleregistration.controls['Manufacturer'].valid || vehicleregistration.controls['Manufacturer'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="vehicleregistration.controls['Manufacturer'].errors?.['required']">
+            please enter your fullname
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Purchasedate">please enter your Vehicle Purchasedate:&nbsp;</label>
+        <input type="text" class="form-control" name="Purchasedate" id="Purchasedate" formControlName="Purchasedate">
+    </div>
+    <div [hidden]="vehicleregistration.controls['Purchasedate'].valid || vehicleregistration.controls['Purchasedate'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="vehicleregistration.controls['Purchasedate'].errors?.['required']">
+            please enter your Purchasedate
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Model">Please enter your Vehicle Model:&nbsp;</label>
+        <input type="text" class="form-control" name="Model" id="Model" formControlName="Model">
+    </div>
+
+    <div [hidden]="vehicleregistration.controls['Model'].valid || vehicleregistration.controls['Model'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="vehicleregistration.controls['Model'].errors?.['required']">
+            Please enter your Vehicle Model
+        </div>
+
+
+    </div>
+
+    <div class="form-group">
+        <label for="DrivingLicenseNumber">Please enter your DrivingLicenseNumber:&nbsp;</label>
+        <input type="text" class="form-control" name="DrivingLicenseNumber" id="DrivingLicenseNumber"
+            formControlName="DrivingLicenseNumber">
+    </div>
+
+    <div [hidden]="vehicleregistration.controls['DrivingLicenseNumber'].valid || vehicleregistration.controls['DrivingLicenseNumber'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="vehicleregistration.controls['DrivingLicenseNumber'].errors?.['required']">
+            Please enter your DrivingLicenseNumber
+        </div>
+
+    </div>
+
+    <div class="form-group">
+        <label for="RegistrationNumber ">Enter your RegistrationNumber:&nbsp;</label>
+        <input type="text" class="form-control" name="RegistrationNumber " id="RegistrationNumber "
+            formControlName="RegistrationNumber ">
+    </div>
+
+    <div [hidden]="vehicleregistration.controls['RegistrationNumber'].valid || vehicleregistration.controls['RegistrationNumber '].pristine"
+        class="alert alert-danger">
+        <div *ngIf="vehicleregistration.controls['RegistrationNumber '].errors?.['required']">
+            kindly provide RegistrationNumber
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="EngineNumber">please enter your EngineNumber:&nbsp;</label>
+        <input type="text" class="form-control" name="EngineNumber" id="EngineNumber" formControlName="EngineNumber">
+    </div>
+
+    <div [hidden]="vehicleregistration.controls['EngineNumber'].valid || vehicleregistration.controls['EngineNumber'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="vehicleregistration.controls['EngineNumber'].errors?.['required']">
+            please provide your EngineNumber
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="ChasisNumber">Enter your ChasisNumber:&nbsp;</label>
+        <input type="text" class="form-control" name="ChasisNumber" id="ChasisNumber" formControlName="ChasisNumber">
+    </div>
+
+    <div [hidden]="vehicleregistration.controls['ChasisNumber'].valid || vehicleregistration.controls['ChasisNumber'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="vehicleregistration.controls['ChasisNumber'].errors?.['required']">
+            please enter the ChasisNumber
+        </div>
+    </div>
+
+
+
+
+    <div id="submitDiv">
+        <button type="submit" class="btn btn-success" [disabled]="!vehicleregistration.valid">Submit</button>
+    </div>
+</form>
+
+<!-----Purchase date should be added-->

@@ -1,0 +1,55 @@
+<form [formGroup]="renew" (ngSubmit)="submitData()">
+
+<div class="head">
+<h1>Enter Policy Details</h1>
+</div>
+ <div class="box1">   
+    <div class="header">
+        <h1>Please Enter The Below Credentials </h1>    
+      </div>
+
+    <div class="form-group">
+        <label for="policynumber">please enter your PolicyNumber:&nbsp;</label>
+        <input type="number" class="form-control" name="policynumber" id="policynumber" formControlName="policynumber">
+    </div>
+
+    <div [hidden]="renew.controls['policynumber'].valid || renew.controls['policynumber'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="renew.controls['policynumber'].errors?.['required']">
+             please enter your Policy number
+        </div>
+        </div>
+    
+        <div class="form-group">
+            <label for="phnnumber">Enter your Contact number:&nbsp;</label>
+            <input type="text" class="form-control" name="phnnumber" id="phnnumber" formControlName="phnnumber">
+        </div>
+    
+        <div [hidden]="renew.controls['phnnumber'].valid || renew.controls['phnnumber'].pristine"
+            class="alert alert-danger">
+            <div *ngIf="renew.controls['phnnumber'].errors?.['required']">
+               kindly provide contact number 
+            </div>
+        </div> 
+        <div class="form-group">
+            <label for="username">Please enter your Email:&nbsp;</label>
+            <input type="email" class="form-control" name="username" id="username" formControlName="username">
+        </div>
+    
+        <div [hidden]="renew.controls['username'].valid || renew.controls['username'].pristine"
+            class="alert alert-danger">
+            <div *ngIf="renew.controls['username'].errors?.['required']">
+                please enter your email
+            </div>
+            <div *ngIf="renew.controls['username'].errors?.['email']">
+                please ensure that the text you entered must be an email id
+            </div>
+        </div>
+    
+
+<div id="submitDiv">
+    <button type="submit" class="btn btn-success"  [disabled]="!renew.valid">Submit</button>
+</div>
+
+</div>
+</form>

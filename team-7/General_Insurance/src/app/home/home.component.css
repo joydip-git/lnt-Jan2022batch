@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+     padding: 0;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  .header{
+      width: max-width;
+      height: 70px;
+      background-color: rgb(44, 44, 160);
+      text-align: center;
+      color: white;
+     border-radius: 20px;
+
+  }
+  h1{
+   position: relative;
+   top: 15px; 
+   font-size: 30px;
+  }
+.dashboard{
+    margin-top: 20px;
+    background-color:  rgb(44, 44, 160);
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+.flex-container{
+    display: flex;
+}
+.item{
+ padding-left: 170px;
+
+ 
+}
+
+button{
+    color: black;
+    width: 100px;
+    height: 30px;
+   position: relative;
+   top: 10px;
+   font-size: 15px;
+   font-weight: bolder;
+   border-radius: 10px;
+}
+
+.flex-{
+    
+}
+.sixth{
+    height: 300px;
+    background-color: white;
+}
+.sixth .flex4 {
+    display: flex;
+    column-gap: 200px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    text-align: center;
+}
+.sixth p{position: relative;
+top: 40px;
+left: 550px;
+font-size: 30px;
+font-weight: 900;
+color: rgb(58, 56, 56);}
+.fifth .flex3 .item4{
+    color: rgb(78, 74, 74);
+    font-weight: 900;
+}
+.sixth .flex4 .item5{
+    width: 200px;
+    height: 300px;
+}
+.sixth span{
+    color:  rgb(44, 44, 160);
+    font-size: 50px;
+    font-weight: 400;
+}
+.sixth .item5{
+    color: black;
+    font-size: 15px;
+    
+}
+.flex{
+    display: grid;
+    grid-template-columns: 10px 10px;
+    width: 400px;
+    height: 400px;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+
+.item1{
+    color: crimson;
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 100px;
+    position: relative;
+    top: -400px;
+   
+   
+    
+}
+.koko{
+    border: solid;
+    position: relative;
+    top: 20px;
+    height: 1000px;
+}
+.size h2{
+    font-size: 50px;
+    color: brown;
+    margin-left: 100px;
+}
+
+.grid{
+    display: grid;
+   width: 400px;
+   height: 500px;
+    border: solid;
+    position: relative;
+  margin-left: 1000px;
+  top: 50px;
+}
+.grid-item{
+    
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+   background-color: bisque;
+    padding: 30px;
+  
+}
+img{
+    position: relative;
+    top: -400px;
+    height: 400px;
+    width: 400px;
+}
+.writing{
+    position: relative;
+    top: -200px;
+    left: 500px;
+    font-size: 20px;
+    font-weight: 900;
+    color: brown;
+}

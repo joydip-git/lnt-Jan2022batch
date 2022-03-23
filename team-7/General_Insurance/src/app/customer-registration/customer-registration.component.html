@@ -1,0 +1,130 @@
+
+
+<form [formGroup]="registrationform" (ngSubmit)="submitData()">
+   
+   <div class="head"> 
+       <h1>Enter Your Details!</h1>
+   </div>
+   <div class="box1">  
+    <div class="header">
+        <h1>Please Register Here </h1>    
+      </div>
+
+    <div class="form-group">
+        <label for="Name">please enter your FullName:&nbsp;</label>
+        <input type="text" class="form-control" name="Name" id="Name" formControlName="Name">
+    </div>
+
+    <div [hidden]="registrationform.controls['Name'].valid || registrationform.controls['Name'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="registrationform.controls['Name'].errors?.['required']">
+             please enter your fullname 
+        </div>
+        </div>
+    
+    <div class="form-group">
+        <label for="username">Please enter your Email:&nbsp;</label>
+        <input type="email" class="form-control" name="username" id="username" formControlName="username">
+    </div>
+
+    <div [hidden]="registrationform.controls['username'].valid || registrationform.controls['username'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="registrationform.controls['username'].errors?.['required']">
+            please enter your email
+        </div>
+        <div *ngIf="registrationform.controls['username'].errors?.['email']">
+            please ensure that the text you entered must be an email id
+        </div>
+    </div>
+
+    
+
+    <div class="form-group">
+        <label for="phnnumber">Enter your Contact number:&nbsp;</label>
+        <input type="text" class="form-control" name="phnnumber" id="phnnumber" formControlName="phnnumber">
+    </div>
+
+    <div [hidden]="registrationform.controls['phnnumber'].valid || registrationform.controls['phnnumber'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="registrationform.controls['phnnumber'].errors?.['required']">
+           kindly provide contact number 
+        </div>
+    </div> 
+
+    <div class="form-group">
+        <label for="Address">please enter your Address:&nbsp;</label>
+        <input type="text" class="form-control" name="Address" id="Address" formControlName="Address">
+    </div>
+
+    <div [hidden]="registrationform.controls['Address'].valid || registrationform.controls['Address'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="registrationform.controls['Address'].errors?.['required']">
+              please provide your Address
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="password">Enter your Password:&nbsp;</label>
+        <input type="text" class="form-control" name="password" id="password" formControlName="password">
+    </div>
+
+    <div [hidden]="registrationform.controls['password'].valid || registrationform.controls['password'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="registrationform.controls['password'].errors?.['required']">
+            plese provide a strong password
+        </div>
+        
+
+    
+       
+        <div *ngIf="registrationform.controls['password'].errors?.['minlengtherror']">
+            Password length should be length:
+            {{registrationform.controls['password'].errors?.['minlengtherror'].expectedlength}}.
+            Current length:
+            length:{{registrationform.controls['password'].errors?.['minlengtherror'].currentlength}}
+        </div>
+        <div *ngIf="registrationform.controls['password'].errors?.['maxlengtherror']">
+            Password length should NOT be more
+            than{{registrationform.controls['password'].errors?.['maxlengtherror'].expectedlength}}. Current
+            length:{{registrationform.controls['password'].errors?.['maxlengtherror'].currentlength}}
+        </div>
+
+        <div *ngIf="registrationform.controls['password'].errors?.['uppercase']">
+            {{registrationform.controls['password'].errors?.['uppercase']}}
+        </div>
+
+        <div *ngIf="registrationform.controls['password'].errors?.['lowercase']">
+            {{registrationform.controls['password'].errors?.['lowercase']}}
+        </div>
+
+        <div *ngIf="registrationform.controls['password'].errors?.['digit']">
+            {{registrationform.controls['password'].errors?.['digit']}}
+        </div>
+    </div >
+    <div *ngIf="registrationform.controls['password'].errors?.['splchar']">
+        {{registrationform.controls['password'].errors?.['splchar']}}
+    </div>
+    
+    <div class="form-group">
+        <label for="retypepassword">please Confirm your Password:&nbsp;</label>
+        <input type="text" class="form-control" name="retypepassword" id="retpepassword" formControlName="retypepassword">
+    </div>
+    <div [hidden]="registrationform.controls['retypepassword'].valid || registrationform.controls['retypepassword'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="registrationform.controls['retypepassword'].errors?.['required']">
+            Please re-enter your Password 
+        </div>    
+        <div *ngIf="registrationform.controls['retypepassword'].errors?.['conformedValiator']">
+           please make sure that password and confirm password should be same
+        </div>   
+            
+       
+    </div>
+    <div id="submitDiv">
+        <button type="submit" class="btn btn-success"  [disabled]="!registrationform.valid">Submit</button>
+    </div>
+</div>
+
+</form>
+
+<!-----DOB need to be added ---->
