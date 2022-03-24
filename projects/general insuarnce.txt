@@ -117,3 +117,46 @@ and send that to a web api contoller action to fectch plociy number, mobile numb
 localhost:4200/claim-insurance/<email>
 localhost:4200/renew-insurance/<email>
 
+
+nme dob, cnum, address --> customer_registration
+email,pwd ---> login
+
+
+DaoMethodForRegistration(CustomerDetails data){
+	 db.login.add(new login { email:data.email,password=data.password})
+         int res = db.SaveChanges();
+         if(res>0){         
+		db.customerdetails.Add(new customerdetails{Name=data.name, dob = data.dob, address=data.address, email=data.email});
+              int x = db.SaveChanges();
+              if(x>0){
+                 return <proper-response>;
+              }
+              else{
+                db.login.remove(new login { email:data.email,password=data.password});
+                db.savechanges();
+                throw new Exception("data was not inserted in reg table");
+              }
+         }
+         else{ throw new Exception("data was not inserted in login");}
+         
+}
+
+DaoMethodFprLogin(Login data){
+    db.login.any(l=>l.email=data.email && l.password=data.password)
+}
+
+
+create table login(
+ userid varchar(50) primary key not null,
+ password varchar(50) not null
+)
+
+create table customer_registration(
+cust_id int identity(1,1) primary key not null,
+email/userid varchar(50),
+)
+
+alter table customer_registration
+add column userid varchar(50)
+add constrainint fk_login_cust_reg_userid forign key (userid) references login(userid)
+
